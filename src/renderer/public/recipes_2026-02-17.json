@@ -1,0 +1,4581 @@
+{
+  "winter_recipes": [
+    {
+      "name": "Potato & Nuggets/tof",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 sweet potato bake cut",
+        "1 large potato bake cut",
+        "1 nuggets/tofu fried",
+        "Teriyaki sauce"
+      ],
+      "recipe_number": 1
+    },
+    {
+      "recipe_number": 2,
+      "name": "Budha Bowl 1",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/3 chick peas",
+        "1/2 glass rice",
+        "1/3 bowl greens",
+        "1/2 avocado"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Veggie Steak & Rice",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 glass rice",
+        "1/2 veggie steak"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Soondubu Ramen",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 pack samyung ramen",
+        "1 soft tofu",
+        "1/4 mushroom",
+        "green onions"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Steak & pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "100g pasta",
+        "1/2 Vegan steak"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Hot dogs",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "4 buns",
+        "1 pack sausages",
+        "1 avocado",
+        "vegan cheese",
+        "mustard",
+        "salad"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Spicy pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/4 tofu",
+        "100g noodles",
+        "Gochujang",
+        "1/4 Cabbage",
+        "Garlic powder",
+        "Sezame seeds"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Red bean quesadillas",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/2 can red beans",
+        "1/4 Tomato sauce",
+        "1 tbp nutritional yeast",
+        "2 Tortilla",
+        "1/2 avocado"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Pumpkin Pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "300g Pasta",
+        "3/4 cup coconut milk canned",
+        "3/4 cup pumpkin canned",
+        "1/2 tsp garlic salt",
+        "1 tbsp nutritional yeast"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-creamy-pumpkin-pasta/"
+    },
+    {
+      "recipe_number": 10,
+      "name": "Rice & lentils (3)",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 cup Rice",
+        "1 can diced tomatoes",
+        "1/2 cup red lentils",
+        "Brocoli",
+        "Basil",
+        "1/2 cup water",
+        "(All in one pot)"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "SP & Chick peas",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1 sweet potatoe",
+        "1/3 chick peas",
+        "1/2 tomato",
+        "1/4 soy cream"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Chili (x4)",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1 Can tomatoes",
+        "4 x Rice",
+        "1 Can red beans",
+        "Spice",
+        "1 Onion",
+        "4 gousses d'ail"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "One-Pot \"Baked\" Feta Pasta",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "454 g silken tofu, *",
+        "⅓ cup nutritional yeast",
+        "3 tablespoons lemon juice, or lime juice",
+        "1 tablespoon apple cider vinegar",
+        "2 teaspoons garlic, minced, or 1 teaspoon garlic powder",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "1 teaspoon salt",
+        "227 g whole wheat pasta",
+        "1 pint cherry tomatoes",
+        "2 cups spinach, or fresh package of basil (.5 oz)",
+        "red pepper flakes, optional topping"
+      ],
+      "recipe_link": "https://healthmylifestyle.com/one-pot-vegan-baked-feta-pasta/"
+    },
+    {
+      "recipe_number": 14,
+      "name": "Red beans & Rice",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "250g red beans",
+        "1/2 rice"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "SP & Red beans",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1 Sweet potatoe",
+        "1/3 red bean can"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "Chickpease & rice",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1 glass rice",
+        "1/3 chickpease"
+      ]
+    },
+    {
+      "recipe_number": 17,
+      "name": "Gnoccis tom tofu",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "500 g gnoccis",
+        "150 g frozen tofu",
+        "1 tomato sauce",
+        "basil & ail & thyme",
+        "greens",
+        "nutritional yeast on top"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "Soy Tofu & rice",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1 pack tofu",
+        "onion/garlic/ginger/soy",
+        "sesame seeds",
+        "gomashio",
+        "Bit of arome",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 19,
+      "name": "SP & Scrambled tofu x2",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "2 SP (cut & bake)",
+        "1 bell pepper",
+        "1/2 shroom",
+        "1/2 big block tofu"
+      ]
+    },
+    {
+      "recipe_number": 20,
+      "name": "Tofu Broc Rice",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "1/3 tofu (steak, plain)",
+        "100g broc",
+        "100g rice (w/ soy & sesame oil)",
+        "Black Himalayan salt",
+        "1/2 avocado",
+        "kimchi"
+      ]
+    },
+    {
+      "recipe_number": 21,
+      "name": "Curry Ramen",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "2 tablespoon olive oil",
+        "6 cloves garlic, minced",
+        "1-2 inch piece ginger root,  grated",
+        "1 ½ tablespoon curry powder",
+        "1 teaspoon garam masala",
+        "½ teaspoon cinnamon",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "1 tablespoon chili garlic sauce",
+        "2 teaspoon tomato paste",
+        "6 cups low sodium vegetable stock (1440g)",
+        "1 ¾ cups coconut milk (450g)",
+        "3-4 packs dry ramen noodles",
+        "2 small bok choy,  halved",
+        "2 cups bean sprouts (220g)",
+        "1 cup red cabbage,  chopped (90g)",
+        "1 lime,  cut into wedges",
+        "2 cups shelled, cooked edamame (320g)",
+        "1 cup shredded carrots (185g)",
+        "black sesame seeds"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-spicy-curry-ramen/"
+    },
+    {
+      "recipe_number": 22,
+      "name": "Tofu Paprikash",
+      "section": "GRAIN & PROT 11-22",
+      "ingredients": [
+        "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
+        "1 teaspoon garlic powder",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "3 tablespoon olive oil",
+        "1 large sweet onion,  diced",
+        "4 cloves garlic,  minced",
+        "2 tablespoon tomato paste",
+        "4 tablespoon all purpose flour (use gluten free if needed)",
+        "3 tablespoon sweet paprika",
+        "½ teaspoon smoked paprika",
+        "2 cups vegetable broth",
+        "½ cup coconut cream (can sub with vegan sour cream)",
+        "¼ cup fresh parsley",
+        "red pepper flakes,  optional"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-tofu-paprikash/"
+    },
+    {
+      "recipe_number": 1,
+      "name": "Scrambled Tofu",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "Beurre",
+        "2/3 Tofu",
+        "1/2 Mushroom",
+        "1/2 Green pepper",
+        "1/2 cup milk",
+        "2 Tranche pain",
+        "Bit of carrots",
+        "1tsp kala namak",
+        "2 tb nutritional yeast",
+        "¼ tsp ground turmeric",
+        "1/4 tsp salt",
+        "1/2 tsp black pepper",
+        "1/2 tsp onion powder"
+      ]
+    },
+    {
+      "recipe_number": 2,
+      "name": "Red lentils curry (x4)",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "Veggie broth"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Soondubu x2",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/2 onion",
+        "1/2 garlic",
+        "1/2 mushroom",
+        "1 cups kimchi",
+        "1/2 tbp gochujang",
+        "Veggie broth",
+        "1 stp brown sugar",
+        "1 tbp soy sauce",
+        "1/2 tofu",
+        "1 glass rice"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Butter Cauliflower",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "800g cauliflower",
+        "1 lemon",
+        "1 soy cream",
+        "Black pepper",
+        "2 tsp turmeric",
+        "oil",
+        "salt",
+        "1 tsp cinnamon",
+        "3 tbs almonds",
+        "2 tsp chilly",
+        "1 tsp ginger",
+        "1 tbp coriander"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Chick & Aubergines x2",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1 Aubergine",
+        "1 Can chickpeas",
+        "1 tbp tomato sauce",
+        "1 Can tomatoes w/out sauce",
+        "1 tbp tahini",
+        "1 tsp chilli",
+        "1.5 tsp paprika",
+        "salt",
+        "pepper",
+        "olive oil"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Walnut Tacos",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "2 cups walnuts or ground meat",
+        "1 red onion",
+        "4 cloves garlic",
+        "1/4 cup sun dried tomatoes in oil/tomato paste",
+        "1 tbsp avocado (or olive) oil",
+        "1 tbsp  taco seasoning",
+        "2 tsp soy sauce",
+        "1 juice of a lime",
+        "1 Avocados",
+        "w/ Rice/Tacos/Pasta/Nachos"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-walnut-taco-meat/"
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tofu & Broc",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1 tofu",
+        "250g broccolis"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Rice veg beans",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/4 can red beans",
+        "1 glass rice",
+        "1/4 aubergine",
+        "1 tomato",
+        "tomato & olive sauce"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Tofu & veg",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/2 carrot",
+        "1/4 brocoli",
+        "1/4 choux fleur",
+        "1/4 onion",
+        "1/4 bell pepper",
+        "1 rice",
+        "1/2 tofu",
+        "soy sauce",
+        "ginger",
+        "garlic"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Baingan Bartha",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "2 Eggplant cook 1H",
+        "1 small red Onions",
+        "2 small tomatoes",
+        "1/4 Green chilli",
+        "1 ts Garlic",
+        "1/2 ts Ginger",
+        "1 ts cumin",
+        "1 & 1/2 turmeric",
+        "1-2 garam masala",
+        "1 & 1/2 Curry",
+        "200ml bouillon"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Olive chick torti",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1/4 can olives",
+        "1/2 can chickpease",
+        "2 hearts letuce",
+        "1/2 can humus",
+        "tortillas"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Chick & Cauli tacos",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1/2 Cauliflower",
+        "1/2 onion",
+        "2 tomatoes",
+        "Tortillas",
+        "1/2 can chickpease",
+        "Tomato Paste",
+        "Cumin",
+        "Chilli Powder",
+        "Garlic powder",
+        "Olive oil",
+        "Salt",
+        "1 Avocado",
+        "Lemon"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "Fajita beef",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "250g ground beaf",
+        "1/4 tomato sauce",
+        "chipotle spices",
+        "1 bell pepper",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "Chipotle Beans",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 can tomato",
+        "1 can beans",
+        "cumin",
+        "paprika",
+        "chipotle",
+        "1 bell pepper",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "Kale stirfry & rice",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "250g Kale",
+        "100g rice",
+        "100g edamame/gb",
+        "garlic",
+        "Soy sauce",
+        "Rice vinegar",
+        "Agave",
+        "sesame oil",
+        "Sesame seed"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "Scrambled tofu & kale",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "250g kale",
+        "3/4 tofu",
+        "seasoning",
+        "1 tomato"
+      ]
+    },
+    {
+      "recipe_number": 17,
+      "name": "Steak, rice & bok shroom",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 steak",
+        "1/2 rice",
+        "1 bok choy",
+        "1/4 mushrooms"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "Kabocha Porridge",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 Kabocha",
+        "3 cups Water",
+        "1 tsp Salt",
+        "1+ tbsp Sugar",
+        "1/4 cup Maizena + 1/4 cup water",
+        "1/2 Gnoccis"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/korean-pumpkin-porridge/"
+    },
+    {
+      "recipe_number": 19,
+      "name": "Vegan Burgers",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 salade",
+        "1 pack steak",
+        "1/2 pack burger bread",
+        "1 tomato",
+        "1 faux-mage slices",
+        "vegan mayo",
+        "ketchup",
+        "mustard",
+        "1 frites"
+      ]
+    },
+    {
+      "recipe_number": 20,
+      "name": "Budaejjigae (2)",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "4 cup broth (kelp)",
+        "1 tsp sugar",
+        "1/2 tbs garlic powder",
+        "1 tbs gochujang",
+        "1 tbs gochukaru",
+        "3 tbs water",
+        "1/2 kimchi",
+        "1/2 onion",
+        "250g mushroom",
+        "2 vegan sausage",
+        "2 green onions",
+        "1/4 tofu",
+        "1/3 rice cake/gnocci",
+        "1 ramen package"
+      ]
+    },
+    {
+      "recipe_number": 20,
+      "name": "Broc & Chic Soup",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "▢ 1 large yellow onion, diced",
+        "▢ 6-8 cloves garlic, minced",
+        "▢ 1 tablespoon fresh ginger, grated",
+        "▢ 1 ½ teaspoons cumin",
+        "▢ 1 teaspoon ground coriander",
+        "▢ 1 teaspoon Turmeric",
+        "▢ ½ teaspoon Black pepper",
+        "▢ ½ teaspoon Smoked paprika",
+        "▢ ½ teaspoon Garam masala",
+        "▢ ½ teaspoon Salt",
+        "▢ 4 cups low or no sodium vegetable broth (960g)",
+        "▢ 30 ounces cans chickpeas, drained and rinsed (2 cans or 850g)",
+        "▢ 5-6 cups broccoli florets, cut into bite size pieces (450g)",
+        "▢ 13.5 ounces canned coconut milk, (382g)",
+        "▢ 1 tablespoon lemon juice"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/creamy-broccoli-and-chickpea-soup/"
+    },
+    {
+      "recipe_number": 21,
+      "name": "Chick stirfry (for 3)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1/2 mush",
+        "2 zuccini",
+        "1/2 onion",
+        "50g broc",
+        "1 carrots",
+        "olive oil",
+        "1 can chick",
+        "4 garlic",
+        "splash of water",
+        "4tb soy sauce",
+        "1tb rice vinegar",
+        "1tb maple sirup",
+        "1tb peanut butter",
+        "water",
+        "cornstarch",
+        "rice",
+        "sesame seeds"
+      ]
+    },
+    {
+      "recipe_number": 22,
+      "name": "Veggie Sheet Pan",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 1/2 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "3/4 tsp cinnamon",
+        "1/2 tsp  dried basil",
+        "1/2 tsp dried thyme",
+        "1/2 tsp cumin",
+        "1/2 tsp fennel/cumin  seeds",
+        "1/4 tsp ground cloves",
+        "salt and pepper",
+        "425g can chickpeas",
+        "1 large sweet potato",
+        "2-3 tbsp olive oil",
+        "1 baby  bok choy",
+        "1 small  red onion",
+        "3 cloves  garlic",
+        "w/ grains"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/easy-smoky-sheet-pan-oven-roasted-veggies/"
+    },
+    {
+      "recipe_number": 23,
+      "name": "Poor Man Chowder",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1/2 onion",
+        "2 carrots",
+        "1 large potato",
+        "1/2 mushroom",
+        "2/3 garlic",
+        "thyme",
+        "2tb flour",
+        "2 cups milk",
+        "2 cups bouillon",
+        "1 small can corn",
+        "1 can chick"
+      ]
+    },
+    {
+      "recipe_number": 24,
+      "name": "Soondubu not spicy",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1/2 broccoli",
+        "1 soft tofu",
+        "kelp or broth"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "spinach/cabbage",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "green onions",
+        "mushrooms",
+        "1 tb soybean paste"
+      ]
+    },
+    {
+      "recipe_number": 25,
+      "name": "Simple Tacos (pour 2)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "4 Tortillas",
+        "1/2 red bean can (raw)",
+        "2 avocados",
+        "1 small corn",
+        "1 tomato sauce",
+        "tacos seasoning"
+      ]
+    },
+    {
+      "recipe_number": 26,
+      "name": "Scholar Bowls (x5)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 cup dry quinoa",
+        "400g brussel",
+        "2 bell peppers",
+        "400g broc",
+        "3 tb avocado oil",
+        "4 cups cauliflower",
+        "1 tb garlic powder",
+        "1 tb onion powder",
+        "salt & pepper",
+        "800g sweet pot + oil",
+        "cajun seasoning"
+      ],
+      "recipe_link": "https://youtu.be/Wjee5cAAx4Q"
+    },
+    {
+      "recipe_number": 27,
+      "name": "Oven Lemon tofu & salad",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 tofu (in steaks) 180°30min",
+        "1 pack spinach",
+        "1 lemon",
+        "2 tb olive oil",
+        "1 tsp italian herbs",
+        "1 tbs lemon juice",
+        "salt",
+        "pepper",
+        "6 cloves garlic"
+      ]
+    },
+    {
+      "recipe_number": 28,
+      "name": "Sweet & Sour Chick",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 cups Broccoli",
+        "2 cups Cauliflower",
+        "Onion",
+        "1 Bell peppers",
+        "1 cup canned pineapple",
+        "2 tbsp brown or coconut sugar",
+        "2 tbsp ketchup",
+        "2 tbsp Soy sauce (or coconut aminos)",
+        "1 tbsp Rice vinegar",
+        "1 can chickpeas, rinsed & drained",
+        "½ cup water",
+        "Starch slurry (1 tbsp cornstarch + 1-2 tbsp of water)"
+      ]
+    },
+    {
+      "recipe_number": 29,
+      "name": "Viet Meat Balls",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "500g tofu",
+        "1tb Gochujang",
+        "1 tsp coriander",
+        "1+1 tb basil",
+        "1+1 tb seame seeds",
+        "1 tb lemon",
+        "3+2 tb sriracha",
+        "1 tb tomato purée",
+        "2+2 tsp garlic powder",
+        "1 tsp salt",
+        "5 tb flour",
+        "1/4 cup soy sauce",
+        "3 tb maple syrup",
+        "2 tb ketchup",
+        "1/2 cup Water",
+        "1 spring onion",
+        "1 pack choi",
+        "1 kale",
+        "2 carrots (ribbon)",
+        "Noodles/Rice"
+      ],
+      "recipe_link": "https://www.avantgardevegan.com/recipes/vietnamese-style-meat-balls/"
+    },
+    {
+      "recipe_number": 30,
+      "name": "Massaged Kale",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "200g Kale",
+        "2 tbs Rice Vinegar",
+        "1 orange",
+        "1tbs Maple Syrup",
+        "3 tbs Aminos",
+        "3 tbs Tahini",
+        "Pinch Sea Salt",
+        "Pinch Dried Chilli Flakes",
+        "1 tbs Dried Tarragon",
+        "1 Raw Beet, sliced extra fine, ideally on a mandolin (or cooked & chopped roughly)",
+        "2 tbs Pumpkin Seeds",
+        "Small Handful Macadamia Nuts, chopped small",
+        "1 Avocado, peeled & cubed",
+        "1 cup/200g Stewed Grains & lentils [click for recipe]"
+      ],
+      "recipe_link": "https://www.avantgardevegan.com/recipes/ancient-grain-massage-kale-salad/"
+    },
+    {
+      "recipe_number": 30,
+      "name": "Tahini Veggie Budha",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "2 tb & 2 tsp soy sauce",
+        "2 & 1/2 tb maple",
+        "2/3 tofu cubed & marinated",
+        "4 tb tahini",
+        "1 tsp garlic powder",
+        "1 tb white vinegar",
+        "water",
+        "1 cucumber",
+        "1 tomato",
+        "1/4 cabbage",
+        "1 carrot",
+        "1/3 avocado",
+        "sesame seeds",
+        "1 cup rice"
+      ],
+      "recipe_link": "https://www.youtube.com/watch?v=Chl1-d2vv3Y"
+    },
+    {
+      "recipe_number": 31,
+      "name": "Salmon Tofu",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "3/4 brocoli",
+        "1 tofu bloc",
+        "1 cup vegetable broth",
+        "3 tb apple cider vinegar",
+        "1 small raw beet (walnut)",
+        "2 tb white miso paste",
+        "1 tsp garlic powder",
+        "1 tsp salt"
+      ],
+      "recipe_link": "https://itdoesnttastelikechicken.com/vegan-salmon/"
+    },
+    {
+      "recipe_number": 32,
+      "name": "Sweet Potato Chilli Coconut Soup",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "1 kg sweet potatoes",
+        "1 tbsp olive oil",
+        "1 medium onion",
+        "3 cloves garlic",
+        "1 tsp chili flakes",
+        "1 red chili",
+        "1 can coconut milk",
+        "4 cups broth",
+        "1/4 cup fresh parsley",
+        "salt",
+        "pepper"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/sweet-potato-chilli-coconut-soup/"
+    },
+    {
+      "recipe_number": 33,
+      "name": "Sushi Nurish Bowl",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "2 servings Roasted Sweet Potatoes",
+        "2 cups cooked brown rice, sushi rice or whatever rice you prefer (slightly warm but not hot)",
+        "2 tbsp rice vinegar",
+        "¼ tsp salt",
+        "¼ tsp sugar",
+        "1 medium carrot",
+        "1 cup cabbage",
+        "½ cup edamame beans",
+        "½ cup corn",
+        "2 tsp sriracha",
+        "1 tbsp vegan mayo",
+        "½ nori sheet,",
+        "1 tsp sesame seeds",
+        "1-2 tsp soy sauce"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 34,
+      "name": "Salmon Nourish Bowl",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "½ salmon tofu",
+        "2 servings Roasted Vegetables",
+        "¼ cup cornstarch",
+        "1 tbsp oil",
+        "2 cups cooked brown rice, quinoa, or couscous",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "4 cups mixed green lettuce"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 35,
+      "name": "Tahini Soba Nourish",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "2 servings soba noodles",
+        "2 servings Sweet Tahini Dressing",
+        "1 cup shredded cabbage",
+        "1 medium carrot",
+        "2 heads baby bok choy",
+        "⅔ cup chickpeas",
+        "2 tsp sesame seeds"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 36,
+      "name": "Sheet Pan Teriyaki Tofu & Broc",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "For Tofu",
+        "1 block  extra firm tofu,  frozen, thawed and pressed* (1 block is 14-16oz)",
+        "1 tablespoon cornstarch",
+        "2 teaspoon low sodium soy sauce",
+        "2 teaspoon extra virgin olive oil",
+        "For the Broccoli and Veggies",
+        "1 head broccoli florets,  cut into bite size pieces (can also use the stems or save for another dish)",
+        "8 oz sugar mangetout (227g)",
+        "1 tablespoon extra virgin olive oil",
+        "salt and pepper to taste",
+        "For the Teriyaki Sauce",
+        "½ cup low sodium soy sauce (114g)",
+        "½  cup  water (114g)",
+        "3 tablespoon brown sugar (can sub with maple syrup)",
+        "2 tablespoon rice wine vinegar",
+        "½ tsp  ground ginger",
+        "2 cloves  garlic,  minced",
+        "¼-1/2 teaspoon red pepper flakes,  optional",
+        "1 tablespoon cornstarch",
+        "1 tbsp  water",
+        "1 quinoa/brown rice/full spag"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/sheet-pan-teriyaki-tofu-and-broccoli/"
+    },
+    {
+      "recipe_number": 37,
+      "name": "Cashew Tacos",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "1 cup cashew (hot water)",
+        "1 can black/red beans",
+        "1 soy cream",
+        "1 lemon",
+        "2 carrots",
+        "1 tsp garlic powder",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "1 tsp onion powder",
+        "1 tsp chilli powder",
+        "salt & black pepper"
+      ]
+    },
+    {
+      "recipe_number": 38,
+      "name": "Sweet & Sour Chick x4",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "1/2 cup coconut sugar*",
+        "1/2 cup apple cider vinegar",
+        "1/3 cup  ketchup",
+        "4 tsp low sodium soy sauce",
+        "2 cloves garlic,  minced",
+        "2 tsp cornstarch",
+        "4 tsp cold water",
+        "1 tbsp olive oil",
+        "1 red bell pepper,  thinly sliced",
+        "1/2 large yellow onion,  diced",
+        "425g can chickpeas,  rinsed and drained",
+        "serve w/ rice + broc"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/sweet-and-sour-chickpeas/"
+    },
+    {
+      "recipe_number": 39,
+      "name": "Cabbage slaw & Tofu",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "1 Tofu (slice thin)",
+        "2 tb Avocado Oil",
+        "½ small green cabbage",
+        "3 carrots",
+        "2 tblime juice",
+        "1 tb Olive Oil",
+        "1 tb sesame oil",
+        "½ tsp salt",
+        "black pepper",
+        "4 tb  Peanut Butter",
+        "1 tb maple syrup",
+        "1 tb lime juice",
+        "2 tsp soy sauce",
+        "1 to 2 tsp sesame oil",
+        "1/2 tsp red pepper flakes",
+        "2 to 3 tb water"
+      ],
+      "recipe_link": "https://rainbowplantlife.com/20-minute-vegan-meals"
+    },
+    {
+      "recipe_number": 40,
+      "name": "Chick Cashew Brock (4)",
+      "section": "PROT & VEG 31-39",
+      "ingredients": [
+        "1 cuproasted cashews",
+        "1/2 can chickpeas",
+        "1 head broccoli",
+        "1 head  garlic",
+        "1/4 cup sesame oil , + 2 tbsp",
+        "1/3 cup soy sauce",
+        "1 tbsp arrowroot powder (can sub cornstarch)",
+        "1/2-1 tsp garlic chili sauce",
+        "150g rice/quinoa/noodles"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/chickpea-cashew-broccoli-with-garlic-sauce-skillet/"
+    },
+    {
+      "recipe_number": 40,
+      "name": "Thanksgiving Stew ♥",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "1/2 zuccini",
+        "2 carrots",
+        "14 champignons",
+        "1 onion",
+        "4 cloves garlic",
+        "3 extra large potatoes",
+        "2 tb olive oil",
+        "1 beyond meat beef (240g)",
+        "1 tb corn flour",
+        "4 cups broth ?",
+        "1/2 cup red wine",
+        "salt",
+        "pepper",
+        "1 tb tomato paste",
+        "thyme rosamary sage",
+        "1/2 cup green bean",
+        "1 cornstarch slury",
+        "ciboulette",
+        "beurre"
+      ],
+      "recipe_link": "https://youtu.be/dHylqycntmY"
+    },
+    {
+      "recipe_number": 41,
+      "name": "Cashew Tofu",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "14 oz block extra firm tofu",
+        "1-2 tablespoon cornstarch",
+        "3 tablespoon olive oil,  divided",
+        "1 head broccoli florets",
+        "8 oz sugar snap peas",
+        "¼ teaspoon salt,  more to taste",
+        "¼ teaspoon black pepper,  more to taste",
+        "1  red bell pepper,  diced",
+        "3-4 tablespoon water",
+        "½ teaspoon fresh ginger,  minced",
+        "2 cloves garlic,  minced",
+        "1 cup roasted and unsalted cashews",
+        "sesame seeds,  for garnish",
+        "green onions,  chopped, for garnish",
+        "½ cup water,  more as needed to thin",
+        "1 ½ tablespoon cornstarch",
+        "½ cup low sodium soy sauce",
+        "2 tablespoon hoisin sauce",
+        "2 tablespoon maple syrup",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon toasted sesame oil",
+        "serve w/ garlic turmeric rice",
+        "42 Vegan Tofu Paprikash (x4)",
+        "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
+        "1 teaspoon garlic powder",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "3 tablespoon olive oil",
+        "1 large sweet onion,  diced",
+        "4 cloves garlic,  minced",
+        "2 tablespoon tomato paste",
+        "4 tablespoon all purpose flour (use gluten free if needed)",
+        "3 tablespoon sweet paprika",
+        "½ teaspoon smoked paprika",
+        "2 cups vegetable broth",
+        "½ cup coconut cream (can sub with vegan sour cream)",
+        "¼ cup fresh parsley",
+        "red pepper flakes,  optional",
+        "serve w/ 1,5kg broc/quinoa/pasta"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/cashew-tofu-vegan-cashew-chicken/"
+    },
+    {
+      "recipe_number": 43,
+      "name": "Roasted Roots",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "For the root vegetables",
+        "▢ 1 large sweet potato, cubed",
+        "▢ 1 beet, cubed",
+        "▢ 1 parsnip, cubed",
+        "▢ 2 large carrots, cubed",
+        "▢ 2 small red onions, sliced",
+        "▢ 6-7 leaves fresh Sage, chopped",
+        "▢ 1 sprig Rosemary, chopped",
+        "▢ 1 teaspoon fresh Oregano, chopped",
+        "▢ 1 sprig Thyme, chopped",
+        "▢ 2 tablespoon apple cider vinegar",
+        "▢ 1 tablespoon olive oil",
+        "▢ ¼ teaspoon each Salt and pepper",
+        "For the rice",
+        "▢ 2 cups vegetable stock (or water)",
+        "▢ 1 cup uncooked brown basmati rice, rinsed",
+        "▢ ½ tablespoon olive oil",
+        "▢ 1 teaspoon Brown mustard seed",
+        "▢ 1 teaspoon turmeric",
+        "▢ ⅛ teaspoon salt",
+        "▢ ⅛ teaspoon black pepper",
+        "▢ 2 cloves garlic, minced",
+        "▢ 1 inch fresh ginger, chopped",
+        "▢ 1 lemon, zested",
+        "▢ ½ lemon, juiced",
+        "For the spiced chickpeas",
+        "▢ 1 tablespoon olive oil",
+        "▢ 15 oz can chickpeas, drained and rinsed",
+        "▢ ½ teaspoon garam masala",
+        "▢ ½ teaspoon cane sugar",
+        "▢ ¼ teaspoon curry powder",
+        "▢ ⅛ teaspoon salt",
+        "▢ ⅛ teaspoon black pepper",
+        "▢ ½ lemon, juiced"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/herb-spiced-roasted-root-vegetables-with-spiced-chickpeas-and-lemon-rice/"
+    },
+    {
+      "recipe_number": 44,
+      "name": "Loubia",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "2 tablespoon olive oil",
+        "1 onion ,finely chopped",
+        "3 cloves of garlic ,finely chopped",
+        "4 ripe tomatoes ,chopped (or can)",
+        "1 teaspoon ground cumin",
+        "1 teaspoon paprika powder",
+        "½ teaspoon smoked paprika powder (optional)",
+        "⅓ teaspoon turmeric",
+        "1 tablespoon tomato paste",
+        "dash of salt & black pepper",
+        "1 can (15oz) canned white beans (Cannellini, Navy, Great Northern)",
+        "1 cup veggie broth (just cube if can of tomato)",
+        "can add vegan meat",
+        "can serve w/ bread or rice"
+      ],
+      "recipe_link": "https://wholefoodsoulfoodkitchen.com/loubia-moroccan-stewed-white-beans/"
+    },
+    {
+      "recipe_number": 45,
+      "name": "Winter Butter Soup",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "2 red peppers, sliced",
+        "2 sweet potatoes, cubed",
+        "1 yellow onion, sliced",
+        "6-8 cloves garlic whole",
+        "2 tablespoon olive oil",
+        "½ teaspoon salt",
+        "1 ⅔ cups coconut milk  (385g)",
+        "1 cup vegetable stock (480g)",
+        "1 inch fresh ginger, grated",
+        "2 ½ tablespoon nutritional yeast",
+        "1 teaspoon garlic powder",
+        "1 teaspoon paprika",
+        "½ teaspoon smoked paprika",
+        "½ teaspoon oregano",
+        "1 ¾ cups butter beans  (460g)",
+        "¼-1/2 teaspoon black pepper"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/roasted-red-pepper-sweet-potato-soup/"
+    },
+    {
+      "recipe_number": 46,
+      "name": "Soup",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "1 Pre-made soup",
+        "1 Simple Protein"
+      ]
+    },
+    {
+      "recipe_number": 48,
+      "name": "Orange Tofu",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "For the Orange Sauce",
+        "2 oranges,  both juiced and 1 zested (need ½ cup or 120g juice)",
+        "½ cup vegetable stock  (120g)",
+        "2 tablespoon rice wine vinegar",
+        "2 tablespoon maple syrup",
+        "3 tablespoon soy sauce",
+        "2 garlic cloves, minced (more to taste)",
+        "½ in ginger root, grated",
+        "2 tablespoon cornstarch",
+        "2  tablespoon water",
+        "For the Tofu",
+        "400g extra firm tofu, pressed, roughly broken into pieces,",
+        "2 tablespoon soy sauce",
+        "1 tablespoon sesame oil",
+        "2 teaspoon white vinegar",
+        "½ teaspoon garlic powder",
+        "¼ teaspoon salt",
+        "¼ teaspoon white pepper",
+        "3 tablespoon cornstarch onto the tofu",
+        "¼ cup neutral oil for frying",
+        "Serve w",
+        "600g snow peas, broccoli, or carrots"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-orange-chicken-tofu/"
+    },
+    {
+      "recipe_number": 49,
+      "name": "Japchea Noodles",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "300g glass noodles",
+        "1 bellpepper",
+        "2 carrots",
+        "1/2 cucumber",
+        "2 green onions",
+        "1/2 onion",
+        "3 garlic cloves",
+        "200g fresh shitaake",
+        "200g tofu",
+        "for the sauce",
+        "1 tb sesame oil",
+        "1 tb rice vinegar",
+        "2 tb soy sauce",
+        "1 tb agave",
+        "topping",
+        "1 tb sesame seeds"
+      ],
+      "recipe_link": "https://youtu.be/vhYYymTNpwk?t=189"
+    },
+    {
+      "recipe_number": 50,
+      "name": "Miyeokguk for 1",
+      "section": "PROT & VEG 40-49",
+      "ingredients": [
+        "6 Cups of water",
+        "15 g of dried shiitake mushrooms",
+        "25 g of dried seaweed (miyuk)",
+        "2 tablespoons of toasted sesame oil",
+        "2 tablespoons of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
+        "3 tablespoons of perilla seed  flour (deulkkae garu)",
+        "Salt to enhance flavours"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/vegan-korean-seaweed-soup/"
+    },
+    {
+      "recipe_number": 51,
+      "name": "Gochujang Fried Tofu",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "Serve with broc",
+        "Serve with brown rice",
+        "Serve with edamame",
+        "3 tbsp Gochujang Korean red pepper paste",
+        "1 block tofu extra firm tofu, cut into bite-sized cubes",
+        "3 tbsp cornstarch",
+        "2 tbsp oil 2-3 tbsp",
+        "2 tbsp maple syrup or agave nectar or any syrup",
+        "3 tbsp ketchup",
+        "1 tbsp soy sauce",
+        "1 tbsp Garlic powder",
+        "1 tbsp Onion powder",
+        "2 tbsp water",
+        "1/2 tsp cinnamon optional but highly recommended",
+        "2 green onions chopped (optional, but recommended)",
+        "1/2 tsp sesame seeds"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/gochujang-tofu/"
+    },
+    {
+      "recipe_number": 52,
+      "name": "Miso soba soup x2",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "4 shiitake",
+        "Bit of miyeokguk (dried seaweed)",
+        "2 tb white miso",
+        "400g soft tofu",
+        "400g soba"
+      ],
+      "recipe_link": "https://youtu.be/D2X6uK7eD7o"
+    },
+    {
+      "recipe_number": 53,
+      "name": "sheetpan bibimbap",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "3 carrots 3-4 medium-sized, peeled & julienned",
+        "1 zucchini julienned",
+        "4 cups broc or gb",
+        "4 cups mushrooms sliced",
+        "3 tbsp oil",
+        "1/2 tsp salt",
+        "2 cups white rice dry short grain",
+        "4 tbsp gochujang more or less depending on preference, around 1 tbsp per serving",
+        "4 tsp roasted sesame oil more or less depending on preference, around 1 tsp per serving",
+        "1 block tofu Extra firm, cubed",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp salt",
+        "1 tbsp oil",
+        "1 tbsp corn starch"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/sheet-pan-bibimbap/"
+    },
+    {
+      "recipe_number": 54,
+      "name": "Tempeh Fried Rice",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "1 227g Tempeh or Tofu",
+        "1 tbsp Oil",
+        "1 tbsp Soy sauce",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Maple syrup or agave nectar",
+        "Fried Rice",
+        "1 tbsp Oil",
+        "4 stalks Green onions white",
+        "1 medium Onion diced",
+        "4 cloves Garlic minced",
+        "2 cups Frozen mixed vegetables",
+        "4 cups cooked rice",
+        "2 tbsp soy sauce",
+        "1 tbsp Dark soy sauce",
+        "1 tbsp Toasted sesame oil"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/tempeh-fried-rice/"
+    },
+    {
+      "recipe_number": 55,
+      "name": "EZ vegan fried rice",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "⅓ cup low sodium soy sauce (75g)",
+        "▢ 1  teaspoon agave",
+        "▢ ½ teaspoon toasted sesame oil (optional)",
+        "▢ ¼ teaspoon red pepper flakes,  more or less to taste",
+        "▢ 3 tablespoon vegan butter  (or oil*)",
+        "▢ 1 ½ cups frozen veggies (200g)",
+        "▢ 4 cups day old cooked rice, white or brown (485g)",
+        "▢ green onions,  thinly sliced"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/easy-vegan-fried-rice/"
+    },
+    {
+      "recipe_number": 56,
+      "name": "General Tso Tofu",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "⅓ cup soy sauce (80g)",
+        "2 tablespoon hoisin sauce",
+        "1 ½ tablespoon rice wine vinegar",
+        "2 teaspoon chili paste",
+        "1 teaspoon sesame oil",
+        "400g extra firm tofu,  frozen, then thawed, pressed, and cubed*",
+        "1/6 ginger",
+        "3 cloves garlic,",
+        "2-3 tablespoon cornstarch",
+        "3 tablespoon brown sugar (can sub lime juice)",
+        "¾ cup vegetable stock (180g)",
+        "3 tbsp  neutral oil",
+        "½ teaspoon red chili flakes,  optional",
+        "1 head broccoli,  steamed (edamame, bok choy, snap peas are other good alternatives)",
+        "rice, quinoa, or noodles,  cooked",
+        "sliced green onions,  for garnish",
+        "sesame seeds,  for garnish"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-general-tsos-tofu/"
+    },
+    {
+      "recipe_number": 57,
+      "name": "Vegan Chicken & Dumpling soup",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "2 tablespoon olive oil",
+        "▢ 2 sticks courgette, thinly sliced",
+        "▢ 1 large yellow onion, diced",
+        "▢ 1 large carrot, diced",
+        "▢ 4 sprigs fresh thyme",
+        "▢ 6 cloves garlic, minced",
+        "▢ 1 teaspoon onion powder",
+        "▢ 1 teaspoon dried parsley",
+        "▢ ½ teaspoon garlic powder",
+        "▢ ½ teaspoon dried basil",
+        "▢ ½ teaspoon dried thyme",
+        "▢ ½ teaspoon dried rosemary",
+        "▢ ½ teaspoon allspice",
+        "▢ ¼ teaspoon ground sage",
+        "▢ ¼ teaspoon black pepper",
+        "▢ ¼ teaspoon salt",
+        "▢ 3 tablespoon all purpose flour",
+        "▢ 4 cups vegetable stock",
+        "▢ 1 cup coconut milk or favorite non-dairy milk",
+        "▢ 1 cup frozen peas",
+        "▢ 15 oz chickpeas cooked and drained",
+        "▢ 1 teaspoon vegan better than bouillon",
+        "Dumpling Mixture",
+        "▢ 2 cups all purpose flour (240g)",
+        "▢ 2 teaspoon baking powder",
+        "▢ ½ teaspoon baking soda",
+        "▢ ½ teaspoon black pepper",
+        "▢ ½ teaspoon salt",
+        "▢ ⅛ teaspoon nutmeg",
+        "▢ ¾ cups non-dairy milk (180g)",
+        "▢ 4 tablespoon vegan butter, melted",
+        "▢ 1 teaspoon maple syrup"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-chicken-and-dumplings/"
+    },
+    {
+      "recipe_number": 58,
+      "name": "Palak Paneer",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "2-3 tb vegetable oil",
+        "1 (16 oz) block super-firm (high protein) tofu cut into small cubes",
+        "1/2 teaspoon whole cumin seeds optional",
+        "1 medium onion finely diced",
+        "4-6 cloves garlic minced",
+        "1\" thumb fresh ginger peeled and minced or grated (about 1 tablespoon)",
+        "1-2 serrano peppers finely diced; see notes about spice level",
+        "2 small Roma tomatoes seeds removed, diced",
+        "2 teaspoons ground coriander",
+        "1 teaspoon ground cumin",
+        "1/2 teaspoon garam masala",
+        "1/4 teaspoon ground turmeric",
+        "1/2 teaspoon kashmiri chili powder optional – can sub paprika (mild) or cayenne (spicy)",
+        "300g fresh spinach",
+        "1/3 cup full-fat coconut milk can sub vegan yogurt or cashew cream",
+        "kosher salt to taste",
+        "serve with rice"
+      ],
+      "recipe_link": "https://youtu.be/m0GqUASkD5M?t=599"
+    },
+    {
+      "recipe_number": 59,
+      "name": "Cheesy Miso Onions",
+      "section": "PROT & VEG 50-59",
+      "ingredients": [
+        "4-5 Yellow Onions",
+        "▢ ½ teaspoon sea salt",
+        "▢ 1 tablespoon balsamic vinegar",
+        "▢ 4 cloves garlic minced",
+        "▢ 1 teaspoon garlic powder",
+        "▢ 1 teaspoon black pepper",
+        "▢ ½ teaspoon chili powder",
+        "▢ ½ teaspoon smoked paprika",
+        "▢ ½ teaspoon turmeric",
+        "▢ ½ teaspoon cumin",
+        "▢ ¼ teaspoon dried oregano",
+        "▢ 1 bunch Broccolini",
+        "▢ 2 15oz cans cannellini beans, drained and rinsed",
+        "For the Cheesy Sauce:",
+        "▢ 2 cups raw cashews not roasted",
+        "▢ 2 – 3 cups unsweetened dairy free milk use soy for more protein",
+        "▢ ¼ cup vegan butter",
+        "▢ 1 adobo chili in sauce",
+        "▢ 1 tablespoon white miso",
+        "▢ 2 teaspoon dijon mustard",
+        "▢ ¾ cup nutritional yeast",
+        "▢ 1-2 teaspoon fresh lemon juice"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/cheesy-miso-caramelized-onions-beans/"
+    },
+    {
+      "recipe_number": 60,
+      "name": "Maple Tofu Rice Bowl",
+      "section": "PROT & VEG 60",
+      "ingredients": [
+        "1 block firm tofu",
+        "2 tb soy sauce",
+        "1 tb rice vinegar",
+        "2 tb cornstarch",
+        "½ tsp garlic powder",
+        "½ tsp paprika",
+        "1 tb oil",
+        "2 tb maple syrup",
+        "2 tb sriracha",
+        "2 cups rice (400g)",
+        "For the Avocado Cucumber Salad:",
+        "1/4 cucumber",
+        "1 avocado",
+        "1 lime",
+        "1 tb maple syrup",
+        "For the Spicy Sauce:",
+        "425g butter beans",
+        "1 lime",
+        "¼ cup sriracha (80g)",
+        "2 tsp cumin",
+        "½ tsp onion powder",
+        "1 tsp smoked paprika",
+        "1 tb maple syrup",
+        "mango",
+        "Black sesame seeds"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/spicy-maple-glazed-tofu-rice-bowl/"
+    },
+    {
+      "recipe_number": 1,
+      "name": "Olive Pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "120g spaghetti",
+        "1/2 pot olive tomato sauce",
+        "1/2 tomato sauce"
+      ]
+    },
+    {
+      "recipe_number": 2,
+      "name": "Strogannof Pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "85g Fusili",
+        "Butter",
+        "1/2 Onion",
+        "½ tsp turmeric",
+        "1/2 mushroom",
+        "0.75 cup Veggi broth",
+        "1 tbp flour",
+        "1/2 cup soy cream",
+        "soy sauce/worcheshire"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "McnCheese",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "250g pasta",
+        "2tb vegan butter",
+        "1/4 cup flour",
+        "1 cup milk",
+        "1tsp salt",
+        "1/2 tsp pepper",
+        "1 pack shredded cheese"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Stroganoff Rice",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "12 oz mushrooms sliced",
+        "½ large onion finely minced",
+        "2 cloves garlic finely minced",
+        "2 tablespoon vegan butter or olive oil",
+        "1 ¼ tsp arrowroot or cornstarch or 1 tablespoon all-purpose flour",
+        "¾ c vegetable broth",
+        "1 tsp Dijon mustard",
+        "¾ tsp smoked paprika",
+        "5 tb full fat coconut milk",
+        "½ tsp salt",
+        "¼ tsp pepper",
+        "2 tablespoon parsley chopped"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Cold avocado pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1 avocado",
+        "1/2 lemon",
+        "Garlic powder",
+        "120g spaghetti",
+        "3tb water"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Pasta Soup x2",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1/2 mushroom",
+        "Olive oil",
+        "2/4 cup red lentils",
+        "1 cup tomato sauce",
+        "140g Pasta"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tomato pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "120g Spaghetti",
+        "1 Fresh tomatoe",
+        "Basil",
+        "Olive oil"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Ramen",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1 pack ramen"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Rice Porridge",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1glass rice",
+        "3 x veggie broth",
+        "50g Brocoli",
+        "Pepper"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Garlic Spaghetti",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "125g spaghetti",
+        "olive oil",
+        "Garlic"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Veggie broth Gnoccis",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "800g gnoccis",
+        "1/2 soy cream",
+        "1/2 veggie broth"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Kung Pao Noodles",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "500g spaghettis",
+        "4 TB soy sauce",
+        "1/10 ts ginger",
+        "4ts corn starch",
+        "1 tb vinegar",
+        "1 tb sriracha",
+        "1 tb mapple sirup/agave",
+        "1/2 cup water"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "Lemon cream pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "vegan butter",
+        "1/2 cup almond milk",
+        "garlic powder",
+        "parsley",
+        "1/2 lemon",
+        "2 ts flour"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "Vodka Pasta (no vodka)",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "8 ounces uncooked penne pasta",
+        "1 tablespoon olive oil",
+        "2 tablespoons butter",
+        "1/2 small onion chopped finely",
+        "1 clove garlic minced",
+        "1/4 cup kumbucha thé vert",
+        "1/4 cup tomato paste see note",
+        "3/4 cup heavy/whipping cream",
+        "Salt & pepper to taste",
+        "Fresh basil, sliced thin",
+        "Fresh parmesan"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "Kale & lemon pasta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "Garlic (a ton)",
+        "225g spaghetti",
+        "olive oil",
+        "400g kale",
+        "1/2 lemon"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "spaghettios",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "250g coudes rayés",
+        "Tomato paste (2tb)",
+        "Tomato & Basil sauce",
+        "Garlic",
+        "Olive oil",
+        "Broth",
+        "Parmeggiano"
+      ]
+    },
+    {
+      "recipe_number": 17,
+      "name": "Mushroom & Tahin PAsta",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1/2 onion",
+        "1 mushroom",
+        "3/4 garlic cloves",
+        "1/4 cup water or milk",
+        "1/2 cup chickpeas",
+        "pasta",
+        "2 tbsp lemon juice",
+        "2 tbsp tahini",
+        "1 tbsp soy sauce",
+        "1 tsp dijon mustard",
+        "1 tbsp sweetener"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "Cauliflower alfredo",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "4 cups froz cauliflower",
+        "1/2 onion",
+        "2/3 garlic",
+        "2 cup milk",
+        "1 veggie stock",
+        "2 tb nutritional yeast",
+        "2 tsp lemon juice",
+        "250g spaghettis"
+      ]
+    },
+    {
+      "recipe_number": 19,
+      "name": "Garlic Parmesan",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "0.13 cup vegan butter",
+        "0.5 bulb garlic",
+        "2 cups vegetable broth",
+        "236 ml can coconut milk",
+        "0.5 tsp salt",
+        "0.5 tsp black pepper",
+        "360g uncooked fettuccine noodles",
+        "0.25 cup vegan parmesan cheese",
+        "chopped fresh parsley"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-one-pot-creamy-garlic-parmesan-pasta/"
+    },
+    {
+      "recipe_number": 20,
+      "name": "Pasta Humus salad",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "250g pasta (macaronie&cie)",
+        "1 cup cherry tomatoes",
+        "1 cup green peas",
+        "3 tb humus",
+        "2tb mustard",
+        "salt",
+        "pepper"
+      ]
+    },
+    {
+      "recipe_number": 21,
+      "name": "Pepper Pasta (x2)",
+      "section": "GRAIN 22",
+      "ingredients": [
+        "1 red pepper",
+        "1/2 onion",
+        "3 cloves garlic",
+        "1/2 frozen broc (on the side)",
+        "a few leaves basil",
+        "1 tomato sauce",
+        "1tsp maple",
+        "1 tb cream cheese",
+        "150g pasta",
+        "mozza (7 copeaux)"
+      ]
+    },
+    {
+      "recipe_number": 1,
+      "name": "Escalope & Rice",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 glass rice",
+        "1 escalope"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Potatoes & steak",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "Garlic powder",
+        "Eat w/ steak"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Potatoes & Red beans",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 Sweet potatoe",
+        "1/3 red bean can"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tofu & rice",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 tofu steak",
+        "150g rice"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Tofu & pasta",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 tofu steak",
+        "150g pasta"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Chickpea & rice",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 can chickpeas",
+        "300g riz"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Ramen & Beans",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "2 Packs Ramens",
+        "1 greenbeans/edamame",
+        "1 veggie"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "EZ Tofu Paprikash",
+      "section": "EZ Grain & Prot 12",
+      "ingredients": [
+        "1 Tofu",
+        "1 Can tomatoes",
+        "1 coconut cream",
+        "1 rice",
+        "salt",
+        "pepper",
+        "garlic",
+        "paprika"
+      ]
+    },
+    {
+      "recipe_number": 1,
+      "name": "Escalope & green beans",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "Escalope",
+        "150g green beans",
+        "1/2 glass rice"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Chick & broc",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 chickpeas",
+        "250g broccoli"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Steak & Green beans",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 steak",
+        "250g green beans"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Tofu & cauliflower",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 tofu bloc",
+        "250 cauli"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Esclaope & Brocoli",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 escalope",
+        "250g broc"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tofu & green beans",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 tofu",
+        "300g green beans"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Simple Soup",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 Pre-made soup",
+        "1 Simple Protein"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Sausage & Cabage",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 sausage",
+        "1 cabbage",
+        "1 garlic",
+        "olive oil, salt, pepper"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Red beans & broc",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1/2 frozen broc",
+        "1 can red beans",
+        "olive oil",
+        "salt & pepper"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "EZ Sheet pan",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "Boil 1 tofu & frozen broc",
+        "Cook brown rice in cooker",
+        "Add soy sauce & olive oil & garlic powder to veggies"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "EZ Cashew Tofu",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 frozen broc",
+        "1 frozen gb",
+        "1 tofu",
+        "1 cup cashew",
+        "Sauce:",
+        "½ cup water,  more as needed to thin",
+        "1 ½ tablespoon cornstarch",
+        "½ cup low sodium soy sauce",
+        "2 tablespoon hoisin sauce",
+        "2 tablespoon maple syrup",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon toasted sesame oil",
+        "pepper",
+        "ginger",
+        "garlic"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "EZ Orange Tofu",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": []
+    },
+    {
+      "recipe_number": null,
+      "name": "For the Orange Sauce",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "120ml orange juice",
+        "½ cup vegetable stock  (120g)",
+        "2 tablespoon rice wine vinegar",
+        "2 tablespoon maple syrup",
+        "3 tablespoon soy sauce",
+        "1/2 tsp garlic powder",
+        "1/4 ginger powder",
+        "2 tablespoon cornstarch",
+        "2  tablespoon water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "For the Tofu",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "400 g block  extra firm tofu, pressed, roughly broken into pieces,",
+        "¼ teaspoon salt",
+        "¼ teaspoon white pepper",
+        "3 tablespoon cornstarch onto the tofu",
+        "¼ cup neutral oil for frying"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Serve w",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "600g broccoli & carrots boiled"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "Ez Japchae Noodes",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "2 pots of boiling water:",
+        "1 glass noodles",
+        "1 throw in frozen carrots",
+        "frozen mushrooms",
+        "frozen edamame",
+        "frozen zuccini",
+        "garlic powder",
+        "onion powder"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "for the sauce",
+      "section": "EZ Prot & Veg 19",
+      "ingredients": [
+        "1 tb sesame oil",
+        "0.5 tb rice vinegar",
+        "2 tb soy sauce",
+        "1 tb agave",
+        "16 EZ vegan fried rice",
+        "1/4 cup low sodium soy sauce",
+        "1  teaspoon agave",
+        "½ teaspoon toasted sesame oil (optional)",
+        "¼ teaspoon red pepper flakes,  more or less to taste",
+        "3 tablespoon vegan butter  (or oil*)",
+        "1 ½ cups frozen veggies (200g)",
+        "4 cups day old cooked rice, white or brown (485g)",
+        "green onions,  thinly sliced",
+        "17 EZ General Tso Tofu",
+        "⅓ cup soy sauce (80g)",
+        "2 tablespoon hoisin sauce",
+        "1 ½ tablespoon rice wine vinegar",
+        "2 teaspoon chili paste",
+        "1 teaspoon sesame oil",
+        "400g extra firm tofu (airfried) w/ broc airfried",
+        "1/6 ginger",
+        "3 cloves garlic,",
+        "2-3 tablespoon cornstarch",
+        "3 tablespoon brown sugar (can sub lime juice)",
+        "¾ cup vegetable stock (180g)",
+        "3 tbsp  neutral oil",
+        "½ teaspoon red chili flakes,  optional",
+        "1 head broccoli,  steamed (edamame, bok choy, snap peas are other good alternatives)",
+        "rice, quinoa, or noodles,  cooked",
+        "sliced green onions,  for garnish",
+        "sesame seeds,  for garnish"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Banana smoothie",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1 banana",
+        "1/2 cup protein powder",
+        "1/4 soy milk",
+        "1/4 water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Cereales",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "Cereales",
+        "Lait Soja 1/4"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Vegan pancakes: for one",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "Buuter",
+        "1/2 banana",
+        "1/2 cup soy milk",
+        "1/2 cup oats",
+        "1/2 banana cut",
+        "Maple syrup"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Melon & Yogurt",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1/2 Melon",
+        "1 vegan greek yo",
+        "a bit of goji berries"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Protein Yogurt",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "2 Plain yogurt",
+        "1 protein powder",
+        "1/2 tb maple sirup",
+        "1/3 cereal/granola",
+        "1/2 cup berries"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Lava Cake (for 1 small)",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1/2 banana",
+        "1/2 cup oat",
+        "1/2 cup milk",
+        "1 tsp chia",
+        "1 tbsp cacao powder",
+        "1 pinch salt",
+        "1 tsp sweet",
+        "1 square of choc",
+        "200° 17min"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Quesadillas",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "2 cups walnuts,  soaked in boiling hot water for at least 30 minutes",
+        "1 tablespoon cornstarch,  optional (only if needed)",
+        "½ tablespoon coconut sugar (sub with brown sugar)",
+        "¾ teaspoon dried sage",
+        "¾ teaspoon dried thyme",
+        "¼ teaspoon black pepper",
+        "¼ tsp  dried rosemary",
+        "⅛ teaspoon cayenne pepper (add up to ¼ is spicier preferred)",
+        "¼ teaspoon nutmeg",
+        "salt to taste",
+        "2 tablespoon olive oil",
+        "2-3 tablespoon low-sodium vegetable stock",
+        "½ tablespoon coconut aminos (sub with soy sauce or tamari)",
+        "1 tablespoon oil",
+        "14 oz block extra firm tofu,  drained, pressed, and smash into crumbles",
+        "½ large yellow onion",
+        "1 large red bell pepper",
+        "3 tablespoon nutritional yeast",
+        "1 ½ teaspoon garlic powder",
+        "1 teaspoon all purpose seasoning blend",
+        "1 teaspoon onion powder",
+        "½ teaspoon black pepper",
+        "½ teaspoon turmeric",
+        "⅓ cup non-dairy milk",
+        "2 cups fresh spinach,  packed",
+        "10 burrito size flour tortillas",
+        "1-2 cups vegan shredded cheese  (cheddar or Mexican preferred)",
+        "toppings of choice"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-sheet-pan-breakfast-quesadillas/"
+    },
+    {
+      "recipe_number": null,
+      "name": "Lemon Water (x7))",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "3,5 lemon",
+        "7 L of water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Thanksgiving 1",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "Vegan sausages",
+        "6 Medium potatoes",
+        "Brussel sprouts",
+        "5 gousse ails",
+        "2 tsp butter",
+        "1 orange",
+        "rosemary"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "for gravy",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "1/2 onion",
+        "5 cloves garlic",
+        "olive oil",
+        "1/3 cup flour",
+        "2 tbp yeast",
+        "4 tbp soy sauce",
+        "2 cups stock"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Kimchi",
+      "section": "Holiday Meals",
+      "ingredients": [],
+      "recipe_link": "https://seonkyounglongest.com/vegan-kimchi/"
+    },
+    {
+      "recipe_number": 1,
+      "name": "Nappa Cabbage",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "3/4 cup Korean kimchi sea salt or flake sea salt (If you’re using a fine sea salt, reduce it to 1/2 cup)",
+        "1 1/2 cup water",
+        "4 dried shiitake mushrooms",
+        "1 sheet of 5”x5” dried seaweed (Konbu/Dahsima)",
+        "2 tbsp sweet rice flour",
+        "4 cloves garlic",
+        "1 oz ginger root",
+        "1 to 2 fresh red chili (optional)",
+        "6 to 8 oz well ripped persimmon (approximately 2 medium size), peeled",
+        "1 tbsp Korean kimchi sea salt or flake sea salt (If you’re using a fine sea salt, reduce it to 2 tsp)",
+        "3/4 cup gochugaru, Korean red pepper flakes (reduce amount to 1/3 to 1/2 cup if you like mild spicy)",
+        "8 to 10 oz Korean radish or daikon, peeled and thinly julienne",
+        "4 green onions, halves in lengthwise then cut into 1-inch long pieces",
+        "4 oz Korean mustard, thinly julienne carrot or garlic chive",
+        "2 tbsp sesame seeds, optional"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Vegan Pesto x2",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "15 grams Fresh basil around 1/2 cup",
+        "0.75 cups Baby spinach",
+        "0.5 Zucchini cut into small chunks",
+        "0.25 cup Pine nuts",
+        "0.13 cup Nutritional Yeast",
+        "0.13 cup Lemon Juice",
+        "1-1.5 cloves Garlic  peeled",
+        "0.25 tsp Salt",
+        "1-1.5 tbsp Water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "XMAS Roast",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "250 g chickpea flower",
+        "1 tsp xantham gum",
+        "1 tablespoon garlic powder",
+        "1 tablespoon onion powder",
+        "½ tablespoon smoked paprika",
+        "1 teaspoon black pepper",
+        "2 teaspoons salt",
+        "1/2 soft tofu",
+        "1 tb beetroot powder",
+        "5 tablespoons mustard",
+        "1 tablespoon maple syrup",
+        "3 tablespoons tahini or peanut butter",
+        "300 ml white wine/kombucha thé vert",
+        "250 ml vegetable broth (1 cup)",
+        "1 onion halved",
+        "1 carrot peeled and chopped",
+        "2 garlic cloves",
+        "2 springs rosemary",
+        "2 teaspoons thyme",
+        "oil for frying"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/vegan-roast-beef/"
+    },
+    {
+      "recipe_number": null,
+      "name": "Mom's Salad Dressing",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "1 Tb Mustard",
+        "Salt",
+        "Pepper",
+        "1 Tb Vinegar, mix",
+        "1 Tb Neutral oil (tournesol/arachide)",
+        "1 Tb  Olive oil mix + same mix",
+        "Quiche"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Brussel Sprouts",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "(680g) Brussels sprouts trimmed and halved",
+        "▢ 3 tablespoon avocado oil",
+        "▢ ½ teaspoon kosher salt",
+        "▢ ¼ teaspoon black pepper",
+        "▢ 2 tablespoon pure maple syrup",
+        "▢ 1 tablespoon soy sauce",
+        "▢ 2 teaspoon rice vinegar",
+        "▢ 1 teaspoon gochujang",
+        "▢ ½ teaspoon smoked paprika",
+        "▢ ½ teaspoon sesame oil",
+        "▢ 1 small clove garlic",
+        "red pepper flakes"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/crispy-brussels-sprouts/"
+    }
+  ],
+  "summer_recipes": [
+    {
+      "recipe_number": 1,
+      "name": "Potato & Nuggets/tof",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 sweet potato bake cut",
+        "1 large potato bake cut",
+        "1 nuggets/tofu fried",
+        "Teriyaki sauce"
+      ]
+    },
+    {
+      "recipe_number": 2,
+      "name": "Budha Bowl 1",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/3 chick peas",
+        "1/2 glass rice",
+        "1/3 bowl greens",
+        "1/2 avocado"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Veggie Steak & Rice",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 glass rice",
+        "1/2 veggie steak"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Steak & pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "100g pasta",
+        "1/2 Vegan steak"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Hot dogs",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "4 buns",
+        "1 pack sausages",
+        "1 avocado",
+        "vegan cheese",
+        "mustard",
+        "salad"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Spicy pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/4 tofu",
+        "100g noodles",
+        "Gochujang",
+        "1/4 Cabbage",
+        "Garlic powder",
+        "Sezame seeds"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Red bean quesadillas",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1/2 can red beans",
+        "1/4 Tomato sauce",
+        "1 tbp nutritional yeast",
+        "2 Tortilla",
+        "1/2 avocado"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Rice & lentils (3)",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 cup Rice",
+        "1 can diced tomatoes",
+        "1/2 cup red lentils",
+        "Brocoli",
+        "Basil",
+        "1/2 cup water",
+        "(All in one pot)"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "SP & Chick peas",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "1 sweet potatoe",
+        "1/3 chick peas",
+        "1/2 tomato",
+        "1/4 soy cream"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "One-Pot \"Baked\" Feta Pasta",
+      "section": "GRAIN & PROT 1-10",
+      "ingredients": [
+        "454 g silken tofu, *",
+        "⅓ cup nutritional yeast",
+        "3 tablespoons lemon juice, or lime juice",
+        "1 tablespoon apple cider vinegar",
+        "2 teaspoons garlic, minced, or 1 teaspoon garlic powder",
+        "1 teaspoon dried basil",
+        "1 teaspoon dried oregano",
+        "1 teaspoon salt",
+        "227 g whole wheat pasta, **",
+        "1 pint cherry tomatoes",
+        "2 cups spinach, or fresh package of basil (.5 oz)",
+        "red pepper flakes, optional topping"
+      ],
+      "recipe_link": "https://healthmylifestyle.com/one-pot-vegan-baked-feta-pasta/"
+    },
+    {
+      "recipe_number": 11,
+      "name": "Red beans & Rice",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "250g red beans",
+        "1/2 rice"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "SP & Red beans",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "1 Sweet potatoe",
+        "1/3 red bean can"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "Chickpease & rice",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "1 glass rice",
+        "1/3 chickpease"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "Gnoccis tom tofu",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "500 g gnoccis",
+        "150 g frozen tofu",
+        "1 tomato sauce",
+        "basil & ail & thyme",
+        "greens",
+        "nutritional yeast on top"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "Soy Tofu & rice",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "1 pack tofu",
+        "onion/garlic/ginger/soy",
+        "sesame seeds",
+        "gomashio",
+        "Bit of arome",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "SP & Scrambled tofu x2",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "2 SP (cut & bake)",
+        "1 bell pepper",
+        "1/2 shroom",
+        "1/2 big block tofu"
+      ]
+    },
+    {
+      "recipe_number": 17,
+      "name": "Tofu Broc Rice",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "1/3 tofu (steak, plain)",
+        "100g broc",
+        "100g rice (w/ soy & sesame oil)",
+        "Black Himalayan salt",
+        "1/2 avocado",
+        "kimchi"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "Soybean Pasta soup (Summer)",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "225g Wheat Noodles somen (somyun) noodles or any thin & chewy wheat noodles",
+        "225 g Tofu medium firm",
+        "1,5 tbsp peanut butter or cashew butter",
+        "2 tbsp Roasted sesame seeds",
+        "2 cup soy milk plain or water (more if needed)",
+        "4 tsp sugar less if you want it less sweet",
+        "3/4 tsp salt",
+        "2/3 cup cucumber julienned",
+        "2/3 grape tomatoes sliced in half (optional)",
+        "6 Ice cubes optional"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/korean-soybean-soup/"
+    },
+    {
+      "recipe_number": 19,
+      "name": "Curry Ramen",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "2 tablespoon olive oil",
+        "6 cloves garlic, minced",
+        "1-2 inch piece ginger root,  grated",
+        "1 ½ tablespoon curry powder",
+        "1 teaspoon garam masala",
+        "½ teaspoon cinnamon",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "1 tablespoon chili garlic sauce",
+        "2 teaspoon tomato paste",
+        "6 cups low sodium vegetable stock (1440g)",
+        "1 ¾ cups coconut milk (450g)",
+        "3-4 packs dry ramen noodles",
+        "2 small bok choy,  halved",
+        "2 cups bean sprouts (220g)",
+        "1 cup red cabbage,  chopped (90g)",
+        "1 lime,  cut into wedges",
+        "2 cups shelled, cooked edamame (320g)",
+        "1 cup shredded carrots (185g)",
+        "black sesame seeds"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-spicy-curry-ramen/"
+    },
+    {
+      "recipe_number": 20,
+      "name": "Tofu Paprikash",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
+        "1 teaspoon garlic powder",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "3 tablespoon olive oil",
+        "1 large sweet onion,  diced",
+        "4 cloves garlic,  minced",
+        "2 tablespoon tomato paste",
+        "4 tablespoon all purpose flour (use gluten free if needed)",
+        "3 tablespoon sweet paprika",
+        "½ teaspoon smoked paprika",
+        "2 cups vegetable broth",
+        "½ cup coconut cream (can sub with vegan sour cream)",
+        "¼ cup fresh parsley",
+        "red pepper flakes,  optional"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-tofu-paprikash/"
+    },
+    {
+      "recipe_number": 21,
+      "name": "Pasta Salad & Sausage",
+      "section": "GRAIN & PROT 11-21",
+      "ingredients": [
+        "2 tb tomate confites",
+        "10 olives",
+        "1/2 poivron a l'huile / roasted",
+        "1 courgette / concombre",
+        "2 piment à l'huile",
+        "1 échalotte",
+        "2 garlic cloves",
+        "3 tb olive oil",
+        "2 tb red wine vinegar",
+        "1 tb mustard",
+        "1 tsp salt",
+        "1 tb maple syrup",
+        "pepper",
+        "250g fussili / radiatore",
+        "2 tb grated cheese",
+        "1 tb fresh basil",
+        "1/2 can hearts of palm",
+        "2 big sausages per person"
+      ],
+      "recipe_link": "https://youtu.be/pK1_W5XHrZk?t=535"
+    },
+    {
+      "recipe_number": 1,
+      "name": "Scrambled Tofu",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "Beurre",
+        "2/3 Tofu",
+        "1/2 Mushroom",
+        "1/2 Green pepper",
+        "1/2 cup milk",
+        "2 Tranche pain",
+        "Bit of carrots",
+        "1tsp kala namak",
+        "2 tb nutritional yeast",
+        "¼ tsp ground turmeric",
+        "1/4 tsp salt",
+        "1/2 tsp black pepper",
+        "1/2 tsp onion powder"
+      ]
+    },
+    {
+      "recipe_number": 2,
+      "name": "Tempeh sandwich",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1pack tempeh (cooked)",
+        "1 tomato",
+        "1 salad heart",
+        "1 wrap/bread",
+        "1 tb vegan mayo",
+        "1 tsp nut mustard",
+        "& lettuce"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Walnut Tacos",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "2 cups walnuts or ground meat",
+        "1 red onion",
+        "4 cloves garlic",
+        "1/4 cup sun dried tomatoes in oil/tomato paste",
+        "1 tbsp avocado (or olive) oil",
+        "1 tbsp  taco seasoning",
+        "2 tsp soy sauce",
+        "1 juice of a lime",
+        "1 Avocados",
+        "w/ Rice/Tacos/Pasta/Nachos"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-walnut-taco-meat/"
+    },
+    {
+      "recipe_number": 4,
+      "name": "Tofu & Broc",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1 tofu",
+        "250g broccolis"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Rice veg beans",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/4 can red beans",
+        "1 glass rice",
+        "1/4 aubergine",
+        "1 tomato",
+        "tomato & olive sauce"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Tofu & veg",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/2 carrot",
+        "1/4 brocoli",
+        "1/4 choux fleur",
+        "1/4 onion",
+        "1/4 bell pepper",
+        "1 rice",
+        "1/2 tofu",
+        "soy sauce",
+        "ginger",
+        "garlic"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Olive chick torti",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/4 can olives",
+        "1/2 can chickpease",
+        "2 hearts letuce",
+        "1/2 can humus",
+        "tortillas"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Chick & Cauli tacos",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1/2 Cauliflower",
+        "1/2 onion",
+        "2 tomatoes",
+        "Tortillas",
+        "1/2 can chickpease",
+        "Tomato Paste",
+        "Cumin",
+        "Chilli Powder",
+        "Garlic powder",
+        "Olive oil",
+        "Salt",
+        "1 Avocado",
+        "Lemon"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Fajita beef",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "250g ground beaf",
+        "1/4 tomato sauce",
+        "chipotle spices",
+        "1 bell pepper",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Chipotle Beans",
+      "section": "PROT & VEG 1-10",
+      "ingredients": [
+        "1 can tomato",
+        "1 can beans",
+        "cumin",
+        "paprika",
+        "chipotle",
+        "1 bell pepper",
+        "rice"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Kale stirfry & rice",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "250g Kale",
+        "100g rice",
+        "100g edamame/gb",
+        "garlic",
+        "Soy sauce",
+        "Rice vinegar",
+        "Agave",
+        "sesame oil",
+        "Sesame seed"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Scrambled tofu & kale",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "250g kale",
+        "3/4 tofu",
+        "seasoning",
+        "1 tomato"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "Steak, rice & bok shroom",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 steak",
+        "1/2 rice",
+        "1 bok choy",
+        "1/4 mushrooms"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "Tofu steak, toast & salad",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 block tofu",
+        "2 slice bread",
+        "1 avocado",
+        "1 tomato",
+        "olive oil",
+        "Salt",
+        "Pepper",
+        "Salad",
+        "Vinegar",
+        "Mustard",
+        "Sesame seeds"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "Tofu Sandwich (x2)",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1/2 tofu (smoke or steak)",
+        "1 tomato",
+        "1 avocado",
+        "1 salad heart",
+        "salt",
+        "sriracha"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "Vegan Burgers",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 salade",
+        "1 pack steak",
+        "1/2 pack burger bread",
+        "1 tomato",
+        "1 faux-mage slices",
+        "vegan mayo",
+        "ketchup",
+        "mustard",
+        "1 frites"
+      ]
+    },
+    {
+      "recipe_number": 17,
+      "name": "Chick &avo sandwich",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1/2 avocado",
+        "2 slices bread",
+        "150 carrots",
+        "1 salad heart",
+        "1/4 can chick peas",
+        "vegan mayo",
+        "percil"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "Cold Soba & tof veg",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "85g soba/full spaghet",
+        "1/2 carrot",
+        "1/2 green peas/edamame",
+        "1/2 tofu",
+        "2 leaves romaine lettuce",
+        "2 tb soy sauce",
+        "kombu broth",
+        "3 tb mirin",
+        "1/2garlic powder",
+        "1/2 teaspoon salt"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/healthy-ten-minute-vegan-recipes/"
+    },
+    {
+      "recipe_number": 19,
+      "name": "Chick stirfry (for 3)",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1/2 mush",
+        "2 zuccini",
+        "1/2 onion",
+        "50g broc",
+        "1 carrots",
+        "olive oil",
+        "1 can chick",
+        "4 garlic",
+        "splash of water",
+        "4tb soy sauce",
+        "1tb rice vinegar",
+        "1tb maple sirup",
+        "1tb peanut butter",
+        "water",
+        "cornstarch",
+        "rice",
+        "sesame seeds"
+      ]
+    },
+    {
+      "recipe_number": 20,
+      "name": "Veggie Sheet Pan",
+      "section": "PROT & VEG 11-20",
+      "ingredients": [
+        "1 1/2 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "3/4 tsp cinnamon",
+        "1/2 tsp  dried basil",
+        "1/2 tsp dried thyme",
+        "1/2 tsp cumin",
+        "1/2 tsp fennel/cumin  seeds",
+        "1/4 tsp ground cloves",
+        "salt and pepper",
+        "425g can chickpeas",
+        "1 large sweet potato",
+        "2-3 tbsp olive oil",
+        "1 baby  bok choy",
+        "1 small  red onion",
+        "3 cloves  garlic",
+        "w/ grains"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/easy-smoky-sheet-pan-oven-roasted-veggies/"
+    },
+    {
+      "recipe_number": 21,
+      "name": "Salad & Sausage (x2)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 sausage / 3/4 tofu",
+        "2 heads bok choy",
+        "2 tomatoes",
+        "2 bread + butter",
+        "2tb sunflower seeds",
+        "vegan mayo",
+        "lemon juice",
+        "dijon mustard",
+        "maple sirup",
+        "nutritional yeast",
+        "garlic powder",
+        "black pepper"
+      ]
+    },
+    {
+      "recipe_number": 22,
+      "name": "Tofu toast & salad",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 heart salad",
+        "2 toasts",
+        "1 avocado",
+        "1/3 Tofu",
+        "salad",
+        "Sesame seeds",
+        "salt",
+        "pepper",
+        "tahini",
+        "hot sauce",
+        "butter"
+      ]
+    },
+    {
+      "recipe_number": 23,
+      "name": "Simple Tacos (pour 2)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "4 Tortillas",
+        "1/2 red bean can (raw)",
+        "2 avocados",
+        "1 small corn",
+        "1 tomato sauce",
+        "tacos seasoning"
+      ]
+    },
+    {
+      "recipe_number": 24,
+      "name": "Scholar Bowls (x5)",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 cup dry quinoa",
+        "400g brussel",
+        "2 bell peppers",
+        "400g broc",
+        "3 tb avocado oil",
+        "4 cups cauliflower",
+        "1 tb garlic powder",
+        "1 tb onion powder",
+        "salt & pepper",
+        "800g sweet pot + oil",
+        "cajun seasoning"
+      ]
+    },
+    {
+      "recipe_number": 25,
+      "name": "Sweet & Sour Chick",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 cups Broccoli",
+        "2 cups Cauliflower",
+        "Onion",
+        "1 Bell peppers",
+        "1 cup canned pineapple",
+        "2 tbsp brown or coconut sugar",
+        "2 tbsp ketchup",
+        "2 tbsp Soy sauce (or coconut aminos)",
+        "1 tbsp Rice vinegar",
+        "1 can chickpeas, rinsed & drained",
+        "½ cup water",
+        "Starch slurry (1 tbsp cornstarch + 1-2 tbsp of water)"
+      ]
+    },
+    {
+      "recipe_number": 26,
+      "name": "Viet Meat Balls",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "500g tofu",
+        "1tb Gochujang",
+        "1 tsp coriander",
+        "1+1 tb basil",
+        "1+1 tb seame seeds",
+        "1 tb lemon",
+        "3+2 tb sriracha",
+        "1 tb tomato purée",
+        "2+2 tsp garlic powder",
+        "1 tsp salt",
+        "5 tb flour",
+        "1/4 cup soy sauce",
+        "3 tb maple syrup",
+        "2 tb ketchup",
+        "1/2 cup Water",
+        "1 spring onion",
+        "1 pack choi",
+        "1 kale",
+        "2 carrots (ribbon)",
+        "Noodles/Rice"
+      ],
+      "recipe_link": "https://www.avantgardevegan.com/recipes/vietnamese-style-meat-balls/"
+    },
+    {
+      "recipe_number": 27,
+      "name": "Chick Crabcakes",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "1 canpalm",
+        "1 can chick",
+        "1/4 cup vegan mayo",
+        "1 1/2 tbsp old bay seasoning",
+        "1 tsp ume vinegar",
+        "1 tsp dijon mustard",
+        "1 cup panko crumbs",
+        "1 bag of arugula",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice"
+      ],
+      "recipe_link": "https://sweetpotatosoul.com/3-easy-vegan-recipes-under-15-minutes"
+    },
+    {
+      "recipe_number": 28,
+      "name": "Massaged Kale",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "200g Kale",
+        "2 tbs Rice Vinegar",
+        "1 orange",
+        "1tbs Maple Syrup",
+        "3 tbs Aminos",
+        "3 tbs Tahini",
+        "Pinch Sea Salt",
+        "Pinch Dried Chilli Flakes",
+        "1 tbs Dried Tarragon",
+        "1 Raw Beet, sliced extra fine, ideally on a mandolin (or cooked & chopped roughly)",
+        "2 tbs Pumpkin Seeds",
+        "Small Handful Macadamia Nuts, chopped small",
+        "1 Avocado, peeled & cubed",
+        "1 cup/200g Stewed Grains & lentils [click for recipe]"
+      ],
+      "recipe_link": "https://www.avantgardevegan.com/recipes/ancient-grain-massage-kale-salad/"
+    },
+    {
+      "recipe_number": 29,
+      "name": "Tahini Veggie Budha",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 tb & 2 tsp soy sauce",
+        "2 & 1/2 tb maple",
+        "2/3 tofu cubed & marinated",
+        "4 tb tahini",
+        "1 tsp garlic powder",
+        "1 tb white vinegar",
+        "water",
+        "1 cucumber",
+        "1 tomato",
+        "1/4 cabbage",
+        "1 carrot",
+        "1/3 avocado",
+        "sesame seeds",
+        "1 cup rice"
+      ],
+      "recipe_link": "https://www.youtube.com/watch?v=Chl1-d2vv3Y"
+    },
+    {
+      "recipe_number": 30,
+      "name": "Salmon Tofu",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "3/4 brocoli",
+        "1 tofu bloc",
+        "1 cup vegetable broth",
+        "3 tb apple cider vinegar",
+        "1 small raw beet (walnut)",
+        "2 tb white miso paste",
+        "1 tsp garlic powder",
+        "1 tsp salt"
+      ],
+      "recipe_link": "https://itdoesnttastelikechicken.com/vegan-salmon/"
+    },
+    {
+      "recipe_number": 32,
+      "name": "Avo & Tofu Toasts",
+      "section": "PROT & VEG 21-30",
+      "ingredients": [
+        "2 sheet nori",
+        "½ cup cornstarch",
+        "2 tb veggie oil"
+      ]
+    },
+    {
+      "recipe_number": 31,
+      "name": "Sushi Nurish Bowl",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "2 servings Roasted Sweet Potatoes",
+        "2 cups cooked brown rice, sushi rice or whatever rice you prefer (slightly warm but not hot)",
+        "2 tbsp rice vinegar",
+        "¼ tsp salt",
+        "¼ tsp sugar",
+        "1 medium carrot",
+        "1 cup cabbage",
+        "½ cup edamame beans",
+        "½ cup corn",
+        "2 tsp sriracha",
+        "1 tbsp vegan mayo",
+        "½ nori sheet,",
+        "1 tsp sesame seeds",
+        "1-2 tsp soy sauce"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 32,
+      "name": "Salmon Nourish Bowl",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "½ salmon tofu",
+        "2 servings Roasted Vegetables",
+        "¼ cup cornstarch",
+        "1 tbsp oil",
+        "2 cups cooked brown rice, quinoa, or couscous",
+        "1 tbsp soy sauce",
+        "1 tsp toasted sesame oil",
+        "4 cups mixed green lettuce"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 33,
+      "name": "Tahini Soba Nourish",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "2 servings soba noodles",
+        "2 servings Sweet Tahini Dressing",
+        "1 cup shredded cabbage",
+        "1 medium carrot",
+        "2 heads baby bok choy",
+        "⅔ cup chickpeas",
+        "2 tsp sesame seeds"
+      ],
+      "recipe_link": "https://www.thecheaplazyvegan.com/vegan-nourish-bowl-recipes/"
+    },
+    {
+      "recipe_number": 34,
+      "name": "Sheet Pan Teriyaki Tofu & Broc",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "For Tofu",
+        "1 block  extra firm tofu,  frozen, thawed and pressed* (1 block is 14-16oz)",
+        "1 tablespoon cornstarch",
+        "2 teaspoon low sodium soy sauce",
+        "2 teaspoon extra virgin olive oil",
+        "For the Broccoli and Veggies",
+        "1 head broccoli florets,  cut into bite size pieces (can also use the stems or save for another dish)",
+        "8 oz sugar mangetout (227g)",
+        "1 tablespoon extra virgin olive oil",
+        "salt and pepper to taste",
+        "For the Teriyaki Sauce",
+        "1/4 cup low sodium soy sauce (114g)",
+        "½  cup  water (114g)",
+        "3 tablespoon brown sugar (can sub with maple syrup)",
+        "2 tablespoon rice wine vinegar",
+        "½ tsp  ground ginger",
+        "2 cloves  garlic,  minced",
+        "¼-1/2 teaspoon red pepper flakes,  optional",
+        "1 tablespoon cornstarch",
+        "1 tbsp  water",
+        "1 quinoa/brown rice/full spag"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/sheet-pan-teriyaki-tofu-and-broccoli/"
+    },
+    {
+      "recipe_number": 35,
+      "name": "Cashew Tacos",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "1 cup cashew (hot water)",
+        "1 can black/red beans",
+        "1 soy cream",
+        "1 lemon",
+        "2 carrots",
+        "1 tsp garlic powder",
+        "1 tsp cumin",
+        "1 tsp oregano",
+        "1 tsp onion powder",
+        "1 tsp chilli powder",
+        "salt & black pepper"
+      ]
+    },
+    {
+      "recipe_number": 36,
+      "name": "Mango Chickpea Salad",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "1/2 teaspoon turmeric",
+        "1 garlic clove, crushed",
+        "1/4 cup (60 ml) neutral oil",
+        "1 tsp cumin seed",
+        "1 tsp coriander seed",
+        "1 tsp fennel seed (optional)",
+        "1 lime juice",
+        "1 tbp maple syrup",
+        "1/2 tbp soy sauce",
+        "1 1/2 tsp salt",
+        "3 cups (500 g) chickpeas",
+        "1 large mango*, diced",
+        "1 red bell pepper, diced",
+        "2 roma tomatoes, diced",
+        "1/2 english cucumber, quartered and sliced",
+        "1/4 red onion, small dice",
+        "1 serrano pepper, small dice (optional; remove seeds for less spice)"
+      ],
+      "recipe_link": "https://frommybowl.com/best-mango-chickpea-salad/"
+    },
+    {
+      "recipe_number": 37,
+      "name": "Sweet & Sour Chick x4",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "1/2 cup coconut sugar*",
+        "1/2 cup apple cider vinegar",
+        "1/3 cup  ketchup",
+        "4 tsp low sodium soy sauce",
+        "2 cloves garlic,  minced",
+        "2 tsp cornstarch",
+        "4 tsp cold water",
+        "1 tbsp olive oil",
+        "1 red bell pepper,  thinly sliced",
+        "1/2 large yellow onion,  diced",
+        "425g can chickpeas,  rinsed and drained",
+        "serve w/ rice + broc"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/sweet-and-sour-chickpeas/"
+    },
+    {
+      "recipe_number": 38,
+      "name": "Cabbage slaw & Tofu",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "1 Tofu (slice thin)",
+        "2 tb Avocado Oil",
+        "½ small green cabbage",
+        "3 carrots",
+        "2 tblime juice",
+        "1 tb Olive Oil",
+        "1 tb sesame oil",
+        "½ tsp salt",
+        "black pepper",
+        "4 tb  Peanut Butter",
+        "1 tb maple syrup",
+        "1 tb lime juice",
+        "2 tsp soy sauce",
+        "1 to 2 tsp sesame oil",
+        "1/2 tsp red pepper flakes",
+        "2 to 3 tb water"
+      ],
+      "recipe_link": "https://rainbowplantlife.com/20-minute-vegan-meals"
+    },
+    {
+      "recipe_number": 39,
+      "name": "Chick Cashew Brock (4)",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "1 cuproasted cashews",
+        "1/2 can chickpeas",
+        "1 head broccoli",
+        "1 head  garlic",
+        "1/4 cup sesame oil , + 2 tbsp",
+        "1/3 cup soy sauce",
+        "1 tbsp arrowroot powder (can sub cornstarch)",
+        "1/2-1 tsp garlic chili sauce",
+        "150g rice/quinoa/noodles"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/chickpea-cashew-broccoli-with-garlic-sauce-skillet/"
+    },
+    {
+      "recipe_number": 40,
+      "name": "Cashew Tofu",
+      "section": "PROT & VEG 40",
+      "ingredients": [
+        "14 oz block extra firm tofu",
+        "1-2 tablespoon cornstarch",
+        "3 tablespoon olive oil,  divided",
+        "1 head broccoli florets",
+        "8 oz sugar snap peas",
+        "¼ teaspoon salt,  more to taste",
+        "¼ teaspoon black pepper,  more to taste",
+        "1  red bell pepper,  diced",
+        "3-4 tablespoon water",
+        "½ teaspoon fresh ginger,  minced",
+        "2 cloves garlic,  minced",
+        "1 cup roasted and unsalted cashews",
+        "sesame seeds,  for garnish",
+        "green onions,  chopped, for garnish",
+        "½ cup water,  more as needed to thin",
+        "1 ½ tablespoon cornstarch",
+        "½ cup low sodium soy sauce",
+        "2 tablespoon hoisin sauce",
+        "2 tablespoon maple syrup",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon toasted sesame oil",
+        "serve w/ garlic turmeric rice"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/cashew-tofu-vegan-cashew-chicken/"
+    },
+    {
+      "recipe_number": 41,
+      "name": "Vegan Tofu Paprikash (x4)",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
+        "1 teaspoon garlic powder",
+        "1 teaspoon salt",
+        "½ teaspoon black pepper",
+        "3 tablespoon olive oil",
+        "1 large sweet onion,  diced",
+        "4 cloves garlic,  minced",
+        "2 tablespoon tomato paste",
+        "4 tablespoon all purpose flour (use gluten free if needed)",
+        "3 tablespoon sweet paprika",
+        "½ teaspoon smoked paprika",
+        "2 cups vegetable broth",
+        "½ cup coconut cream (can sub with vegan sour cream)",
+        "¼ cup fresh parsley",
+        "red pepper flakes,  optional",
+        "serve w/ 1,5kg broc/quinoa/pasta"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-tofu-paprikash/"
+    },
+    {
+      "recipe_number": 42,
+      "name": "Vegan Quinoa Salad (12 servings ?)",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "1 cup uncooked quinoa,  rinsed",
+        "1 ½ cups vegetable broth (or water)",
+        "1 15oz can chickpeas, rinsed and drained",
+        "1 red bell pepper, chopped",
+        "1 cup red cabbage,  diced",
+        "1 cup mini cucumbers,  sliced",
+        "1 cup carrots,  shredded or julienned",
+        "½ cup red onion, diced",
+        "¼ cup cilantro, chopped",
+        "⅓ cup green onions,  chopped",
+        "⅓ cup roasted peanuts,  chopped",
+        "Peanut Dressing (for lighter dressing option see notes)",
+        "▢ ⅓ cup creamy peanut butter (natural preferred)",
+        "▢ 1  teaspoon ginger,  grated",
+        "▢ 3 tablespoon soy sauce",
+        "▢ 2 tablespoon agave",
+        "▢ 2 tablespoon red wine vinegar",
+        "▢ 1 tablespoon toasted sesame oil",
+        "▢ 1 tablespoon olive oil"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-quinoa-salad/"
+    },
+    {
+      "recipe_number": 43,
+      "name": "Soup",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "1 Pre-made soup",
+        "1 Simple Protein"
+      ]
+    },
+    {
+      "recipe_number": 45,
+      "name": "Orange Tofu",
+      "section": "PROT & VEG 50",
+      "ingredients": [],
+      "recipe_link": "https://makeitdairyfree.com/vegan-orange-chicken-tofu/"
+    },
+    {
+      "recipe_number": null,
+      "name": "For the Orange Sauce",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "2 oranges,  both juiced and 1 zested (need ½ cup or 120g juice)",
+        "½ cup vegetable stock  (120g)",
+        "2 tablespoon rice wine vinegar",
+        "2 tablespoon maple syrup",
+        "3 tablespoon soy sauce",
+        "2 garlic cloves, minced (more to taste)",
+        "½ in ginger root, grated",
+        "2 tablespoon cornstarch",
+        "2  tablespoon water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "For the Tofu",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "400g extra firm tofu, pressed, roughly broken into pieces,",
+        "2 tablespoon soy sauce",
+        "1 tablespoon sesame oil",
+        "2 teaspoon white vinegar",
+        "½ teaspoon garlic powder",
+        "¼ teaspoon salt",
+        "¼ teaspoon white pepper",
+        "3 tablespoon cornstarch onto the tofu",
+        "¼ cup neutral oil for frying"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Serve w",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "600g snow peas, broccoli, or carrots"
+      ]
+    },
+    {
+      "recipe_number": 46,
+      "name": "Farro Salad",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "For the Salad",
+        "2 cups dried farro/blé",
+        "2 cups baby spinach",
+        "3 cups cannellini beans",
+        "2 mini cucumbers",
+        "2 avocados,  sliced",
+        "2 radishes,  sliced",
+        "½ cup fresh basil, chopped",
+        "⅓  cup pickled red onions",
+        "Maple Pistachios",
+        "¼ teaspoon salt",
+        "¼ teaspoon smoked paprika",
+        "¼ teaspoon ground cumin",
+        "⅛ teaspoon cinnamon",
+        "⅛ teaspoon cayenne",
+        "1 cup pistachios,  shelled",
+        "1 ½ tablespoons olive oil",
+        "1  tablespoon maple syrup",
+        "1 orange zest (regular or blood orange)",
+        "For the Citrus Dressing",
+        "2-3 teaspoons zest of a blood orange",
+        "⅓ cup fresh blood orange juice",
+        "⅓ cup  olive oil",
+        "2 tablespoons shallots,  minced",
+        "2 tablespoons white wine vinegar",
+        "2 teaspoons maple syrup",
+        "2 teaspoons dijon mustard",
+        "½ teaspoon salt",
+        "¼ teaspoon black pepper"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/easy-farro-salad/"
+    },
+    {
+      "recipe_number": 47,
+      "name": "Japchea Noodles",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "300g glass noodles",
+        "1 bellpepper",
+        "2 carrots",
+        "1/2 cucumber",
+        "2 green onions",
+        "1/2 onion",
+        "3 garlic cloves",
+        "200g fresh shitaake",
+        "200g tofu",
+        "for the sauce",
+        "1 tb sesame oil",
+        "1 tb rice vinegar",
+        "2 tb soy sauce",
+        "1 tb agave",
+        "topping",
+        "1 tb sesame seeds"
+      ],
+      "recipe_link": "https://youtu.be/vhYYymTNpwk?t=189"
+    },
+    {
+      "recipe_number": 48,
+      "name": "Miyeokguk for 1",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "6 Cups of water",
+        "15 g of dried shiitake mushrooms",
+        "25 g of dried seaweed (miyuk)",
+        "2 tablespoons of toasted sesame oil",
+        "2 tablespoons of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
+        "3 tablespoons of perilla seed  flour (deulkkae garu)",
+        "Salt to enhance flavours"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/vegan-korean-seaweed-soup/"
+    },
+    {
+      "recipe_number": 49,
+      "name": "Gochujang Fried Tofu",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "Serve with broc",
+        "Serve with brown rice",
+        "Serve with edamame",
+        "3 tbsp Gochujang Korean red pepper paste",
+        "1 block tofu extra firm tofu, cut into bite-sized cubes",
+        "3 tbsp cornstarch",
+        "2 tbsp oil 2-3 tbsp",
+        "2 tbsp maple syrup or agave nectar or any syrup",
+        "3 tbsp ketchup",
+        "1 tbsp soy sauce",
+        "1 tbsp Garlic powder",
+        "1 tbsp Onion powder",
+        "2 tbsp water",
+        "1/2 tsp cinnamon optional but highly recommended",
+        "2 green onions chopped (optional, but recommended)",
+        "1/2 tsp sesame seeds"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/gochujang-tofu/"
+    },
+    {
+      "recipe_number": 50,
+      "name": "Miso soba soup x2",
+      "section": "PROT & VEG 50",
+      "ingredients": [
+        "4 shiitake",
+        "Bit of myunguk (dried seaweed)",
+        "2 tb white miso",
+        "400g soft tofu",
+        "250g soba"
+      ],
+      "recipe_link": "https://youtu.be/D2X6uK7eD7o"
+    },
+    {
+      "recipe_number": 51,
+      "name": "Tempeh Fried Rice",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "1 227g Tempeh or Tofu",
+        "1 tbsp Oil",
+        "1 tbsp Soy sauce",
+        "1 tbsp Rice vinegar",
+        "1 tbsp Maple syrup or agave nectar",
+        "Fried Rice",
+        "1 tbsp Oil",
+        "4 stalks Green onions white",
+        "1 medium Onion diced",
+        "4 cloves Garlic minced",
+        "2 cups Frozen mixed vegetables",
+        "4 cups cooked rice",
+        "2 tbsp soy sauce",
+        "1 tbsp Dark soy sauce",
+        "1 tbsp Toasted sesame oil"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/tempeh-fried-rice/"
+    },
+    {
+      "recipe_number": 52,
+      "name": "EZ vegan fried rice",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "⅓ cup low sodium soy sauce (75g)",
+        "1  teaspoon agave",
+        "½ teaspoon toasted sesame oil (optional)",
+        "¼ teaspoon red pepper flakes,  more or less to taste",
+        "3 tablespoon vegan butter  (or oil*)",
+        "1 ½ cups frozen veggies (200g)",
+        "4 cups day old cooked rice, white or brown (485g)",
+        "green onions,  thinly sliced"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/easy-vegan-fried-rice/"
+    },
+    {
+      "recipe_number": 53,
+      "name": "Buffalo Chick Wraps",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "½ cup vegan mayo (110g)",
+        "½ cup hot sauce (120g)",
+        "2 tablespoon vegan butter, melted, Optional",
+        "1-2 tablespoon brown sugar",
+        "½ teaspoon dried parsley",
+        "3 ½ cups chickpeas drained and rinsed (2 cans or 575g)",
+        "1 medium red onion, chopped",
+        "2 sticks zuccini, chopped",
+        "1 medium carrot, grated",
+        "⅓ cup fresh cilantro, chopped (5g)",
+        "½ cup walnuts, chopped (60g)",
+        "4 tablespoon fresh lemon juice",
+        "2 teaspoon garlic powder",
+        "½ teaspoon paprika",
+        "1 teaspoon dried parsley",
+        "1 teaspoon dried dill",
+        "½ teaspoon salt more or less to taste",
+        "Tortilla Wraps, Bread, Crackers or Lettuce",
+        "Avocado, Lettuce, Tomatoes, Onions"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/buffalo-chickpea-salad-wraps/"
+    },
+    {
+      "recipe_number": 54,
+      "name": "Scramble Tofu, Beans & Veg",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "1 tsp oil",
+        "1/2 medium onion, diced",
+        "1 bell pepper, diced",
+        "1 block extra firm tofu, crumbled",
+        "1 half can black beans, drained & rinsed",
+        "300g haché végé",
+        "1/3 cup scrambled tofu seasoning (recipe below)",
+        "1/4 cup ketchup",
+        "1 tsp garlic powder",
+        "1/2 tsp paprika",
+        "Salt & pepper to taste",
+        "Air fryer sweet potatoes (recipe below)"
+      ]
+    },
+    {
+      "recipe_number": 55,
+      "name": "Scrambled Tofu Sandwich",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "1 bread",
+        "1 firm tofu",
+        "1 scramble spices",
+        "1 green onion",
+        "1 mayo",
+        "1 mustard",
+        "1 cheddard",
+        "1 salad"
+      ]
+    },
+    {
+      "recipe_number": 56,
+      "name": "Garlic Peanut Noodles",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "Garlic Peanut Noodles",
+        "8 ounces dry noodles of choice such as ramen or rice noodles; see notes for options",
+        "1 batch garlic peanut sauce recipe follows",
+        "1-2 medium carrots peeled and julienned/shredded",
+        "1 red bell pepper thinly sliced",
+        "1/2 cup julienned cucumber",
+        "1/3 cup roasted peanuts chopped or crushed",
+        "Garlic Peanut Sauce",
+        "1/3 cup natural peanut butter",
+        "1 tablespoon peanut oil or other neutral vegetable oil",
+        "4-6 cloves garlic minced",
+        "2 green onions (scallions) thinly sliced",
+        "1 teaspoon grated fresh ginger optional",
+        "1-3 teaspoons red pepper flakes I like to use gochugaru",
+        "3 tablespoons soy sauce sub tamari for gluten-free",
+        "1 tablespoon rice vinegar",
+        "1 tablespoon maple syrup (optional)",
+        "2 teaspoons toasted sesame oil",
+        "1 tablespoon fresh lime juice from about 1/2 a lime",
+        "4-6 tablespoons warm water to thin sauce as needed",
+        "Optional Toppings (use as many as you like)",
+        "½ cup edamame for added protein",
+        "1 cup pan-fried tofu for added protein",
+        "1 tablespoon toasted sesame seeds",
+        "lime wedges",
+        "¼ cup chopped fresh cilantro"
+      ],
+      "recipe_link": "https://sarahsvegankitchen.com/recipes/garlic-peanut-noodles/"
+    },
+    {
+      "recipe_number": 57,
+      "name": "Ramen salad",
+      "section": "PROT & VEG 57",
+      "ingredients": [],
+      "recipe_link": "https://makeitdairyfree.com/ramen-noodle-salad/"
+    },
+    {
+      "recipe_number": null,
+      "name": "425g canned full fat coconut milk",
+      "section": "PROT & VEG 57",
+      "ingredients": [
+        "2 cloves garlic",
+        "1 lime,  zested and juiced (2 tbsps juice)",
+        "3 tablespoons low-sodium soy sauce",
+        "2 tablespoons tahini",
+        "2 tablespoons red curry paste",
+        "1 tablespoon maple syrup",
+        "1 tablespoon sriracha",
+        "½ inch fresh ginger,  grated",
+        "Salad",
+        "2 packages ramen noodles",
+        "1 small head of broccoli,  cut into bite sized stems and florets",
+        "1 cup edamame",
+        "2 cups purple cabbage, finely shredded",
+        "1 cup fresh pineapple,  diced",
+        "1  red bell pepper,  diced",
+        "1 cup baby arugula",
+        "1 cup roasted cashews",
+        "⅔ cup fresh corn,  grilled if time*"
+      ]
+    },
+    {
+      "recipe_number": 1,
+      "name": "Olive Pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "120g spaghetti",
+        "1/2 pot olive tomato sauce",
+        "1/2 tomato sauce"
+      ]
+    },
+    {
+      "recipe_number": 2,
+      "name": "Strogannof Pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "85g Fusili",
+        "Butter",
+        "1/2 Onion",
+        "½ tsp turmeric",
+        "1/2 mushroom",
+        "0.75 cup Veggi broth",
+        "1 tbp flour",
+        "1/2 cup soy cream"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Cold avocado pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "1 avocado",
+        "1/2 lemon",
+        "Garlic powder",
+        "120g spaghetti",
+        "3tb water"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Tomato pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "120g Spaghetti",
+        "1 Fresh tomatoe",
+        "Basil",
+        "Olive oil"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Ramen",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "1 pack ramen"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Garlic Spaghetti",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "125g spaghetti",
+        "olive oil",
+        "Garlic"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Veggie broth Gnoccis",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "800g gnoccis",
+        "1/2 soy cream",
+        "1/2 veggie broth"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Kung Pao Noodles",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "500g spaghettis",
+        "4 TB soy sauce",
+        "1/10 ts ginger",
+        "4ts corn starch",
+        "1 tb vinegar",
+        "1 tb sriracha",
+        "1 tb mapple sirup/agave",
+        "1/2 cup water"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Lemon cream pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "vegan butter",
+        "1/2 cup almond milk",
+        "garlic powder",
+        "parsley",
+        "1/2 lemon",
+        "2 ts flour"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Vodka Pasta (no vodka)",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "8 ounces uncooked penne pasta",
+        "1 tablespoon olive oil",
+        "2 tablespoons butter",
+        "1/2 small onion chopped finely",
+        "1 clove garlic minced",
+        "1/4 cup kumbucha thé vert",
+        "1/4 cup tomato paste see note",
+        "3/4 cup heavy/whipping cream",
+        "Salt & pepper to taste",
+        "Fresh basil, sliced thin",
+        "Fresh parmesan"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Kale & lemon pasta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "Garlic (a ton)",
+        "225g spaghetti",
+        "olive oil",
+        "400g kale",
+        "1/2 lemon"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Mushroom & Tahin PAsta",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "1/2 onion",
+        "1 mushroom",
+        "3/4 garlic cloves",
+        "1/4 cup water or milk",
+        "1/2 cup chickpeas",
+        "pasta",
+        "2 tbsp lemon juice",
+        "2 tbsp tahini",
+        "1 tbsp soy sauce",
+        "1 tsp dijon mustard",
+        "1 tbsp sweetener"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "Cauliflower alfredo",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "4 cups froz cauliflower",
+        "1/2 onion",
+        "2/3 garlic",
+        "2 cup milk",
+        "1 veggie stock",
+        "2 tb nutritional yeast",
+        "2 tsp lemon juice",
+        "250g spaghettis"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "Garlic Parmesan",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "0.13 cup vegan butter",
+        "0.5 bulb garlic",
+        "2 cups vegetable broth",
+        "236 ml can coconut milk",
+        "0.5 tsp salt",
+        "0.5 tsp black pepper",
+        "360g uncooked fettuccine noodles",
+        "0.25 cup vegan parmesan cheese",
+        "chopped fresh parsley"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-one-pot-creamy-garlic-parmesan-pasta/"
+    },
+    {
+      "recipe_number": 15,
+      "name": "Pasta Humus salad",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "250g pasta (macaronie&cie)",
+        "1 cup cherry tomatoes",
+        "1 cup green peas",
+        "3 tb humus",
+        "2tb mustard",
+        "salt",
+        "pepper"
+      ]
+    },
+    {
+      "recipe_number": 16,
+      "name": "Pepper Pasta (x2)",
+      "section": "GRAIN 17",
+      "ingredients": [
+        "1 red pepper",
+        "1/2 onion",
+        "3 cloves garlic",
+        "1/2 frozen broc (on the side)",
+        "a few leaves basil",
+        "1 tomato sauce",
+        "1tsp maple",
+        "1 tb cream cheese",
+        "150g pasta",
+        "mozza (7 copeaux)"
+      ]
+    },
+    {
+      "recipe_number": 1,
+      "name": "Escalope & Rice",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "1 glass rice",
+        "1 escalope"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Potatoes & steak",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "Garlic powder",
+        "Eat w/ steak"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Potatoes & Red beans",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "1 Sweet potatoe",
+        "1/3 red bean can"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tofu & rice",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "1 tofu steak",
+        "150g rice"
+      ]
+    },
+    {
+      "recipe_number": 8,
+      "name": "Tofu & pasta",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "1 tofu steak",
+        "150g pasta"
+      ]
+    },
+    {
+      "recipe_number": 9,
+      "name": "Chickpea & rice",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "1 can chickpeas",
+        "300g riz"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Ramen & Beans",
+      "section": "EZ Grain & Prot 11",
+      "ingredients": [
+        "2 Packs Ramens",
+        "1 edamame",
+        "1 veggie"
+      ]
+    },
+    {
+      "recipe_number": 1,
+      "name": "Escalope & green beans",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "Escalope",
+        "150g green beans",
+        "1/2 glass rice"
+      ]
+    },
+    {
+      "recipe_number": 3,
+      "name": "Chick & broc",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 chickpeas",
+        "250g broccoli"
+      ]
+    },
+    {
+      "recipe_number": 4,
+      "name": "Steak & Green beans",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 steak",
+        "250g green beans"
+      ]
+    },
+    {
+      "recipe_number": 5,
+      "name": "Tofu & cauliflower",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 tofu bloc",
+        "250 cauli"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Esclaope & Brocoli",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 escalope",
+        "250g broc"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Tofu & green beans",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 tofu",
+        "300g green beans"
+      ]
+    },
+    {
+      "recipe_number": 10,
+      "name": "Easy burito bowl",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1/2 raw red beans",
+        "1/2 raw maize",
+        "1/2 salad/spinach",
+        "1 brown rice",
+        "tacos seasoning",
+        "1/2 tomato per bowl"
+      ]
+    },
+    {
+      "recipe_number": 11,
+      "name": "Simple Soup",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 Pre-made soup",
+        "1 Simple Protein"
+      ]
+    },
+    {
+      "recipe_number": 12,
+      "name": "Red beans & broc",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1/2 frozen broc",
+        "1 can red beans",
+        "olive oil",
+        "salt & pepper"
+      ]
+    },
+    {
+      "recipe_number": 13,
+      "name": "EZ Cashew Tofu",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 frozen broc",
+        "1 frozen gb",
+        "1 tofu",
+        "1 cup cashew",
+        "Sauce:",
+        "½ cup water,  more as needed to thin",
+        "1 ½ tablespoon cornstarch",
+        "½ cup low sodium soy sauce",
+        "2 tablespoon hoisin sauce",
+        "2 tablespoon maple syrup",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon toasted sesame oil",
+        "pepper",
+        "ginger",
+        "garlic"
+      ]
+    },
+    {
+      "recipe_number": 14,
+      "name": "EZ Orange Tofu",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "For the Orange Sauce",
+        "120ml orange juice",
+        "½ cup vegetable stock  (120g)",
+        "2 tablespoon rice wine vinegar",
+        "2 tablespoon maple syrup",
+        "3 tablespoon soy sauce",
+        "1/2 tsp garlic powder",
+        "1/4 ginger powder",
+        "2 tablespoon cornstarch",
+        "2  tablespoon water",
+        "For the Tofu",
+        "400 g block  extra firm tofu, pressed, roughly broken into pieces,",
+        "¼ teaspoon salt",
+        "¼ teaspoon white pepper",
+        "3 tablespoon cornstarch onto the tofu",
+        "¼ cup neutral oil for frying",
+        "Serve w",
+        "600g broccoli & carrots boiled"
+      ]
+    },
+    {
+      "recipe_number": 15,
+      "name": "EZ Gaspacho",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "For the Gazpacho",
+        "2 lb roma tomatoes, stems removed and quartered (about 8 tomatoes or 900g)",
+        "1 red pepper, roughly chopped",
+        "1 jalapeño, seeds removed, roughly chopped",
+        "English cucumber, skin removed, chopped",
+        "½ red onion, roughly chopped",
+        "2 cloves garlic",
+        "1 lime, zested and juiced",
+        "¼ cup olive oil (115g)",
+        "2 tablespoon sherry vinegar",
+        "1 teaspoon balsamic vinegar",
+        "1 teaspoon salt",
+        "½ teaspoon cumin",
+        "½ teaspoon black pepper",
+        "¼ teaspoon oregano",
+        "⅛ teaspoon coriander",
+        "⅛ teaspoon onion powder",
+        "⅛ teaspoon garlic powder",
+        "1 slice  French bread (any bread works including gluten free)",
+        "For the Croutons (optional)",
+        "1 loaf French bread,  cut in 1\" cubes",
+        "3-4 tablespoon olive oil",
+        "1 ½ tablespoon Italian seasoning",
+        "2 teaspoon garlic powder"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/the-best-easy-gazpacho-recipe/"
+    },
+    {
+      "recipe_number": 16,
+      "name": "Ez Japchae Noodes",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "2 pots of boiling water:",
+        "1 glass noodles",
+        "1 throw in frozen carrots",
+        "frozen mushrooms",
+        "frozen edamame",
+        "frozen zuccini",
+        "garlic powder",
+        "onion powder",
+        "for the sauce",
+        "1 tb sesame oil",
+        "0.5 tb rice vinegar",
+        "2 tb soy sauce",
+        "1 tb agave"
+      ]
+    },
+    {
+      "recipe_number": 18,
+      "name": "EZ Buffalo Chick Wraps",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "▢ ½ cup vegan mayo (110g)",
+        "▢ ½ cup hot sauce (120g)",
+        "▢ 2 tablespoon vegan butter, melted, Optional",
+        "▢ 1-2 tablespoon brown sugar",
+        "▢ ½ teaspoon dried parsley",
+        "▢ 3 ½ cups chickpeas drained and rinsed (2 cans or 575g)",
+        "▢ 1 medium red onion, chopped",
+        "▢ 2 sticks zuccini, chopped",
+        "▢ 1 medium carrot, grated",
+        "▢ 4 tablespoon fresh lemon juice",
+        "▢ 2 teaspoon garlic powder",
+        "▢ ½ teaspoon paprika",
+        "▢ 1 teaspoon dried parsley",
+        "▢ 1 teaspoon dried dill",
+        "▢ ½ teaspoon salt more or less to taste",
+        "▢ Tortilla Wraps, Bread, Crackers or Lettuce",
+        "▢ Avocado, Lettuce, Tomatoes, Onions"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/buffalo-chickpea-salad-wraps/"
+    },
+    {
+      "recipe_number": 19,
+      "name": "EZ Scramble Tofu, Beans & Veg",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "1 tb oil",
+        "1 Bloc tofu",
+        "1/3 cup scramble mix",
+        "add 1/2 can of beans",
+        "Salad on the side"
+      ]
+    },
+    {
+      "recipe_number": 20,
+      "name": "EZ Garlic Peanut Noodles",
+      "section": "EZ Prot & Veg 20",
+      "ingredients": [
+        "8 ounces dry noodles of choice such as ramen or rice noodles; see notes for options",
+        "1/2 cup frozen carrots",
+        "1/2 cup cucumber",
+        "1/3 peanuts cut",
+        "Garlic Peanut Sauce",
+        "▢ 1/3 cup natural peanut butter",
+        "▢ 1 tablespoon peanut oil or other neutral vegetable oil",
+        "3 tsp garlic powder",
+        "1/3 cup edamame",
+        "bit of ginger",
+        "1 tsp gochugaru",
+        "▢ 3 tablespoons soy sauce sub tamari for gluten-free",
+        "▢ 1 tablespoon rice vinegar",
+        "▢ 1 tablespoon maple syrup (optional)",
+        "▢ 2 teaspoons toasted sesame oil",
+        "▢ 1 tablespoon fresh lime juice from about 1/2 a lime",
+        "▢ 4-6 tablespoons warm water to thin sauce as needed",
+        "1 cup oil air fried simple tofu",
+        "▢ 1 tablespoon toasted sesame seeds"
+      ]
+    },
+    {
+      "recipe_number": 6,
+      "name": "Tomato pasta & salad",
+      "section": "EZ Grain 9",
+      "ingredients": [
+        "250g spaghettis",
+        "1 tomato sauce",
+        "1 heart salad",
+        "salt",
+        "pepper",
+        "levure"
+      ]
+    },
+    {
+      "recipe_number": 7,
+      "name": "Soba veggies (cold)",
+      "section": "EZ Grain 9",
+      "ingredients": [
+        "150g soba/spaghettis",
+        "100g green beans",
+        "100g carrots",
+        "1 heart salads",
+        "1 tsp Garlic",
+        "soy sauce",
+        "vinegar",
+        "sirup",
+        "mirin",
+        "sesame oil",
+        "sesame seeds",
+        "8 Garlic Parmesan Pasta",
+        "0.13 cup vegan butter",
+        "0.5 bulb garlic",
+        "2 cups vegetable broth",
+        "236 ml can coconut milk",
+        "0.5 tsp salt",
+        "0.5 tsp black pepper",
+        "360g uncooked fettuccine noodles",
+        "0.25 cup vegan parmesan cheese",
+        "chopped fresh parsley"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Banana smoothie",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1 banana",
+        "1/2 cup protein powder",
+        "1/4 soy milk",
+        "1/4 water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Cereales",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "Cereales",
+        "Lait Soja 1/4"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Vegan pancakes: for one",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "Buuter",
+        "1/2 banana",
+        "1/2 cup soy milk",
+        "1/2 cup oats",
+        "1/2 banana cut",
+        "Maple syrup"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Melon & Yogurt",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1/2 Melon",
+        "1 vegan greek yo",
+        "a bit of goji berries"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Protein Yogurt",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "2 Plain yogurt",
+        "1 protein powder",
+        "1/2 tb maple sirup",
+        "1/3 cereal/granola",
+        "1/2 cup berries"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Lava Cake (for 1 small)",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "1/2 banana",
+        "1/2 cup oat",
+        "1/2 cup milk",
+        "1 tsp chia",
+        "1 tbsp cacao powder",
+        "1 pinch salt",
+        "1 tsp sweet",
+        "1 square of choc",
+        "200° 17min"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Quesadillas",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "2 cups walnuts,  soaked in boiling hot water for at least 30 minutes",
+        "1 tablespoon cornstarch,  optional (only if needed)",
+        "½ tablespoon coconut sugar (sub with brown sugar)",
+        "¾ teaspoon dried sage",
+        "¾ teaspoon dried thyme",
+        "¼ teaspoon black pepper",
+        "¼ tsp  dried rosemary",
+        "⅛ teaspoon cayenne pepper (add up to ¼ is spicier preferred)",
+        "¼ teaspoon nutmeg",
+        "salt to taste",
+        "2 tablespoon olive oil",
+        "2-3 tablespoon low-sodium vegetable stock",
+        "½ tablespoon coconut aminos (sub with soy sauce or tamari)",
+        "1 tablespoon oil",
+        "14 oz block extra firm tofu,  drained, pressed, and smash into crumbles",
+        "½ large yellow onion",
+        "1 large red bell pepper",
+        "3 tablespoon nutritional yeast",
+        "1 ½ teaspoon garlic powder",
+        "1 teaspoon all purpose seasoning blend",
+        "1 teaspoon onion powder",
+        "½ teaspoon black pepper",
+        "½ teaspoon turmeric",
+        "⅓ cup non-dairy milk",
+        "2 cups fresh spinach,  packed",
+        "10 burrito size flour tortillas",
+        "1-2 cups vegan shredded cheese  (cheddar or Mexican preferred)",
+        "toppings of choice"
+      ],
+      "recipe_link": "https://makeitdairyfree.com/vegan-sheet-pan-breakfast-quesadillas/"
+    },
+    {
+      "recipe_number": null,
+      "name": "Lemon Water (x7))",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "3,5 lemon",
+        "7 L of water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Vegan Feta Cheese",
+      "section": "BREAKFAST",
+      "ingredients": [
+        "400g pressed tofu",
+        "4 tsp levure diet",
+        "2 tb miso",
+        "2 tb olive oil",
+        "2 tb lemon juice",
+        "2 tb apple cider vinegar",
+        "2 tsp garlic powder",
+        "1 tsp oregano",
+        "1/2 tsp salt"
+      ],
+      "recipe_link": "https://youtu.be/rPzWMxO2m4M?t=299"
+    },
+    {
+      "recipe_number": null,
+      "name": "Thanksgiving 1",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "Vegan sausages",
+        "6 Medium potatoes",
+        "Brussel sprouts",
+        "5 gousse ails",
+        "2 tsp butter",
+        "1 orange",
+        "rosemary",
+        "for gravy",
+        "Vitamines",
+        "5 cloves garlic",
+        "olive oil",
+        "1/3 cup flour",
+        "2 tbp yeast",
+        "4 tbp soy sauce",
+        "2 cups stock"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "Kimchi",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "1 Nappa Cabbage",
+        "3/4 cup Korean kimchi sea salt or flake sea salt (If you’re using a fine sea salt, reduce it to 1/2 cup)",
+        "1 1/2 cup water",
+        "4 dried shiitake mushrooms",
+        "1 sheet of 5”x5” dried seaweed (Konbu/Dahsima)",
+        "2 tbsp sweet rice flour",
+        "4 cloves garlic",
+        "1 oz ginger root",
+        "1 to 2 fresh red chili (optional)",
+        "6 to 8 oz well ripped persimmon (approximately 2 medium size), peeled",
+        "1 tbsp Korean kimchi sea salt or flake sea salt (If you’re using a fine sea salt, reduce it to 2 tsp)",
+        "3/4 cup gochugaru, Korean red pepper flakes (reduce amount to 1/3 to 1/2 cup if you like mild spicy)",
+        "8 to 10 oz Korean radish or daikon, peeled and thinly julienne",
+        "4 green onions, halves in lengthwise then cut into 1-inch long pieces",
+        "4 oz Korean mustard, thinly julienne carrot or garlic chive",
+        "2 tbsp sesame seeds, optional"
+      ],
+      "recipe_link": "https://seonkyounglongest.com/vegan-kimchi/"
+    },
+    {
+      "recipe_number": null,
+      "name": "Vegan Pesto x2",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "15 grams Fresh basil around 1/2 cup",
+        "0.75 cups Baby spinach",
+        "0.5 Zucchini cut into small chunks",
+        "0.25 cup Pine nuts",
+        "0.13 cup Nutritional Yeast",
+        "0.13 cup Lemon Juice",
+        "1-1.5 cloves Garlic  peeled",
+        "0.25 tsp Salt",
+        "1-1.5 tbsp Water"
+      ]
+    },
+    {
+      "recipe_number": null,
+      "name": "XMAS Roast",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "250 g chickpea flower",
+        "1 tsp xantham gum",
+        "1 tablespoon garlic powder",
+        "1 tablespoon onion powder",
+        "½ tablespoon smoked paprika",
+        "1 teaspoon black pepper",
+        "2 teaspoons salt",
+        "1/2 soft tofu",
+        "1 tb beetroot powder",
+        "5 tablespoons mustard",
+        "1 tablespoon maple syrup",
+        "3 tablespoons tahini or peanut butter",
+        "300 ml white wine/kombucha thé vert",
+        "250 ml vegetable broth (1 cup)",
+        "1 onion halved",
+        "1 carrot peeled and chopped",
+        "2 garlic cloves",
+        "2 springs rosemary",
+        "2 teaspoons thyme",
+        "oil for frying"
+      ],
+      "recipe_link": "https://thecheaplazyvegan.com/vegan-roast-beef/"
+    },
+    {
+      "recipe_number": null,
+      "name": "Mom's Salad Dressing",
+      "section": "Holiday Meals",
+      "ingredients": [
+        "1 Tb Mustard",
+        "Salt",
+        "Pepper",
+        "1 Tb Vinegar, mix",
+        "1 Tb Neutral oil (tournesol/arachide)",
+        "1 Tb  Olive oil mix + same mix"
+      ]
+    }
+  ]
+}
