@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import RecipePicker from './RecipePicker';
 import RecipeEditor from './RecipeEditor';
-import { useRecipes } from './useRecipes';
+import PlannerView  from './PlannerView';
+import { useRecipes, savePlan, listPlanFiles, readPlan } from './useRecipes';
 
-const DAYS  = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-const MEALS = ['Breakfast', 'Lunch', 'Dinner'];
+const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+const MEALS = ['Breakfast','Lunch','Dinner'];
 
 const defaultPlan = () =>
   DAYS.reduce((acc, day) => {
@@ -12,13 +13,53 @@ const defaultPlan = () =>
     return acc;
   }, {});
 
+// "MP_2026-02-17.json" → "Feb 17, 2026"
+function formatPlanLabel(filename) {
+  const m = filename.match(/^MP_(\d{4})-(\d{2})-(\d{2})\.json$/);
+  if (!m) return filename;
+  const d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+  return d.toLocaleDateString(undefined, { month:'short', day:'numeric', year:'numeric' });
+}
+
 export default function App() {
-  const [page, setPage]           = useState('planner'); // 'planner' | 'editor'
-  const [plan, setPlan]           = useState(defaultPlan());
-  const [activeDay, setActiveDay] = useState('Monday');
-  const [picker, setPicker]       = useState(null);
+  const [page,    setPage]    = useState('planner'); // 'planner' | 'editor'
+  // plannerView: 'current' | filename (MP_YYYY-MM-DD.json)
+  const [plannerView, setPlannerView] = useState('current');
+
+  const [plan,    setPlan]    = useState(defaultPlan());
+  const [picker,  setPicker]  = useState(null);
+
+  // Archived plan files list
+  const [planFiles,      setPlanFiles]      = useState([]);
+  const [archivedPlan,   setArchivedPlan]   = useState(null);
+  const [archiveLoading, setArchiveLoading] = useState(false);
 
   const { recipes, loading, error, sourceFile, reload } = useRecipes();
+
+  // Load plan file list on mount
+  const refreshPlanFiles = useCallback(async () => {
+    const files = await listPlanFiles();
+    setPlanFiles(files);
+  }, []);
+
+  useEffect(() => { refreshPlanFiles(); }, [refreshPlanFiles]);
+
+  // Auto-save plan on every change (debounced 800ms)
+  useEffect(() => {
+    const t = setTimeout(async () => {
+      try { await savePlan(plan); refreshPlanFiles(); } catch {}
+    }, 800);
+    return () => clearTimeout(t);
+  }, [plan]);
+
+  // Load an archived plan when switching to it
+  useEffect(() => {
+    if (plannerView === 'current') { setArchivedPlan(null); return; }
+    setArchiveLoading(true);
+    readPlan(plannerView)
+      .then(data => setArchivedPlan(data))
+      .finally(() => setArchiveLoading(false));
+  }, [plannerView]);
 
   const openPicker  = (day, meal) => setPicker({ day, meal });
   const closePicker = ()           => setPicker(null);
@@ -26,19 +67,18 @@ export default function App() {
   const handleSelectRecipe = (recipe) => {
     if (!picker) return;
     setPlan(prev => ({ ...prev, [picker.day]: { ...prev[picker.day], [picker.meal]: recipe } }));
+    closePicker();
   };
 
-  const clearMeal = (day, meal) =>
-    setPlan(prev => ({ ...prev, [day]: { ...prev[day], [meal]: null } }));
+  const isReadonly = plannerView !== 'current';
+  const activePlan = isReadonly ? (archivedPlan || defaultPlan()) : plan;
 
   return (
     <div className="app">
       <header className="header">
         <div className="header-inner">
           <span className="logo">🥗 MealPlan</span>
-          <span className="subtitle">
-            {sourceFile ? `using ${sourceFile}` : 'Your weekly food planner'}
-          </span>
+          <span className="subtitle">{sourceFile ? `recipes: ${sourceFile}` : 'Your weekly food planner'}</span>
         </div>
         <nav className="header-nav">
           <button className={`nav-btn ${page === 'planner' ? 'active' : ''}`} onClick={() => setPage('planner')}>
@@ -54,65 +94,42 @@ export default function App() {
       {error   && <div className="app-status error">Error: {error}</div>}
 
       {!loading && page === 'planner' && (
-        <div className="layout">
-          <nav className="sidebar">
-            {DAYS.map(day => (
-              <button key={day} className={`day-btn ${activeDay === day ? 'active' : ''}`} onClick={() => setActiveDay(day)}>
-                <span className="day-label">{day.slice(0,3)}</span>
-                <span className="day-full">{day}</span>
-                <span className="meal-count">{Object.values(plan[day]).filter(Boolean).length}/{MEALS.length}</span>
+        <div className="app-layout-outer">
+          {/* ── Plan history sidebar ── */}
+          <nav className="plan-sidebar">
+            <div className="plan-sidebar-title">Plans</div>
+
+            <button
+              className={`plan-sidebar-item ${plannerView === 'current' ? 'active' : ''}`}
+              onClick={() => setPlannerView('current')}
+            >
+              <span className="plan-sidebar-label">Current</span>
+              <span className="plan-sidebar-sub">editing</span>
+            </button>
+
+            {planFiles.map(file => (
+              <button
+                key={file}
+                className={`plan-sidebar-item ${plannerView === file ? 'active' : ''}`}
+                onClick={() => setPlannerView(file)}
+              >
+                <span className="plan-sidebar-label">{formatPlanLabel(file)}</span>
+                <span className="plan-sidebar-sub">saved</span>
               </button>
             ))}
           </nav>
 
-          <main className="content">
-            <h2 className="day-title">{activeDay}</h2>
-            <div className="meals-grid">
-              {MEALS.map(meal => {
-                const selected = plan[activeDay][meal];
-                return (
-                  <div key={meal} className={`meal-card ${selected ? 'has-recipe' : ''}`}>
-                    <label className="meal-label">{meal}</label>
-                    {selected ? (
-                      <div className="meal-selected">
-                        <div className="meal-selected-info">
-                          <span className="meal-selected-name">{selected.name}</span>
-                          {selected.recipe_number && <span className="meal-selected-num">#{selected.recipe_number}</span>}
-                          <span className="meal-selected-section">{selected.section}</span>
-                        </div>
-                        <div className="meal-selected-actions">
-                          {selected.recipe_link && (
-                            <a className="meal-action-link" href={selected.recipe_link} target="_blank" rel="noreferrer" title="Open recipe">↗</a>
-                          )}
-                          <button className="meal-action-btn" onClick={() => openPicker(activeDay, meal)} title="Change">✎</button>
-                          <button className="meal-action-btn meal-action-clear" onClick={() => clearMeal(activeDay, meal)} title="Clear">✕</button>
-                        </div>
-                      </div>
-                    ) : (
-                      <button className="meal-pick-btn" onClick={() => openPicker(activeDay, meal)}>+ Pick a recipe</button>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-
-            <div className="overview">
-              <h3 className="overview-title">Weekly Overview</h3>
-              <div className="overview-grid">
-                {DAYS.map(day => (
-                  <div key={day} className={`overview-card ${activeDay === day ? 'current' : ''}`} onClick={() => setActiveDay(day)}>
-                    <div className="ov-day">{day.slice(0,3)}</div>
-                    {MEALS.map(meal => (
-                      <div key={meal} className="ov-meal">
-                        <span className="ov-meal-type">{meal[0]}</span>
-                        <span className="ov-meal-name">{plan[day][meal]?.name || '—'}</span>
-                      </div>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </main>
+          {/* ── Planner content ── */}
+          {archiveLoading
+            ? <div className="app-status">Loading plan…</div>
+            : <PlannerView
+                plan={activePlan}
+                setPlan={setPlan}
+                readonly={isReadonly}
+                recipes={recipes}
+                openPicker={openPicker}
+              />
+          }
         </div>
       )}
 
