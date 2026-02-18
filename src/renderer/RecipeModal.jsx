@@ -9,6 +9,11 @@ export default function RecipeModal({ recipe, onClose }) {
 
   if (!recipe) return null;
 
+  // Normalize legacy string ingredients
+  const ingredients = (recipe.ingredients || []).map(ing =>
+    typeof ing === 'string' ? { name: ing, quantity: '' } : ing
+  );
+
   return (
     <div className="picker-backdrop" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="recipe-modal">
@@ -46,18 +51,21 @@ export default function RecipeModal({ recipe, onClose }) {
             </div>
           )}
 
-          {recipe.ingredients?.length > 0 && (
+          {ingredients.length > 0 && (
             <div className="recipe-modal-ingredients">
               <span className="recipe-modal-label">Ingredients</span>
               <ul className="recipe-modal-ing-list">
-                {recipe.ingredients.map((ing, i) => (
-                  <li key={i} className="recipe-modal-ing-item">{ing}</li>
+                {ingredients.map((ing, i) => (
+                  <li key={i} className="recipe-modal-ing-item">
+                    {ing.quantity && <span className="ing-qty">{ing.quantity}</span>}
+                    <span className="ing-name">{ing.name}</span>
+                  </li>
                 ))}
               </ul>
             </div>
           )}
 
-          {!recipe.ingredients?.length && !recipe.recipe_link && !recipe.tags?.length && (
+          {!ingredients.length && !recipe.recipe_link && !recipe.tags?.length && (
             <p className="recipe-modal-empty">No additional details.</p>
           )}
         </div>

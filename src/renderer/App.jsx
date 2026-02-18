@@ -5,7 +5,7 @@ import PlannerView  from './PlannerView';
 import { useRecipes, savePlan, listPlanFiles, readPlan } from './useRecipes';
 
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
-const MEALS = ['Breakfast','Lunch','Dinner'];
+const MEALS = ['Lunch','Dinner'];
 
 const defaultPlan = () =>
   DAYS.reduce((acc, day) => {
@@ -22,42 +22,99 @@ function formatPlanLabel(filename) {
 }
 
 export default function App() {
-  const [page,    setPage]    = useState('planner'); // 'planner' | 'editor'
-  // plannerView: 'current' | filename (MP_YYYY-MM-DD.json)
+  const [page,    setPage]    = useState('planner');
   const [plannerView, setPlannerView] = useState('current');
 
-  const [plan,    setPlan]    = useState(defaultPlan());
-  const [picker,  setPicker]  = useState(null);
+  const [plan,        setPlan]        = useState(null); // null until loaded
+  const [planLoading, setPlanLoading] = useState(true);
+  const [picker,      setPicker]      = useState(null);
 
-  // Archived plan files list
   const [planFiles,      setPlanFiles]      = useState([]);
   const [archivedPlan,   setArchivedPlan]   = useState(null);
   const [archiveLoading, setArchiveLoading] = useState(false);
 
   const { recipes, loading, error, sourceFile, reload } = useRecipes();
 
-  // Load plan file list on mount
   const refreshPlanFiles = useCallback(async () => {
     const files = await listPlanFiles();
     setPlanFiles(files);
+    return files;
   }, []);
 
-  useEffect(() => { refreshPlanFiles(); }, [refreshPlanFiles]);
-
-  // Auto-save plan on every change (debounced 800ms)
+  // Load current plan from latest MP file on mount
   useEffect(() => {
+    const loadCurrentPlan = async () => {
+      setPlanLoading(true);
+      try {
+        const files = await refreshPlanFiles();
+        
+        if (files.length > 0) {
+          // Load the newest MP file
+          const data = await readPlan(files[0]);
+          if (data) {
+            const normalized = defaultPlan();
+            DAYS.forEach(day => {
+              if (data[day]) {
+                MEALS.forEach(meal => {
+                  if (data[day][meal]) {
+                    normalized[day][meal] = data[day][meal];
+                  }
+                });
+              }
+            });
+            setPlan(normalized);
+          } else {
+            setPlan(defaultPlan());
+          }
+        } else {
+          // No saved plans, start fresh
+          setPlan(defaultPlan());
+        }
+      } catch {
+        setPlan(defaultPlan());
+      } finally {
+        setPlanLoading(false);
+      }
+    };
+
+    loadCurrentPlan();
+  }, [refreshPlanFiles]);
+
+  // Auto-save current plan on every change (debounced 800ms)
+  useEffect(() => {
+    if (!plan || plannerView !== 'current') return;
     const t = setTimeout(async () => {
       try { await savePlan(plan); refreshPlanFiles(); } catch {}
     }, 800);
     return () => clearTimeout(t);
-  }, [plan]);
+  }, [plan, plannerView, refreshPlanFiles]);
 
   // Load an archived plan when switching to it
   useEffect(() => {
-    if (plannerView === 'current') { setArchivedPlan(null); return; }
+    if (plannerView === 'current') { 
+      setArchivedPlan(null); 
+      return; 
+    }
     setArchiveLoading(true);
     readPlan(plannerView)
-      .then(data => setArchivedPlan(data))
+      .then(data => {
+        if (data) {
+          const normalized = defaultPlan();
+          DAYS.forEach(day => {
+            if (data[day]) {
+              MEALS.forEach(meal => {
+                if (data[day][meal]) {
+                  normalized[day][meal] = data[day][meal];
+                }
+              });
+            }
+          });
+          setArchivedPlan(normalized);
+        } else {
+          setArchivedPlan(defaultPlan());
+        }
+      })
+      .catch(() => setArchivedPlan(defaultPlan()))
       .finally(() => setArchiveLoading(false));
   }, [plannerView]);
 
@@ -70,8 +127,36 @@ export default function App() {
     closePicker();
   };
 
+  // When recipes are saved in editor, update recipes in current plan
+  const handleRecipesSaved = useCallback((updatedRecipes) => {
+    reload(); // reload from disk
+    
+    // Update current plan with fresh recipe data
+    setPlan(prev => {
+      if (!prev) return prev;
+      const next = {...prev};
+      DAYS.forEach(day => {
+        MEALS.forEach(meal => {
+          const current = prev[day]?.[meal];
+          if (!current) return;
+          
+          // Find matching recipe in updated data by name
+          const allUpdated = [
+            ...(updatedRecipes.winter_recipes||[]).map(r=>({...r,_season:'winter'})),
+            ...(updatedRecipes.summer_recipes||[]).map(r=>({...r,_season:'summer'}))
+          ];
+          const match = allUpdated.find(r => r.name === current.name);
+          if (match) {
+            next[day][meal] = match;
+          }
+        });
+      });
+      return next;
+    });
+  }, [reload]);
+
   const isReadonly = plannerView !== 'current';
-  const activePlan = isReadonly ? (archivedPlan || defaultPlan()) : plan;
+  const activePlan = isReadonly ? (archivedPlan || defaultPlan()) : (plan || defaultPlan());
 
   return (
     <div className="app">
@@ -90,12 +175,11 @@ export default function App() {
         </nav>
       </header>
 
-      {loading && <div className="app-status">Loading recipes…</div>}
-      {error   && <div className="app-status error">Error: {error}</div>}
+      {(loading || planLoading) && <div className="app-status">Loading…</div>}
+      {error && <div className="app-status error">Error: {error}</div>}
 
-      {!loading && page === 'planner' && (
+      {!loading && !planLoading && page === 'planner' && (
         <div className="app-layout-outer">
-          {/* ── Plan history sidebar ── */}
           <nav className="plan-sidebar">
             <div className="plan-sidebar-title">Plans</div>
 
@@ -119,7 +203,6 @@ export default function App() {
             ))}
           </nav>
 
-          {/* ── Planner content ── */}
           {archiveLoading
             ? <div className="app-status">Loading plan…</div>
             : <PlannerView
@@ -134,7 +217,7 @@ export default function App() {
       )}
 
       {!loading && page === 'editor' && (
-        <RecipeEditor recipes={recipes} sourceFile={sourceFile} onSaved={reload} />
+        <RecipeEditor recipes={recipes} sourceFile={sourceFile} onSaved={handleRecipesSaved} />
       )}
 
       {picker && recipes && (

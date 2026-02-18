@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import RecipeModal from './RecipeModal';
 
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
-const MEALS = ['Breakfast','Lunch','Dinner'];
+const MEALS = ['Lunch','Dinner'];
 
 export default function PlannerView({ plan, setPlan, readonly = false, openPicker }) {
   const [activeDay,    setActiveDay]    = useState('Monday');
@@ -47,8 +47,8 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
                   <div className="meal-selected">
                     <div
                       className="meal-selected-info meal-selected-clickable"
-                      onClick={() => setViewedRecipe(selected)}
-                      title="View recipe details"
+                      onClick={() => readonly ? setViewedRecipe(selected) : openPicker(activeDay, meal)}
+                      title={readonly ? "View recipe details" : "Change recipe"}
                     >
                       <span className="meal-selected-name">{selected.name}</span>
                       {selected.recipe_number && <span className="meal-selected-num">#{selected.recipe_number}</span>}
@@ -64,7 +64,7 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
                         <a className="meal-action-link" href={selected.recipe_link} target="_blank" rel="noreferrer" title="Open recipe">↗</a>
                       )}
                       {!readonly && <>
-                        <button className="meal-action-btn" onClick={() => openPicker(activeDay, meal)} title="Change">✎</button>
+                        <button className="meal-action-btn" onClick={() => setViewedRecipe(selected)} title="View details">📖</button>
                         <button className="meal-action-btn meal-action-clear" onClick={() => clearMeal(activeDay, meal)} title="Clear">✕</button>
                       </>}
                     </div>
@@ -90,12 +90,26 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
                 onClick={() => setActiveDay(day)}
               >
                 <div className="ov-day">{day.slice(0,3)}</div>
-                {MEALS.map(meal => (
-                  <div key={meal} className="ov-meal">
-                    <span className="ov-meal-type">{meal[0]}</span>
-                    <span className="ov-meal-name">{plan[day]?.[meal]?.name || '—'}</span>
-                  </div>
-                ))}
+                {MEALS.map(meal => {
+                  const recipe = plan[day]?.[meal];
+                  return (
+                    <div
+                      key={meal}
+                      className="ov-meal"
+                      onClick={(e) => {
+                        if (recipe) {
+                          e.stopPropagation();
+                          setViewedRecipe(recipe);
+                        }
+                      }}
+                    >
+                      <span className="ov-meal-type">{meal[0]}</span>
+                      <span className={`ov-meal-name ${recipe ? 'ov-meal-clickable' : ''}`}>
+                        {recipe?.name || '—'}
+                      </span>
+                    </div>
+                  );
+                })}
               </div>
             ))}
           </div>

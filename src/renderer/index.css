@@ -676,3 +676,41 @@ body {
 
 /* content now scrolls within planner-wrap */
 .planner-wrap .content { flex: 1; overflow-y: auto; }
+
+/* ── Overview meal clickable ── */
+.ov-meal-clickable {
+  cursor: pointer;
+  transition: color 0.12s;
+}
+.ov-meal-clickable:hover {
+  color: var(--accent);
+}
+
+/* ── Ingredient row with quantity ── */
+.ingredient-row-with-qty {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.ingredient-qty-input {
+  flex: 0 0 90px;
+  min-width: 90px;
+}
+
+/* ── Recipe modal ingredient with quantity ── */
+.recipe-modal-ing-item {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.ing-qty {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 700;
+  font-family: 'Syne', sans-serif;
+  flex-shrink: 0;
+  
+}
+.ing-name {
+  flex: 1;
+}

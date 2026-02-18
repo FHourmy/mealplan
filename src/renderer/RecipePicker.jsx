@@ -1,13 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 
 const LS_KEY = 'mealplan_picker_filters';
-
-const DEFAULT_FILTERS = {
-  season: 'winter',
-  sections: [],
-  tags: [],
-  search: '',
-};
+const DEFAULT_FILTERS = { season: 'winter', sections: [], tags: [], search: '' };
 
 function loadFilters() {
   try {
@@ -22,11 +16,7 @@ function saveFilters(f) {
 }
 
 function Toggle({ label, active, onClick }) {
-  return (
-    <button className={`filter-chip ${active ? 'active' : ''}`} onClick={onClick}>
-      {label}
-    </button>
-  );
+  return <button className={`filter-chip ${active ? 'active' : ''}`} onClick={onClick}>{label}</button>;
 }
 
 export default function RecipePicker({ recipes, onSelect, onClose }) {
@@ -40,7 +30,6 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
     return () => window.removeEventListener('keydown', h);
   }, [onClose]);
 
-  // Persist filters
   useEffect(() => { saveFilters(filters); }, [filters]);
 
   const set = useCallback((key, val) => setFilters(f => ({ ...f, [key]: val })), []);
@@ -73,7 +62,15 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
   const filtered = useMemo(() => pool.filter(r => {
     if (filters.sections.length && !filters.sections.includes(r.section)) return false;
     if (filters.tags.length && !filters.tags.some(t => (r.tags || []).includes(t))) return false;
-    if (filters.search && !r.name.toLowerCase().includes(filters.search.toLowerCase())) return false;
+    if (filters.search) {
+      const q = filters.search.toLowerCase();
+      const matchName = r.name.toLowerCase().includes(q);
+      const matchIngredients = (r.ingredients||[]).some(ing => {
+        const name = (typeof ing === 'string' ? ing : ing.name||'').toLowerCase();
+        return name.includes(q);
+      });
+      if (!matchName && !matchIngredients) return false;
+    }
     return true;
   }), [pool, filters]);
 
@@ -86,25 +83,25 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
 
   const hasActiveFilters = filters.sections.length || filters.tags.length || filters.search;
 
+  const normalizeIngredients = (ings) => {
+    if (!ings) return [];
+    return ings.map(ing => typeof ing === 'string' ? { name: ing, quantity: '' } : ing);
+  };
+
   return (
     <div className="picker-backdrop" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="picker-modal">
-
-        {/* Header */}
         <div className="picker-header">
           <h2 className="picker-title">Pick a Recipe</h2>
           <div className="picker-header-actions">
             {hasActiveFilters && (
-              <button className="picker-reset-btn" onClick={resetFilters} title="Reset all filters">
-                ↺ Reset
-              </button>
+              <button className="picker-reset-btn" onClick={resetFilters} title="Reset all filters">↺ Reset</button>
             )}
             <button className="picker-close" onClick={onClose}>✕</button>
           </div>
         </div>
 
         <div className="picker-filters">
-          {/* Season */}
           <div className="filter-row">
             <span className="filter-row-label">Season</span>
             <div className="chip-group">
@@ -113,7 +110,6 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
             </div>
           </div>
 
-          {/* Sections — multi-select chips */}
           {allSections.length > 0 && (
             <div className="filter-row filter-row-wrap">
               <span className="filter-row-label">Sections</span>
@@ -125,7 +121,6 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
             </div>
           )}
 
-          {/* Tags — multi-select chips */}
           {allTags.length > 0 && (
             <div className="filter-row filter-row-wrap">
               <span className="filter-row-label">Tags</span>
@@ -137,18 +132,16 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
             </div>
           )}
 
-          {/* Search */}
           <input
             ref={searchRef}
             className="picker-search"
             type="text"
-            placeholder="Search by name…"
+            placeholder="Search name or ingredients…"
             value={filters.search}
             onChange={e => set('search', e.target.value)}
           />
         </div>
 
-        {/* Count + random */}
         <div className="picker-toolbar">
           <span className="picker-count">{filtered.length} recipe{filtered.length !== 1 ? 's' : ''}</span>
           <button className="picker-random-btn" onClick={pickRandom} disabled={!filtered.length} title="Pick a random recipe">
@@ -156,32 +149,34 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
           </button>
         </div>
 
-        {/* List */}
         <ul className="picker-list">
           {filtered.length === 0 && <li className="picker-empty">No recipes match these filters</li>}
-          {filtered.map((recipe, i) => (
-            <li key={i} className="picker-item" onClick={() => { onSelect(recipe); onClose(); }}>
-              <div className="picker-item-main">
-                {recipe.recipe_number && <span className="picker-num">#{recipe.recipe_number}</span>}
-                <span className="picker-name">{recipe.name}</span>
-                {recipe.recipe_link && (
-                  <a className="picker-link" href={recipe.recipe_link} target="_blank" rel="noreferrer"
-                    onClick={e => e.stopPropagation()} title="Open recipe">↗</a>
-                )}
-              </div>
-              <div className="picker-item-meta">
-                <span className="picker-section">{recipe.section}</span>
-                {recipe.ingredients?.length > 0 && (
-                  <span className="picker-ing-count">{recipe.ingredients.length} ingredients</span>
-                )}
-                {recipe.tags?.length > 0 && (
-                  <span className="picker-tags-inline">
-                    {recipe.tags.map(t => <span key={t} className="tag-badge">{t}</span>)}
-                  </span>
-                )}
-              </div>
-            </li>
-          ))}
+          {filtered.map((recipe, i) => {
+            const ingredients = normalizeIngredients(recipe.ingredients);
+            return (
+              <li key={i} className="picker-item" onClick={() => { onSelect(recipe); onClose(); }}>
+                <div className="picker-item-main">
+                  {recipe.recipe_number && <span className="picker-num">#{recipe.recipe_number}</span>}
+                  <span className="picker-name">{recipe.name}</span>
+                  {recipe.recipe_link && (
+                    <a className="picker-link" href={recipe.recipe_link} target="_blank" rel="noreferrer"
+                      onClick={e => e.stopPropagation()} title="Open recipe">↗</a>
+                  )}
+                </div>
+                <div className="picker-item-meta">
+                  <span className="picker-section">{recipe.section}</span>
+                  {ingredients.length > 0 && (
+                    <span className="picker-ing-count">{ingredients.length} ingredients</span>
+                  )}
+                  {recipe.tags?.length > 0 && (
+                    <span className="picker-tags-inline">
+                      {recipe.tags.map(t => <span key={t} className="tag-badge">{t}</span>)}
+                    </span>
+                  )}
+                </div>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

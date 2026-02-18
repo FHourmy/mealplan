@@ -1,7 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { saveRecipes } from './useRecipes';
 
-const EMPTY_RECIPE = () => ({ recipe_number:'', name:'', section:'', ingredients:[''], recipe_link:'', tags:[''], _season:'winter' });
+const EMPTY_RECIPE = () => ({
+  recipe_number:'', name:'', section:'', 
+  ingredients:[{name:'',quantity:''}], 
+  recipe_link:'', tags:[''], _season:'winter'
+});
 
 export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
   const allRecipes = useMemo(() => [
@@ -22,7 +26,20 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
   const [saveMsg,setSaveMsg]=useState('');
   const [localList,setLocalList]=useState(null);
 
-  useEffect(()=>{ if(recipes&&!localList) setLocalList({winter_recipes:recipes.winter_recipes.map(r=>({...r})),summer_recipes:recipes.summer_recipes.map(r=>({...r}))}); },[recipes]);
+  useEffect(()=>{ 
+    if(recipes&&!localList) {
+      const normalize = r => ({
+        ...r,
+        ingredients: (r.ingredients||[]).map(ing => 
+          typeof ing === 'string' ? {name:ing,quantity:''} : {...ing, quantity:ing.quantity||''}
+        )
+      });
+      setLocalList({
+        winter_recipes:recipes.winter_recipes.map(normalize),
+        summer_recipes:recipes.summer_recipes.map(normalize)
+      }); 
+    }
+  },[recipes, localList]);
 
   const workingList = localList||{winter_recipes:[],summer_recipes:[]};
   const flatList = useMemo(()=>[
@@ -34,18 +51,53 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     if(filterSeason!=='all'&&r._season!==filterSeason) return false;
     if(filterSection&&r.section!==filterSection) return false;
     if(filterTags.length&&!filterTags.some(t=>(r.tags||[]).includes(t))) return false;
-    if(search&&!r.name.toLowerCase().includes(search.toLowerCase())) return false;
+    if(search) {
+      const q = search.toLowerCase();
+      const matchName = r.name.toLowerCase().includes(q);
+      const matchIngredients = (r.ingredients||[]).some(ing => {
+        const name = (typeof ing === 'string' ? ing : ing.name||'').toLowerCase();
+        return name.includes(q);
+      });
+      if(!matchName && !matchIngredients) return false;
+    }
     return true;
   }),[flatList,filterSeason,filterSection,filterTags,search]);
 
   function openNew(){ setForm(EMPTY_RECIPE()); setEditing('new'); setErrors({}); }
-  function openEdit(r){ setForm({recipe_number:r.recipe_number??'',name:r.name,section:r.section||'',ingredients:r.ingredients?.length?[...r.ingredients]:[''],recipe_link:r.recipe_link||'',tags:r.tags?.length?[...r.tags]:[''],_season:r._season,_idx:r._idx}); setEditing(`${r._season}-${r._idx}`); setErrors({}); }
+  function openEdit(r){ 
+    setForm({
+      recipe_number:r.recipe_number??'',
+      name:r.name,
+      section:r.section||'',
+      ingredients:(r.ingredients?.length?r.ingredients:[{name:'',quantity:''}]).map(ing=>({
+        name:ing.name||'',
+        quantity:ing.quantity||''
+      })),
+      recipe_link:r.recipe_link||'',
+      tags:r.tags?.length?[...r.tags]:[''],
+      _season:r._season,
+      _idx:r._idx
+    }); 
+    setEditing(`${r._season}-${r._idx}`); 
+    setErrors({}); 
+  }
   function closeEditor(){ setEditing(null); setForm(null); setErrors({}); }
   function setField(k,v){ setForm(f=>({...f,[k]:v})); }
 
-  function setIngredient(i,v){ setForm(f=>{const a=[...f.ingredients];a[i]=v;return{...f,ingredients:a};}); }
-  function addIngredient(){ setForm(f=>({...f,ingredients:[...f.ingredients,'']})); }
-  function removeIngredient(i){ setForm(f=>{const a=f.ingredients.filter((_,idx)=>idx!==i);return{...f,ingredients:a.length?a:['']};}); }
+  function setIngredient(i,field,v){ 
+    setForm(f=>{
+      const a=[...f.ingredients];
+      a[i]={...a[i],[field]:v};
+      return{...f,ingredients:a};
+    }); 
+  }
+  function addIngredient(){ setForm(f=>({...f,ingredients:[...f.ingredients,{name:'',quantity:''}]})); }
+  function removeIngredient(i){ 
+    setForm(f=>{
+      const a=f.ingredients.filter((_,idx)=>idx!==i);
+      return{...f,ingredients:a.length?a:[{name:'',quantity:''}]};
+    }); 
+  }
 
   function setTag(i,v){ setForm(f=>{const a=[...f.tags];a[i]=v;return{...f,tags:a};}); }
   function addTag(){ setForm(f=>({...f,tags:[...f.tags,'']})); }
@@ -55,9 +107,21 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     const e={};
     if(!form.name.trim()) e.name='Name is required';
     if(Object.keys(e).length){setErrors(e);return;}
-    const cleaned={name:form.name.trim(),section:form.section.trim(),ingredients:form.ingredients.map(s=>s.trim()).filter(Boolean),tags:form.tags.map(s=>s.trim()).filter(Boolean)};
+    
+    const cleaned={
+      name:form.name.trim(),
+      section:form.section.trim(),
+      ingredients:form.ingredients
+        .filter(ing=>ing.name && ing.name.trim())
+        .map(ing=>({
+          name:ing.name.trim(),
+          ...(ing.quantity && ing.quantity.trim() && {quantity:ing.quantity.trim()})
+        })),
+      tags:form.tags.map(s=>s.trim()).filter(Boolean)
+    };
     if(form.recipe_number!==''&&form.recipe_number!==null) cleaned.recipe_number=Number(form.recipe_number);
     if(form.recipe_link.trim()) cleaned.recipe_link=form.recipe_link.trim();
+    
     setLocalList(prev=>{
       const next={winter_recipes:[...prev.winter_recipes],summer_recipes:[...prev.summer_recipes]};
       const key=`${form._season}_recipes`;
@@ -70,12 +134,20 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
 
   function deleteRecipe(r){
     if(!window.confirm(`Delete "${r.name}"?`)) return;
-    setLocalList(prev=>{const next={winter_recipes:[...prev.winter_recipes],summer_recipes:[...prev.summer_recipes]};next[`${r._season}_recipes`]=next[`${r._season}_recipes`].filter((_,i)=>i!==r._idx);return next;});
+    setLocalList(prev=>{
+      const next={winter_recipes:[...prev.winter_recipes],summer_recipes:[...prev.summer_recipes]};
+      next[`${r._season}_recipes`]=next[`${r._season}_recipes`].filter((_,i)=>i!==r._idx);
+      return next;
+    });
   }
 
   async function handleSave(){
     setSaving(true);setSaveMsg('');
-    try{ const{filename}=await saveRecipes(workingList); setSaveMsg(`✓ Saved as ${filename}`); if(onSaved) onSaved(); }
+    try{ 
+      const{filename}=await saveRecipes(workingList); 
+      setSaveMsg(`✓ Saved as ${filename}`); 
+      if(onSaved) onSaved(workingList); // pass the saved data to parent
+    }
     catch(err){ setSaveMsg(`✗ ${err.message}`); }
     finally{ setSaving(false); }
   }
@@ -104,13 +176,14 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
           {allTags.length>0&&(
             <div className="chip-group chip-group-wrap">
               {allTags.map(t=>(
-                <button key={t} className={`filter-chip small ${filterTags.includes(t)?'active':''}`} onClick={()=>setFilterTags(prev=>prev.includes(t)?prev.filter(x=>x!==t):[...prev,t])}>
+                <button key={t} className={`filter-chip small ${filterTags.includes(t)?'active':''}`} 
+                  onClick={()=>setFilterTags(prev=>prev.includes(t)?prev.filter(x=>x!==t):[...prev,t])}>
                   {t}
                 </button>
               ))}
             </div>
           )}
-          <input className="picker-search" placeholder="Search…" value={search} onChange={e=>setSearch(e.target.value)}/>
+          <input className="picker-search" placeholder="Search name or ingredients…" value={search} onChange={e=>setSearch(e.target.value)}/>
         </div>
         <div className="editor-count">{filtered.length} recipe{filtered.length!==1?'s':''}</div>
         <ul className="editor-list">
@@ -186,8 +259,19 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
             <label className="form-label">Ingredients <span className="form-optional">optional</span></label>
             <div className="ingredients-list">
               {form.ingredients.map((ing,i)=>(
-                <div key={i} className="ingredient-row">
-                  <input className="form-input ingredient-input" value={ing} onChange={e=>setIngredient(i,e.target.value)} placeholder={`Ingredient ${i+1}`}/>
+                <div key={i} className="ingredient-row-with-qty">
+                  <input 
+                    className="form-input ingredient-qty-input" 
+                    value={ing.quantity||''} 
+                    onChange={e=>setIngredient(i,'quantity',e.target.value)} 
+                    placeholder="Qty"
+                  />
+                  <input 
+                    className="form-input ingredient-input" 
+                    value={ing.name||''} 
+                    onChange={e=>setIngredient(i,'name',e.target.value)} 
+                    placeholder={`Ingredient ${i+1}`}
+                  />
                   <button className="ing-remove-btn" onClick={()=>removeIngredient(i)} title="Remove">✕</button>
                 </div>
               ))}
