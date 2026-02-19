@@ -1,26 +1,13 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 
-const LS_KEY = 'mealplan_picker_filters';
 const DEFAULT_FILTERS = { season: 'winter', sections: [], tags: [], search: '' };
-
-function loadFilters() {
-  try {
-    const raw = localStorage.getItem(LS_KEY);
-    if (!raw) return DEFAULT_FILTERS;
-    return { ...DEFAULT_FILTERS, ...JSON.parse(raw) };
-  } catch { return DEFAULT_FILTERS; }
-}
-
-function saveFilters(f) {
-  try { localStorage.setItem(LS_KEY, JSON.stringify(f)); } catch {}
-}
 
 function Toggle({ label, active, onClick }) {
   return <button className={`filter-chip ${active ? 'active' : ''}`} onClick={onClick}>{label}</button>;
 }
 
-export default function RecipePicker({ recipes, onSelect, onClose }) {
-  const [filters, setFilters] = useState(loadFilters);
+export default function RecipePicker({ recipes, onSelect, onClose, initialFilters, onFiltersChange }) {
+  const [filters, setFilters] = useState(initialFilters || DEFAULT_FILTERS);
   const searchRef = useRef(null);
 
   useEffect(() => { searchRef.current?.focus(); }, []);
@@ -30,7 +17,15 @@ export default function RecipePicker({ recipes, onSelect, onClose }) {
     return () => window.removeEventListener('keydown', h);
   }, [onClose]);
 
-  useEffect(() => { saveFilters(filters); }, [filters]);
+  // Report filter changes back to parent - use a ref to avoid infinite loops
+  const filtersChangeRef = useRef(onFiltersChange);
+  filtersChangeRef.current = onFiltersChange;
+
+  useEffect(() => {
+    if (filtersChangeRef.current) {
+      filtersChangeRef.current(filters);
+    }
+  }, [filters]);
 
   const set = useCallback((key, val) => setFilters(f => ({ ...f, [key]: val })), []);
 

@@ -146,7 +146,7 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     try{ 
       const{filename}=await saveRecipes(workingList); 
       setSaveMsg(`✓ Saved as ${filename}`); 
-      if(onSaved) onSaved(workingList); // pass the saved data to parent
+      if(onSaved) onSaved(workingList);
     }
     catch(err){ setSaveMsg(`✗ ${err.message}`); }
     finally{ setSaving(false); }
@@ -188,7 +188,7 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
         <div className="editor-count">{filtered.length} recipe{filtered.length!==1?'s':''}</div>
         <ul className="editor-list">
           {filtered.map(r=>(
-            <li key={`${r._season}-${r._idx}`} className="editor-item">
+            <li key={`${r._season}-${r._idx}`} className="editor-item" onClick={()=>openEdit(r)}>
               <div className="editor-item-info">
                 {r.recipe_number&&<span className="picker-num">#{r.recipe_number}</span>}
                 <span className="editor-item-name">{r.name}</span>
@@ -197,8 +197,7 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
               <div className="editor-item-section">{r.section}</div>
               {r.tags?.length>0&&<div className="editor-item-tags">{r.tags.map(t=><span key={t} className="tag-badge">{t}</span>)}</div>}
               <div className="editor-item-actions">
-                <button className="editor-btn-edit" onClick={()=>openEdit(r)}>Edit</button>
-                <button className="editor-btn-delete" onClick={()=>deleteRecipe(r)}>Delete</button>
+                <button className="editor-btn-delete" onClick={(e)=>{e.stopPropagation();deleteRecipe(r);}}>Delete</button>
               </div>
             </li>
           ))}

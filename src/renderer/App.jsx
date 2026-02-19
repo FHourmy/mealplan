@@ -13,7 +13,15 @@ const defaultPlan = () =>
     return acc;
   }, {});
 
-// "MP_2026-02-17.json" → "Feb 17, 2026"
+const defaultFilters = () =>
+  DAYS.reduce((acc, day) => {
+    acc[day] = MEALS.reduce((m, meal) => { 
+      m[meal] = { season: 'winter', sections: [], tags: [], search: '' }; 
+      return m; 
+    }, {});
+    return acc;
+  }, {});
+
 function formatPlanLabel(filename) {
   const m = filename.match(/^MP_(\d{4})-(\d{2})-(\d{2})\.json$/);
   if (!m) return filename;
@@ -25,9 +33,11 @@ export default function App() {
   const [page,    setPage]    = useState('planner');
   const [plannerView, setPlannerView] = useState('current');
 
-  const [plan,        setPlan]        = useState(null); // null until loaded
+  const [plan,        setPlan]        = useState(null);
   const [planLoading, setPlanLoading] = useState(true);
   const [picker,      setPicker]      = useState(null);
+  
+  const [pickerFilters, setPickerFilters] = useState(defaultFilters());
 
   const [planFiles,      setPlanFiles]      = useState([]);
   const [archivedPlan,   setArchivedPlan]   = useState(null);
@@ -41,15 +51,12 @@ export default function App() {
     return files;
   }, []);
 
-  // Load current plan from latest MP file on mount
   useEffect(() => {
     const loadCurrentPlan = async () => {
       setPlanLoading(true);
       try {
         const files = await refreshPlanFiles();
-        
         if (files.length > 0) {
-          // Load the newest MP file
           const data = await readPlan(files[0]);
           if (data) {
             const normalized = defaultPlan();
@@ -67,7 +74,6 @@ export default function App() {
             setPlan(defaultPlan());
           }
         } else {
-          // No saved plans, start fresh
           setPlan(defaultPlan());
         }
       } catch {
@@ -76,11 +82,9 @@ export default function App() {
         setPlanLoading(false);
       }
     };
-
     loadCurrentPlan();
   }, [refreshPlanFiles]);
 
-  // Auto-save current plan on every change (debounced 800ms)
   useEffect(() => {
     if (!plan || plannerView !== 'current') return;
     const t = setTimeout(async () => {
@@ -89,7 +93,6 @@ export default function App() {
     return () => clearTimeout(t);
   }, [plan, plannerView, refreshPlanFiles]);
 
-  // Load an archived plan when switching to it
   useEffect(() => {
     if (plannerView === 'current') { 
       setArchivedPlan(null); 
@@ -127,11 +130,16 @@ export default function App() {
     closePicker();
   };
 
-  // When recipes are saved in editor, update recipes in current plan
+  const handlePickerFiltersChange = useCallback((filters) => {
+    if (!picker) return;
+    setPickerFilters(prev => ({
+      ...prev,
+      [picker.day]: { ...prev[picker.day], [picker.meal]: filters }
+    }));
+  }, [picker]);
+
   const handleRecipesSaved = useCallback((updatedRecipes) => {
-    reload(); // reload from disk
-    
-    // Update current plan with fresh recipe data
+    reload();
     setPlan(prev => {
       if (!prev) return prev;
       const next = {...prev};
@@ -139,8 +147,6 @@ export default function App() {
         MEALS.forEach(meal => {
           const current = prev[day]?.[meal];
           if (!current) return;
-          
-          // Find matching recipe in updated data by name
           const allUpdated = [
             ...(updatedRecipes.winter_recipes||[]).map(r=>({...r,_season:'winter'})),
             ...(updatedRecipes.summer_recipes||[]).map(r=>({...r,_season:'summer'}))
@@ -155,8 +161,50 @@ export default function App() {
     });
   }, [reload]);
 
+  const fillPlan = useCallback(() => {
+    if (!recipes || !plan) return;
+    
+    const allRecipes = [
+      ...(recipes.winter_recipes||[]).map(r=>({...r,_season:'winter'})),
+      ...(recipes.summer_recipes||[]).map(r=>({...r,_season:'summer'}))
+    ];
+    
+    setPlan(prev => {
+      const next = {...prev};
+      DAYS.forEach(day => {
+        MEALS.forEach(meal => {
+          if (next[day][meal]) return;
+          
+          const filter = pickerFilters[day][meal];
+          if (!filter.sections || filter.sections.length === 0) return;
+          
+          const candidates = allRecipes.filter(r => {
+            if (!filter.sections.includes(r.section)) return false;
+            if (filter.tags.length && !filter.tags.some(t => (r.tags||[]).includes(t))) return false;
+            if (filter.search && !r.name.toLowerCase().includes(filter.search.toLowerCase())) return false;
+            return true;
+          });
+          
+          if (candidates.length > 0) {
+            const random = candidates[Math.floor(Math.random() * candidates.length)];
+            next[day][meal] = random;
+          }
+        });
+      });
+      return next;
+    });
+  }, [recipes, plan, pickerFilters]);
+
+  const resetPlan = useCallback(() => {
+    if (!window.confirm('Reset the entire plan? This will clear all selected recipes and filters.')) return;
+    setPlan(defaultPlan());
+    setPickerFilters(defaultFilters());
+  }, []);
+
   const isReadonly = plannerView !== 'current';
   const activePlan = isReadonly ? (archivedPlan || defaultPlan()) : (plan || defaultPlan());
+
+  const currentPickerFilter = picker ? pickerFilters[picker.day]?.[picker.meal] : null;
 
   return (
     <div className="app">
@@ -208,9 +256,13 @@ export default function App() {
             : <PlannerView
                 plan={activePlan}
                 setPlan={setPlan}
+                filters={pickerFilters}
+                setFilters={setPickerFilters}
                 readonly={isReadonly}
                 recipes={recipes}
                 openPicker={openPicker}
+                fillPlan={fillPlan}
+                resetPlan={resetPlan}
               />
           }
         </div>
@@ -221,7 +273,13 @@ export default function App() {
       )}
 
       {picker && recipes && (
-        <RecipePicker recipes={recipes} onSelect={handleSelectRecipe} onClose={closePicker} />
+        <RecipePicker 
+          recipes={recipes} 
+          onSelect={handleSelectRecipe} 
+          onClose={closePicker}
+          initialFilters={currentPickerFilter}
+          onFiltersChange={handlePickerFiltersChange}
+        />
       )}
     </div>
   );

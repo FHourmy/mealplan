@@ -3,19 +3,19 @@
     {
       "recipe_number": 1,
       "name": "Potato & Nuggets/tof",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 sweet potato bake cut",
-          "quantity": ""
+          "name": "sweet potatoe bake cut",
+          "quantity": "1"
         },
         {
-          "name": "1 large potato bake cut",
-          "quantity": ""
+          "name": "large potato bake cut",
+          "quantity": "1"
         },
         {
-          "name": "1 nuggets/tofu fried",
-          "quantity": ""
+          "name": "nuggets/tofu fried",
+          "quantity": "1"
         },
         {
           "name": "Teriyaki sauce",
@@ -26,57 +26,58 @@
     {
       "recipe_number": 2,
       "name": "Budha Bowl 1",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1/3 chick peas",
-          "quantity": ""
+          "name": "chickpeas",
+          "quantity": "1/3"
         },
         {
-          "name": "1/2 glass rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1/2 glass"
         },
         {
-          "name": "1/3 bowl greens",
-          "quantity": ""
+          "name": "greens",
+          "quantity": "1/3 bowl"
         },
         {
-          "name": "1/2 avocado",
-          "quantity": ""
+          "name": "avocado",
+          "quantity": "1/2"
         }
       ]
     },
     {
-      "recipe_number": 3,
       "name": "Veggie Steak & Rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 glass rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1 glass"
         },
         {
-          "name": "1/2 veggie steak",
-          "quantity": ""
+          "name": "Vegan steak",
+          "quantity": "1/2"
         }
-      ]
+      ],
+      "tags": [],
+      "recipe_number": 3
     },
     {
       "recipe_number": 4,
       "name": "Soondubu Ramen",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 pack samyung ramen",
-          "quantity": ""
+          "name": "samyung ramen",
+          "quantity": "1 pack"
         },
         {
-          "name": "1 soft tofu",
-          "quantity": ""
+          "name": "soft tofu",
+          "quantity": "1"
         },
         {
-          "name": "1/4 mushroom",
-          "quantity": ""
+          "name": "mushroom",
+          "quantity": "1/4 "
         },
         {
           "name": "green onions",
@@ -85,36 +86,37 @@
       ]
     },
     {
-      "recipe_number": 5,
       "name": "Steak & pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "100g pasta",
-          "quantity": ""
+          "name": "pasta",
+          "quantity": "100g"
         },
         {
-          "name": "1/2 Vegan steak",
-          "quantity": ""
+          "name": "Vegan steak",
+          "quantity": "1/2"
         }
-      ]
+      ],
+      "tags": [],
+      "recipe_number": 5
     },
     {
       "recipe_number": 6,
       "name": "Hot dogs",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "4 buns",
-          "quantity": ""
+          "name": "buns",
+          "quantity": "4"
         },
         {
-          "name": "1 pack sausages",
-          "quantity": ""
+          "name": "sausages",
+          "quantity": "1 pack"
         },
         {
-          "name": "1 avocado",
-          "quantity": ""
+          "name": "avocado",
+          "quantity": "1"
         },
         {
           "name": "vegan cheese",
@@ -133,23 +135,23 @@
     {
       "recipe_number": 7,
       "name": "Spicy pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1/4 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/4 "
         },
         {
-          "name": "100g noodles",
-          "quantity": ""
+          "name": "noodles",
+          "quantity": "100g"
         },
         {
           "name": "Gochujang",
           "quantity": ""
         },
         {
-          "name": "1/4 Cabbage",
-          "quantity": ""
+          "name": "Cabbage",
+          "quantity": "1/4 "
         },
         {
           "name": "Garlic powder",
@@ -164,54 +166,54 @@
     {
       "recipe_number": 8,
       "name": "Red bean quesadillas",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1/2 can red beans",
-          "quantity": ""
+          "name": "red beans",
+          "quantity": "1/2 can"
         },
         {
-          "name": "1/4 Tomato sauce",
-          "quantity": ""
+          "name": "Tomato sauce",
+          "quantity": "1/4"
         },
         {
-          "name": "1 tbp nutritional yeast",
-          "quantity": ""
+          "name": "nutritional yeast",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "2 Tortilla",
-          "quantity": ""
+          "name": "Tortilla",
+          "quantity": "2"
         },
         {
-          "name": "1/2 avocado",
-          "quantity": ""
+          "name": "avocado",
+          "quantity": "1/2"
         }
       ]
     },
     {
       "recipe_number": 9,
       "name": "Pumpkin Pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "300g Pasta",
-          "quantity": ""
+          "name": "Pasta",
+          "quantity": "300g"
         },
         {
-          "name": "3/4 cup coconut milk canned",
-          "quantity": ""
+          "name": "coconut milk canned",
+          "quantity": "3/4 cup"
         },
         {
-          "name": "3/4 cup pumpkin canned",
-          "quantity": ""
+          "name": "pumpkin canned",
+          "quantity": "3/4 cup"
         },
         {
-          "name": "1/2 tsp garlic salt",
-          "quantity": ""
+          "name": "garlic salt",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1 tbsp nutritional yeast",
-          "quantity": ""
+          "name": "nutritional yeast",
+          "quantity": "1 tbsp"
         }
       ],
       "recipe_link": "https://www.thecheaplazyvegan.com/vegan-creamy-pumpkin-pasta/"
@@ -219,19 +221,19 @@
     {
       "recipe_number": 10,
       "name": "Rice & lentils (3)",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 cup Rice",
-          "quantity": ""
+          "name": "Rice",
+          "quantity": "1 cup"
         },
         {
-          "name": "1 can diced tomatoes",
-          "quantity": ""
+          "name": "diced tomatoes",
+          "quantity": "1 can"
         },
         {
-          "name": "1/2 cup red lentils",
-          "quantity": ""
+          "name": "red lentils",
+          "quantity": "1/2 cup"
         },
         {
           "name": "Brocoli",
@@ -242,8 +244,8 @@
           "quantity": ""
         },
         {
-          "name": "1/2 cup water",
-          "quantity": ""
+          "name": "water",
+          "quantity": "1/2 cup"
         },
         {
           "name": "(All in one pot)",
@@ -253,102 +255,102 @@
     },
     {
       "recipe_number": 11,
-      "name": "SP & Chick peas",
-      "section": "GRAIN & PROT",
+      "name": "SP & chickpeas",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 sweet potatoe",
-          "quantity": ""
+          "name": "sweet potatoe",
+          "quantity": "1"
         },
         {
-          "name": "1/3 chick peas",
-          "quantity": ""
+          "name": "chickpeas",
+          "quantity": "1/3"
         },
         {
-          "name": "1/2 tomato",
-          "quantity": ""
+          "name": "tomato",
+          "quantity": "1/2"
         },
         {
-          "name": "1/4 soy cream",
-          "quantity": ""
+          "name": "soy cream",
+          "quantity": "1/4"
         }
       ]
     },
     {
       "recipe_number": 12,
       "name": "Chili (x4)",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 Can tomatoes",
-          "quantity": ""
+          "name": "tomatoes",
+          "quantity": "1 can"
         },
         {
-          "name": "4 x Rice",
-          "quantity": ""
+          "name": "Rice",
+          "quantity": "4 x"
         },
         {
-          "name": "1 Can red beans",
-          "quantity": ""
+          "name": "red beans",
+          "quantity": "1 can"
         },
         {
           "name": "Spice",
           "quantity": ""
         },
         {
-          "name": "1 Onion",
-          "quantity": ""
+          "name": "Onion",
+          "quantity": "1"
         },
         {
-          "name": "4 gousses d'ail",
-          "quantity": ""
+          "name": "ail",
+          "quantity": "4 gousses"
         }
       ]
     },
     {
       "recipe_number": 13,
       "name": "One-Pot \"Baked\" Feta Pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "454 g silken tofu, *",
+          "name": "silken tofu",
+          "quantity": "454 g"
+        },
+        {
+          "name": "nutritional yeast",
+          "quantity": "⅓ cup"
+        },
+        {
+          "name": "lemon juice, or lime juice",
+          "quantity": "3 tbsp"
+        },
+        {
+          "name": "apple cider vinegar",
+          "quantity": "1 tbsp"
+        },
+        {
+          "name": "2 tsp garlic, minced, or 1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "⅓ cup nutritional yeast",
-          "quantity": ""
+          "name": "dried basil",
+          "quantity": "1 tsp"
         },
         {
-          "name": "3 tablespoons lemon juice, or lime juice",
-          "quantity": ""
+          "name": "dried oregano",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1 tablespoon apple cider vinegar",
-          "quantity": ""
+          "name": "salt",
+          "quantity": "1 tsp"
         },
         {
-          "name": "2 teaspoons garlic, minced, or 1 teaspoon garlic powder",
-          "quantity": ""
+          "name": "whole wheat pasta",
+          "quantity": "227g"
         },
         {
-          "name": "1 teaspoon dried basil",
-          "quantity": ""
-        },
-        {
-          "name": "1 teaspoon dried oregano",
-          "quantity": ""
-        },
-        {
-          "name": "1 teaspoon salt",
-          "quantity": ""
-        },
-        {
-          "name": "227 g whole wheat pasta",
-          "quantity": ""
-        },
-        {
-          "name": "1 pint cherry tomatoes",
-          "quantity": ""
+          "name": "cherry tomatoes",
+          "quantity": "1 pint"
         },
         {
           "name": "2 cups spinach, or fresh package of basil (.5 oz)",
@@ -364,64 +366,64 @@
     {
       "recipe_number": 14,
       "name": "Red beans & Rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "250g red beans",
-          "quantity": ""
+          "name": "red beans",
+          "quantity": "250g"
         },
         {
-          "name": "1/2 rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1/2"
         }
       ]
     },
     {
       "recipe_number": 15,
       "name": "SP & Red beans",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 Sweet potatoe",
-          "quantity": ""
+          "name": "Sweet potatoe",
+          "quantity": "1"
         },
         {
-          "name": "1/3 red bean can",
-          "quantity": ""
+          "name": "red bean",
+          "quantity": "1/3 can"
         }
       ]
     },
     {
       "recipe_number": 16,
       "name": "Chickpease & rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 glass rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1 glass"
         },
         {
-          "name": "1/3 chickpease",
-          "quantity": ""
+          "name": "chickpease",
+          "quantity": "1/3"
         }
       ]
     },
     {
       "recipe_number": 17,
       "name": "Gnoccis tom tofu",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "500 g gnoccis",
-          "quantity": ""
+          "name": "gnoccis",
+          "quantity": "500g"
         },
         {
-          "name": "150 g frozen tofu",
-          "quantity": ""
+          "name": "frozen tofu",
+          "quantity": "150g"
         },
         {
-          "name": "1 tomato sauce",
-          "quantity": ""
+          "name": "tomato sauce",
+          "quantity": "1"
         },
         {
           "name": "basil & ail & thyme",
@@ -440,11 +442,11 @@
     {
       "recipe_number": 18,
       "name": "Soy Tofu & rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 pack tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1 pack"
         },
         {
           "name": "onion/garlic/ginger/soy",
@@ -471,50 +473,50 @@
     {
       "recipe_number": 19,
       "name": "SP & Scrambled tofu x2",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "2 SP (cut & bake)",
-          "quantity": ""
+          "name": "sweet potatoe (cut & bake)",
+          "quantity": "2"
         },
         {
-          "name": "1 bell pepper",
-          "quantity": ""
+          "name": "bell pepper",
+          "quantity": "1"
         },
         {
-          "name": "1/2 shroom",
-          "quantity": ""
+          "name": "shroom",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 big block tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/2 big block"
         }
       ]
     },
     {
       "recipe_number": 20,
       "name": "Tofu Broc Rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1/3 tofu (steak, plain)",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/3 (steak, plain)"
         },
         {
-          "name": "100g broc",
-          "quantity": ""
+          "name": "broc",
+          "quantity": "100g"
         },
         {
-          "name": "100g rice (w/ soy & sesame oil)",
-          "quantity": ""
+          "name": "rice (w/ soy & sesame oil)",
+          "quantity": "100g"
         },
         {
           "name": "Black Himalayan salt",
           "quantity": ""
         },
         {
-          "name": "1/2 avocado",
-          "quantity": ""
+          "name": "avocado",
+          "quantity": "1/2"
         },
         {
           "name": "kimchi",
@@ -525,83 +527,83 @@
     {
       "recipe_number": 21,
       "name": "Curry Ramen",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "2 tablespoon olive oil",
-          "quantity": ""
+          "name": "olive oil",
+          "quantity": "2tbsp"
         },
         {
-          "name": "6 cloves garlic, minced",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "6 cloves minced"
         },
         {
-          "name": "1-2 inch piece ginger root,  grated",
-          "quantity": ""
+          "name": "ginger root",
+          "quantity": "1-2 inch piece grated"
         },
         {
-          "name": "1 ½ tablespoon curry powder",
-          "quantity": ""
+          "name": "curry powder",
+          "quantity": "1 ½ tbsp"
         },
         {
-          "name": "1 teaspoon garam masala",
-          "quantity": ""
+          "name": "garam masala",
+          "quantity": "1 tsp"
         },
         {
-          "name": "½ teaspoon cinnamon",
-          "quantity": ""
+          "name": "cinnamon",
+          "quantity": "½ tsp"
         },
         {
-          "name": "1 teaspoon salt",
-          "quantity": ""
+          "name": "salt",
+          "quantity": "1tsp"
         },
         {
-          "name": "½ teaspoon black pepper",
-          "quantity": ""
+          "name": "black pepper",
+          "quantity": "1/2tsp"
         },
         {
-          "name": "1 tablespoon chili garlic sauce",
-          "quantity": ""
+          "name": "chili garlic sauce",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "2 teaspoon tomato paste",
-          "quantity": ""
+          "name": "tomato paste",
+          "quantity": "2tsp"
         },
         {
-          "name": "6 cups low sodium vegetable stock (1440g)",
-          "quantity": ""
+          "name": "low sodium vegetable stock",
+          "quantity": "6 cups (1440g)"
         },
         {
-          "name": "1 ¾ cups coconut milk (450g)",
-          "quantity": ""
+          "name": "coconut milk",
+          "quantity": "1 ¾ cups (450g)"
         },
         {
-          "name": "3-4 packs dry ramen noodles",
-          "quantity": ""
+          "name": "dry ramen noodles",
+          "quantity": "3-4 packs"
         },
         {
-          "name": "2 small bok choy,  halved",
-          "quantity": ""
+          "name": "bok choy",
+          "quantity": "2 small, halved"
         },
         {
-          "name": "2 cups bean sprouts (220g)",
-          "quantity": ""
+          "name": "bean sprouts",
+          "quantity": "2 cups (220g)"
         },
         {
-          "name": "1 cup red cabbage,  chopped (90g)",
-          "quantity": ""
+          "name": "red cabbage",
+          "quantity": "1 cup chopped (90g)"
         },
         {
-          "name": "1 lime,  cut into wedges",
-          "quantity": ""
+          "name": "lime",
+          "quantity": "1 cut into wedges"
         },
         {
-          "name": "2 cups shelled, cooked edamame (320g)",
-          "quantity": ""
+          "name": "shelled, cooked edamame",
+          "quantity": "2 cups (320g)"
         },
         {
-          "name": "1 cup shredded carrots (185g)",
-          "quantity": ""
+          "name": "shredded carrots",
+          "quantity": "1 cup (185g)"
         },
         {
           "name": "black sesame seeds",
@@ -613,66 +615,66 @@
     {
       "recipe_number": 22,
       "name": "Tofu Paprikash",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
-          "quantity": ""
+          "name": "super firm tofu, cut into 8 squares (or desired size)",
+          "quantity": "2 blocks"
         },
         {
-          "name": "1 teaspoon garlic powder",
-          "quantity": ""
+          "name": "garlic powder",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1 teaspoon salt",
-          "quantity": ""
+          "name": "salt",
+          "quantity": "1 tsp"
         },
         {
-          "name": "½ teaspoon black pepper",
-          "quantity": ""
+          "name": "black pepper",
+          "quantity": "½ tsp"
         },
         {
-          "name": "3 tablespoon olive oil",
-          "quantity": ""
+          "name": "olive oil",
+          "quantity": "3 tbsp"
         },
         {
-          "name": "1 large sweet onion,  diced",
-          "quantity": ""
+          "name": "sweet onion",
+          "quantity": "1 large diced"
         },
         {
-          "name": "4 cloves garlic,  minced",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "4 cloves minced"
         },
         {
-          "name": "2 tablespoon tomato paste",
-          "quantity": ""
+          "name": "tomato paste",
+          "quantity": "2 tbsp"
         },
         {
-          "name": "4 tablespoon all purpose flour (use gluten free if needed)",
-          "quantity": ""
+          "name": "all purpose flour (use gluten free if needed)",
+          "quantity": "4 tbsp"
         },
         {
-          "name": "3 tablespoon sweet paprika",
-          "quantity": ""
+          "name": "sweet paprika",
+          "quantity": "3 tbsp"
         },
         {
-          "name": "½ teaspoon smoked paprika",
-          "quantity": ""
+          "name": "smoked paprika",
+          "quantity": "½ tsp"
         },
         {
-          "name": "2 cups vegetable broth",
-          "quantity": ""
+          "name": "vegetable broth",
+          "quantity": "2 cups "
         },
         {
-          "name": "½ cup coconut cream (can sub with vegan sour cream)",
-          "quantity": ""
+          "name": "coconut cream (can sub with vegan sour cream)",
+          "quantity": "½ cup"
         },
         {
-          "name": "¼ cup fresh parsley",
-          "quantity": ""
+          "name": "fresh parsley",
+          "quantity": "¼ cup"
         },
         {
-          "name": "red pepper flakes,  optional",
+          "name": "red pepper flakes, optional",
           "quantity": ""
         }
       ],
@@ -688,52 +690,52 @@
           "quantity": ""
         },
         {
-          "name": "2/3 Tofu",
-          "quantity": ""
+          "name": "Tofu",
+          "quantity": "2/3"
         },
         {
-          "name": "1/2 Mushroom",
-          "quantity": ""
+          "name": "Mushroom",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 Green pepper",
-          "quantity": ""
+          "name": "Green pepper",
+          "quantity": "1/2 "
         },
         {
-          "name": "1/2 cup milk",
-          "quantity": ""
+          "name": "milk",
+          "quantity": "1/2 cup"
         },
         {
-          "name": "2 Tranche pain",
-          "quantity": ""
+          "name": "pain",
+          "quantity": "2 Tranche"
         },
         {
           "name": "Bit of carrots",
           "quantity": ""
         },
         {
-          "name": "1tsp kala namak",
-          "quantity": ""
+          "name": "kala namak",
+          "quantity": "1tsp"
         },
         {
-          "name": "2 tb nutritional yeast",
-          "quantity": ""
+          "name": "nutritional yeast",
+          "quantity": "2 tb"
         },
         {
-          "name": "¼ tsp ground turmeric",
-          "quantity": ""
+          "name": "ground turmeric",
+          "quantity": "¼ tsp"
         },
         {
-          "name": "1/4 tsp salt",
-          "quantity": ""
+          "name": "salt",
+          "quantity": "1/4 tsp"
         },
         {
-          "name": "1/2 tsp black pepper",
-          "quantity": ""
+          "name": "black pepper",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1/2 tsp onion powder",
-          "quantity": ""
+          "name": "onion powder",
+          "quantity": "1/2 tsp"
         }
       ]
     },
@@ -754,44 +756,44 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/2 onion",
-          "quantity": ""
+          "name": "onion",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 garlic",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 mushroom",
-          "quantity": ""
+          "name": "mushroom",
+          "quantity": "1/2"
         },
         {
-          "name": "1 cups kimchi",
-          "quantity": ""
+          "name": "kimchi",
+          "quantity": "1 cup"
         },
         {
-          "name": "1/2 tbp gochujang",
-          "quantity": ""
+          "name": "gochujang",
+          "quantity": "1/2 tbsp"
         },
         {
           "name": "Veggie broth",
           "quantity": ""
         },
         {
-          "name": "1 stp brown sugar",
-          "quantity": ""
+          "name": "brown sugar",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1 tbp soy sauce",
-          "quantity": ""
+          "name": "soy sauce",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "1/2 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/2 "
         },
         {
-          "name": "1 glass rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1 glass"
         }
       ]
     },
@@ -801,24 +803,24 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "800g cauliflower",
-          "quantity": ""
+          "name": "cauliflower",
+          "quantity": "800g"
         },
         {
-          "name": "1 lemon",
-          "quantity": ""
+          "name": "lemon",
+          "quantity": "1"
         },
         {
-          "name": "1 soy cream",
-          "quantity": ""
+          "name": "soy cream",
+          "quantity": "1"
         },
         {
           "name": "Black pepper",
           "quantity": ""
         },
         {
-          "name": "2 tsp turmeric",
-          "quantity": ""
+          "name": "turmeric",
+          "quantity": "2 tsp"
         },
         {
           "name": "oil",
@@ -829,24 +831,24 @@
           "quantity": ""
         },
         {
-          "name": "1 tsp cinnamon",
-          "quantity": ""
+          "name": "cinnamon",
+          "quantity": "1 tsp"
         },
         {
-          "name": "3 tbs almonds",
-          "quantity": ""
+          "name": "almonds",
+          "quantity": "3 tbsp"
         },
         {
-          "name": "2 tsp chilly",
-          "quantity": ""
+          "name": "chilly",
+          "quantity": "2 tsp"
         },
         {
-          "name": "1 tsp ginger",
-          "quantity": ""
+          "name": "ginger",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1 tbp coriander",
-          "quantity": ""
+          "name": "coriander",
+          "quantity": "1 tbsp"
         }
       ]
     },
@@ -856,32 +858,32 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 Aubergine",
-          "quantity": ""
+          "name": "Aubergine",
+          "quantity": "1"
         },
         {
-          "name": "1 Can chickpeas",
-          "quantity": ""
+          "name": "chickpeas",
+          "quantity": "1 can"
         },
         {
-          "name": "1 tbp tomato sauce",
-          "quantity": ""
+          "name": "tomato sauce",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "1 Can tomatoes w/out sauce",
-          "quantity": ""
+          "name": "tomatoes w/out sauce",
+          "quantity": "1 can"
         },
         {
-          "name": "1 tbp tahini",
-          "quantity": ""
+          "name": "tahini",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "1 tsp chilli",
-          "quantity": ""
+          "name": "chilli",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1.5 tsp paprika",
-          "quantity": ""
+          "name": "paprika",
+          "quantity": "1.5 tsp"
         },
         {
           "name": "salt",
@@ -903,40 +905,40 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "2 cups walnuts or ground meat",
-          "quantity": ""
+          "name": "walnuts or ground meat",
+          "quantity": "2 cups"
         },
         {
-          "name": "1 red onion",
-          "quantity": ""
+          "name": "red onion",
+          "quantity": "1"
         },
         {
-          "name": "4 cloves garlic",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "4 cloves"
         },
         {
-          "name": "1/4 cup sun dried tomatoes in oil/tomato paste",
-          "quantity": ""
+          "name": "sun dried tomatoes in oil/tomato paste",
+          "quantity": "1/4 cup "
         },
         {
-          "name": "1 tbsp avocado (or olive) oil",
-          "quantity": ""
+          "name": "avocado (or olive) oil",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "1 tbsp  taco seasoning",
-          "quantity": ""
+          "name": "taco seasoning",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "2 tsp soy sauce",
-          "quantity": ""
+          "name": "soy sauce",
+          "quantity": "2 tsp"
         },
         {
-          "name": "1 juice of a lime",
-          "quantity": ""
+          "name": "juice of a lime",
+          "quantity": "1"
         },
         {
-          "name": "1 Avocados",
-          "quantity": ""
+          "name": "Avocados",
+          "quantity": "1"
         },
         {
           "name": "w/ Rice/Tacos/Pasta/Nachos",
@@ -951,12 +953,12 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1"
         },
         {
-          "name": "250g broccolis",
-          "quantity": ""
+          "name": "broccolis",
+          "quantity": "250g"
         }
       ]
     },
@@ -966,20 +968,20 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/4 can red beans",
-          "quantity": ""
+          "name": "red beans",
+          "quantity": "1/4 can"
         },
         {
-          "name": "1 glass rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1 glass"
         },
         {
-          "name": "1/4 aubergine",
-          "quantity": ""
+          "name": "aubergine",
+          "quantity": "1/4"
         },
         {
-          "name": "1 tomato",
-          "quantity": ""
+          "name": "tomato",
+          "quantity": "1"
         },
         {
           "name": "tomato & olive sauce",
@@ -993,32 +995,32 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/2 carrot",
-          "quantity": ""
+          "name": "carrot",
+          "quantity": "1/2"
         },
         {
-          "name": "1/4 brocoli",
-          "quantity": ""
+          "name": "brocoli",
+          "quantity": "1/4"
         },
         {
-          "name": "1/4 choux fleur",
-          "quantity": ""
+          "name": "choux fleur",
+          "quantity": "1/4"
         },
         {
-          "name": "1/4 onion",
-          "quantity": ""
+          "name": "onion",
+          "quantity": "1/4"
         },
         {
-          "name": "1/4 bell pepper",
-          "quantity": ""
+          "name": "bell pepper",
+          "quantity": "1/4"
         },
         {
-          "name": "1 rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1"
         },
         {
-          "name": "1/2 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/2"
         },
         {
           "name": "soy sauce",
@@ -1040,48 +1042,48 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "2 Eggplant cook 1H",
-          "quantity": ""
+          "name": "Eggplant cook 1H",
+          "quantity": "2"
         },
         {
-          "name": "1 small red Onions",
-          "quantity": ""
+          "name": "red Onions",
+          "quantity": "1 small"
         },
         {
-          "name": "2 small tomatoes",
-          "quantity": ""
+          "name": "tomatoes",
+          "quantity": "2 small"
         },
         {
-          "name": "1/4 Green chilli",
-          "quantity": ""
+          "name": "Green chilli",
+          "quantity": "1/4"
         },
         {
-          "name": "1 ts Garlic",
-          "quantity": ""
+          "name": "Garlic",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1/2 ts Ginger",
-          "quantity": ""
+          "name": "Ginger",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1 ts cumin",
-          "quantity": ""
+          "name": "cumin",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1 & 1/2 turmeric",
-          "quantity": ""
+          "name": "turmeric",
+          "quantity": "1 & 1/2"
         },
         {
-          "name": "1-2 garam masala",
-          "quantity": ""
+          "name": "garam masala",
+          "quantity": "1-2"
         },
         {
-          "name": "1 & 1/2 Curry",
-          "quantity": ""
+          "name": "Curry",
+          "quantity": "1 & 1/2"
         },
         {
-          "name": "200ml bouillon",
-          "quantity": ""
+          "name": "bouillon",
+          "quantity": "200ml"
         }
       ]
     },
@@ -1091,20 +1093,20 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/4 can olives",
-          "quantity": ""
+          "name": "olives",
+          "quantity": "1/4 can"
         },
         {
-          "name": "1/2 can chickpease",
-          "quantity": ""
+          "name": "chickpease",
+          "quantity": "1/2 can"
         },
         {
-          "name": "2 hearts letuce",
-          "quantity": ""
+          "name": "hearts letuce",
+          "quantity": "2"
         },
         {
-          "name": "1/2 can humus",
-          "quantity": ""
+          "name": "humus",
+          "quantity": "1/2 can"
         },
         {
           "name": "tortillas",
@@ -1118,24 +1120,24 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/2 Cauliflower",
-          "quantity": ""
+          "name": "Cauliflower",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 onion",
-          "quantity": ""
+          "name": "onion",
+          "quantity": "1/2"
         },
         {
-          "name": "2 tomatoes",
-          "quantity": ""
+          "name": "tomatoes",
+          "quantity": "2"
         },
         {
           "name": "Tortillas",
           "quantity": ""
         },
         {
-          "name": "1/2 can chickpease",
-          "quantity": ""
+          "name": "chickpease",
+          "quantity": "1/2 can"
         },
         {
           "name": "Tomato Paste",
@@ -1162,8 +1164,8 @@
           "quantity": ""
         },
         {
-          "name": "1 Avocado",
-          "quantity": ""
+          "name": "Avocado",
+          "quantity": "1"
         },
         {
           "name": "Lemon",
@@ -1177,20 +1179,20 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "250g ground beaf",
-          "quantity": ""
+          "name": "ground beaf",
+          "quantity": "250g"
         },
         {
-          "name": "1/4 tomato sauce",
-          "quantity": ""
+          "name": "tomato sauce",
+          "quantity": "1/4"
         },
         {
           "name": "chipotle spices",
           "quantity": ""
         },
         {
-          "name": "1 bell pepper",
-          "quantity": ""
+          "name": "bell pepper",
+          "quantity": "1"
         },
         {
           "name": "rice",
@@ -1204,12 +1206,12 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 can tomato",
-          "quantity": ""
+          "name": "tomato",
+          "quantity": "1 can"
         },
         {
-          "name": "1 can beans",
-          "quantity": ""
+          "name": "beans",
+          "quantity": "1 can"
         },
         {
           "name": "cumin",
@@ -1224,8 +1226,8 @@
           "quantity": ""
         },
         {
-          "name": "1 bell pepper",
-          "quantity": ""
+          "name": "bell pepper",
+          "quantity": "1"
         },
         {
           "name": "rice",
@@ -1239,16 +1241,16 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "250g Kale",
-          "quantity": ""
+          "name": "Kale",
+          "quantity": "250g"
         },
         {
-          "name": "100g rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "100g"
         },
         {
-          "name": "100g edamame/gb",
-          "quantity": ""
+          "name": "edamame/gb",
+          "quantity": "100g"
         },
         {
           "name": "garlic",
@@ -1282,20 +1284,20 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "250g kale",
-          "quantity": ""
+          "name": "kale",
+          "quantity": "250g"
         },
         {
-          "name": "3/4 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "3/4"
         },
         {
           "name": "seasoning",
           "quantity": ""
         },
         {
-          "name": "1 tomato",
-          "quantity": ""
+          "name": "tomato",
+          "quantity": "1"
         }
       ]
     },
@@ -1305,20 +1307,20 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 steak",
-          "quantity": ""
+          "name": "vegan steak",
+          "quantity": "1"
         },
         {
-          "name": "1/2 rice",
-          "quantity": ""
+          "name": "rice",
+          "quantity": "1/2"
         },
         {
-          "name": "1 bok choy",
-          "quantity": ""
+          "name": "bok choy",
+          "quantity": "1"
         },
         {
-          "name": "1/4 mushrooms",
-          "quantity": ""
+          "name": "mushrooms",
+          "quantity": "1/4"
         }
       ]
     },
@@ -1328,28 +1330,28 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 Kabocha",
-          "quantity": ""
+          "name": "Kabocha",
+          "quantity": "1"
         },
         {
-          "name": "3 cups Water",
-          "quantity": ""
+          "name": "Water",
+          "quantity": "3 cups"
         },
         {
-          "name": "1 tsp Salt",
-          "quantity": ""
+          "name": "Salt",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1+ tbsp Sugar",
-          "quantity": ""
+          "name": "Sugar",
+          "quantity": "1+ tbsp"
         },
         {
           "name": "1/4 cup Maizena + 1/4 cup water",
           "quantity": ""
         },
         {
-          "name": "1/2 Gnoccis",
-          "quantity": ""
+          "name": "Gnoccis",
+          "quantity": "1/2"
         }
       ],
       "recipe_link": "https://www.thecheaplazyvegan.com/korean-pumpkin-porridge/"
@@ -1360,24 +1362,24 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 salade",
-          "quantity": ""
+          "name": "salade",
+          "quantity": "1"
         },
         {
-          "name": "1 pack steak",
-          "quantity": ""
+          "name": "steak",
+          "quantity": "1 pack"
         },
         {
-          "name": "1/2 pack burger bread",
-          "quantity": ""
+          "name": "burger bread",
+          "quantity": "1/2 pack"
         },
         {
-          "name": "1 tomato",
-          "quantity": ""
+          "name": "tomato",
+          "quantity": "1"
         },
         {
-          "name": "1 faux-mage slices",
-          "quantity": ""
+          "name": "faux-mage slices",
+          "quantity": "1"
         },
         {
           "name": "vegan mayo",
@@ -1392,8 +1394,8 @@
           "quantity": ""
         },
         {
-          "name": "1 frites",
-          "quantity": ""
+          "name": "frites",
+          "quantity": "1"
         }
       ]
     },
@@ -1403,60 +1405,60 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "4 cup broth (kelp)",
-          "quantity": ""
+          "name": "broth (kelp)",
+          "quantity": "4 cup "
         },
         {
-          "name": "1 tsp sugar",
-          "quantity": ""
+          "name": "sugar",
+          "quantity": "1 tsp"
         },
         {
-          "name": "1/2 tbs garlic powder",
-          "quantity": ""
+          "name": "garlic powder",
+          "quantity": "1/2 tbsp"
         },
         {
-          "name": "1 tbs gochujang",
-          "quantity": ""
+          "name": "gochujang",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "1 tbs gochukaru",
-          "quantity": ""
+          "name": "gochukaru",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "3 tbs water",
-          "quantity": ""
+          "name": "water",
+          "quantity": "3 tbsp"
         },
         {
-          "name": "1/2 kimchi",
-          "quantity": ""
+          "name": "kimchi",
+          "quantity": "1/2"
         },
         {
-          "name": "1/2 onion",
-          "quantity": ""
+          "name": "onion",
+          "quantity": "1/2"
         },
         {
-          "name": "250g mushroom",
-          "quantity": ""
+          "name": "mushroom",
+          "quantity": "250g"
         },
         {
-          "name": "2 vegan sausage",
-          "quantity": ""
+          "name": "vegan sausage",
+          "quantity": "2"
         },
         {
-          "name": "2 green onions",
-          "quantity": ""
+          "name": "green onions",
+          "quantity": "2"
         },
         {
-          "name": "1/4 tofu",
-          "quantity": ""
+          "name": "tofu",
+          "quantity": "1/4"
         },
         {
-          "name": "1/3 rice cake/gnocci",
-          "quantity": ""
+          "name": "rice cake/gnocci",
+          "quantity": "1/3"
         },
         {
-          "name": "1 ramen package",
-          "quantity": ""
+          "name": "ramen package",
+          "quantity": "1"
         }
       ]
     },
@@ -1466,68 +1468,68 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "2 tablespoons olive oil",
-          "quantity": ""
+          "name": "olive oil",
+          "quantity": "2 tbsp"
         },
         {
-          "name": "▢ 1 large yellow onion, diced",
-          "quantity": ""
+          "name": "large yellow onion, diced",
+          "quantity": "1"
         },
         {
-          "name": "▢ 6-8 cloves garlic, minced",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "6-8 cloves minced"
         },
         {
-          "name": "▢ 1 tablespoon fresh ginger, grated",
-          "quantity": ""
+          "name": "fresh ginger, grated",
+          "quantity": "1 tbsp"
         },
         {
-          "name": "▢ 1 ½ teaspoons cumin",
-          "quantity": ""
+          "name": "cumin",
+          "quantity": "1 ½ tsp"
         },
         {
-          "name": "▢ 1 teaspoon ground coriander",
-          "quantity": ""
+          "name": "ground coriander",
+          "quantity": "1 tsp"
         },
         {
-          "name": "▢ 1 teaspoon Turmeric",
-          "quantity": ""
+          "name": "Turmeric",
+          "quantity": "1 tsp"
         },
         {
-          "name": "▢ ½ teaspoon Black pepper",
-          "quantity": ""
+          "name": "Black pepper",
+          "quantity": "½ tsp"
         },
         {
-          "name": "▢ ½ teaspoon Smoked paprika",
-          "quantity": ""
+          "name": "Smoked paprika",
+          "quantity": "½ tsp"
         },
         {
-          "name": "▢ ½ teaspoon Garam masala",
-          "quantity": ""
+          "name": "Garam masala",
+          "quantity": "½ tsp"
         },
         {
-          "name": "▢ ½ teaspoon Salt",
-          "quantity": ""
+          "name": "Salt",
+          "quantity": "½ tsp"
         },
         {
-          "name": "▢ 4 cups low or no sodium vegetable broth (960g)",
-          "quantity": ""
+          "name": "low or no sodium vegetable broth",
+          "quantity": "4 cups (960g)"
         },
         {
-          "name": "▢ 30 ounces cans chickpeas, drained and rinsed (2 cans or 850g)",
-          "quantity": ""
+          "name": "30 ounces cans chickpeas, drained and rinsed",
+          "quantity": "2 cans or 850g"
         },
         {
-          "name": "▢ 5-6 cups broccoli florets, cut into bite size pieces (450g)",
-          "quantity": ""
+          "name": "broccoli florets, cut into bite size pieces",
+          "quantity": "5-6 cups (450g)"
         },
         {
-          "name": "▢ 13.5 ounces canned coconut milk, (382g)",
-          "quantity": ""
+          "name": "canned coconut milk",
+          "quantity": "13.5 ounces (382g)"
         },
         {
-          "name": "▢ 1 tablespoon lemon juice",
-          "quantity": ""
+          "name": "lemon juice",
+          "quantity": "1 tbsp"
         }
       ],
       "recipe_link": "https://makeitdairyfree.com/creamy-broccoli-and-chickpea-soup/"
@@ -1538,56 +1540,56 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/2 mush",
-          "quantity": ""
+          "name": "mushroom",
+          "quantity": "1/2"
         },
         {
-          "name": "2 zuccini",
-          "quantity": ""
+          "name": "zuccini",
+          "quantity": "2"
         },
         {
-          "name": "1/2 onion",
-          "quantity": ""
+          "name": "onion",
+          "quantity": "1/2"
         },
         {
-          "name": "50g broc",
-          "quantity": ""
+          "name": "broc",
+          "quantity": "50g"
         },
         {
-          "name": "1 carrots",
-          "quantity": ""
+          "name": "carrots",
+          "quantity": "1"
         },
         {
           "name": "olive oil",
           "quantity": ""
         },
         {
-          "name": "1 can chick",
-          "quantity": ""
+          "name": "chickpeas",
+          "quantity": "1 can"
         },
         {
-          "name": "4 garlic",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "4"
         },
         {
           "name": "splash of water",
           "quantity": ""
         },
         {
-          "name": "4tb soy sauce",
-          "quantity": ""
+          "name": "soy sauce",
+          "quantity": "4tbsp"
         },
         {
-          "name": "1tb rice vinegar",
-          "quantity": ""
+          "name": "rice vinegar",
+          "quantity": "1tbsp"
         },
         {
-          "name": "1tb maple sirup",
-          "quantity": ""
+          "name": "maple sirup",
+          "quantity": "1tbsp"
         },
         {
-          "name": "1tb peanut butter",
-          "quantity": ""
+          "name": "peanut butter",
+          "quantity": "1tbsp"
         },
         {
           "name": "water",
@@ -1613,64 +1615,64 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1 1/2 tsp garlic powder",
-          "quantity": ""
+          "name": "garlic powder",
+          "quantity": "1 1/2 tsp"
         },
         {
-          "name": "1 tsp smoked paprika",
-          "quantity": ""
+          "name": "smoked paprika",
+          "quantity": "1 tsp"
         },
         {
-          "name": "3/4 tsp cinnamon",
-          "quantity": ""
+          "name": "cinnamon",
+          "quantity": "3/4 tsp"
         },
         {
-          "name": "1/2 tsp  dried basil",
-          "quantity": ""
+          "name": "dried basil",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1/2 tsp dried thyme",
-          "quantity": ""
+          "name": "dried thyme",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1/2 tsp cumin",
-          "quantity": ""
+          "name": "cumin",
+          "quantity": "1/2 tsp "
         },
         {
-          "name": "1/2 tsp fennel/cumin  seeds",
-          "quantity": ""
+          "name": "fennel/cumin seeds",
+          "quantity": "1/2 tsp"
         },
         {
-          "name": "1/4 tsp ground cloves",
-          "quantity": ""
+          "name": "ground cloves",
+          "quantity": "1/4 tsp"
         },
         {
           "name": "salt and pepper",
           "quantity": ""
         },
         {
-          "name": "425g can chickpeas",
-          "quantity": ""
+          "name": "chickpeas",
+          "quantity": "425g can"
         },
         {
-          "name": "1 large sweet potato",
-          "quantity": ""
+          "name": "sweet potatoe",
+          "quantity": "1 large"
         },
         {
-          "name": "2-3 tbsp olive oil",
-          "quantity": ""
+          "name": "olive oil",
+          "quantity": "2-3 tbsp "
         },
         {
-          "name": "1 baby  bok choy",
-          "quantity": ""
+          "name": "bok choy",
+          "quantity": "1 baby"
         },
         {
-          "name": "1 small  red onion",
-          "quantity": ""
+          "name": "red onion",
+          "quantity": "1 small"
         },
         {
-          "name": "3 cloves  garlic",
-          "quantity": ""
+          "name": "garlic",
+          "quantity": "3 cloves"
         },
         {
           "name": "w/ grains",
@@ -1877,7 +1879,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbs lemon juice",
+          "name": "1 tbsp lemon juice",
           "quantity": ""
         },
         {
@@ -2047,7 +2049,7 @@
           "quantity": ""
         },
         {
-          "name": "2 tbs Rice Vinegar",
+          "name": "2 tbsp Rice Vinegar",
           "quantity": ""
         },
         {
@@ -2059,11 +2061,11 @@
           "quantity": ""
         },
         {
-          "name": "3 tbs Aminos",
+          "name": "3 tbsp Aminos",
           "quantity": ""
         },
         {
-          "name": "3 tbs Tahini",
+          "name": "3 tbsp Tahini",
           "quantity": ""
         },
         {
@@ -2075,7 +2077,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbs Dried Tarragon",
+          "name": "1 tbsp Dried Tarragon",
           "quantity": ""
         },
         {
@@ -2083,7 +2085,7 @@
           "quantity": ""
         },
         {
-          "name": "2 tbs Pumpkin Seeds",
+          "name": "2 tbsp Pumpkin Seeds",
           "quantity": ""
         },
         {
@@ -2207,7 +2209,7 @@
     },
     {
       "recipe_number": 32,
-      "name": "Sweet Potato Chilli Coconut Soup",
+      "name": "sweet potatoe Chilli Coconut Soup",
       "section": "PROT & VEG",
       "ingredients": [
         {
@@ -2411,15 +2413,15 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch",
+          "name": "1 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon low sodium soy sauce",
+          "name": "2 tsp low sodium soy sauce",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon extra virgin olive oil",
+          "name": "2 tsp extra virgin olive oil",
           "quantity": ""
         },
         {
@@ -2435,7 +2437,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon extra virgin olive oil",
+          "name": "1 tbsp extra virgin olive oil",
           "quantity": ""
         },
         {
@@ -2455,11 +2457,11 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoon brown sugar (can sub with maple syrup)",
+          "name": "3 tbsp brown sugar (can sub with maple syrup)",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
@@ -2471,11 +2473,11 @@
           "quantity": ""
         },
         {
-          "name": "¼-1/2 teaspoon red pepper flakes,  optional",
+          "name": "¼-1/2 tsp red pepper flakes,  optional",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch",
+          "name": "1 tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -2806,11 +2808,11 @@
           "quantity": ""
         },
         {
-          "name": "1-2 tablespoon cornstarch",
+          "name": "1-2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon olive oil,  divided",
+          "name": "3 tbsp olive oil,  divided",
           "quantity": ""
         },
         {
@@ -2822,11 +2824,11 @@
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt,  more to taste",
+          "name": "¼ tsp salt,  more to taste",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon black pepper,  more to taste",
+          "name": "¼ tsp black pepper,  more to taste",
           "quantity": ""
         },
         {
@@ -2834,11 +2836,11 @@
           "quantity": ""
         },
         {
-          "name": "3-4 tablespoon water",
+          "name": "3-4 tbsp water",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon fresh ginger,  minced",
+          "name": "½ tsp fresh ginger,  minced",
           "quantity": ""
         },
         {
@@ -2862,7 +2864,7 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon cornstarch",
+          "name": "1 ½ tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -2870,19 +2872,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon toasted sesame oil",
+          "name": "1 tsp toasted sesame oil",
           "quantity": ""
         },
         {
@@ -2898,19 +2900,19 @@
           "quantity": ""
         },
         {
-          "name": "1 teaspoon garlic powder",
+          "name": "1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon olive oil",
+          "name": "3 tbsp olive oil",
           "quantity": ""
         },
         {
@@ -2922,19 +2924,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon tomato paste",
+          "name": "2 tbsp tomato paste",
           "quantity": ""
         },
         {
-          "name": "4 tablespoon all purpose flour (use gluten free if needed)",
+          "name": "4 tbsp all purpose flour (use gluten free if needed)",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon sweet paprika",
+          "name": "3 tbsp sweet paprika",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
@@ -2970,51 +2972,51 @@
           "quantity": ""
         },
         {
-          "name": "▢ 1 large sweet potato, cubed",
+          "name": "1 large sweet potatoe, cubed",
           "quantity": ""
         },
         {
-          "name": "▢ 1 beet, cubed",
+          "name": "1 beet, cubed",
           "quantity": ""
         },
         {
-          "name": "▢ 1 parsnip, cubed",
+          "name": "1 parsnip, cubed",
           "quantity": ""
         },
         {
-          "name": "▢ 2 large carrots, cubed",
+          "name": "2 large carrots, cubed",
           "quantity": ""
         },
         {
-          "name": "▢ 2 small red onions, sliced",
+          "name": "2 small red onions, sliced",
           "quantity": ""
         },
         {
-          "name": "▢ 6-7 leaves fresh Sage, chopped",
+          "name": "6-7 leaves fresh Sage, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 1 sprig Rosemary, chopped",
+          "name": "1 sprig Rosemary, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon fresh Oregano, chopped",
+          "name": "1 tsp fresh Oregano, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 1 sprig Thyme, chopped",
+          "name": "1 sprig Thyme, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 2 tablespoon apple cider vinegar",
+          "name": "2 tbsp apple cider vinegar",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon olive oil",
+          "name": "1 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon each Salt and pepper",
+          "name": "¼ tsp each Salt and pepper",
           "quantity": ""
         },
         {
@@ -3022,47 +3024,47 @@
           "quantity": ""
         },
         {
-          "name": "▢ 2 cups vegetable stock (or water)",
+          "name": "2 cups vegetable stock (or water)",
           "quantity": ""
         },
         {
-          "name": "▢ 1 cup uncooked brown basmati rice, rinsed",
+          "name": "1 cup uncooked brown basmati rice, rinsed",
           "quantity": ""
         },
         {
-          "name": "▢ ½ tablespoon olive oil",
+          "name": "½ tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon Brown mustard seed",
+          "name": "1 tsp Brown mustard seed",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon turmeric",
+          "name": "1 tsp turmeric",
           "quantity": ""
         },
         {
-          "name": "▢ ⅛ teaspoon salt",
+          "name": "⅛ tsp salt",
           "quantity": ""
         },
         {
-          "name": "▢ ⅛ teaspoon black pepper",
+          "name": "⅛ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ 2 cloves garlic, minced",
+          "name": "2 cloves garlic, minced",
           "quantity": ""
         },
         {
-          "name": "▢ 1 inch fresh ginger, chopped",
+          "name": "1 inch fresh ginger, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 1 lemon, zested",
+          "name": "1 lemon, zested",
           "quantity": ""
         },
         {
-          "name": "▢ ½ lemon, juiced",
+          "name": "½ lemon, juiced",
           "quantity": ""
         },
         {
@@ -3070,35 +3072,35 @@
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon olive oil",
+          "name": "1 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "▢ 15 oz can chickpeas, drained and rinsed",
+          "name": "15 oz can chickpeas, drained and rinsed",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon garam masala",
+          "name": "½ tsp garam masala",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon cane sugar",
+          "name": "½ tsp cane sugar",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon curry powder",
+          "name": "¼ tsp curry powder",
           "quantity": ""
         },
         {
-          "name": "▢ ⅛ teaspoon salt",
+          "name": "⅛ tsp salt",
           "quantity": ""
         },
         {
-          "name": "▢ ⅛ teaspoon black pepper",
+          "name": "⅛ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ ½ lemon, juiced",
+          "name": "½ lemon, juiced",
           "quantity": ""
         }
       ],
@@ -3110,7 +3112,7 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
@@ -3126,23 +3128,23 @@
           "quantity": ""
         },
         {
-          "name": "1 teaspoon ground cumin",
+          "name": "1 tsp ground cumin",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon paprika powder",
+          "name": "1 tsp paprika powder",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon smoked paprika powder (optional)",
+          "name": "½ tsp smoked paprika powder (optional)",
           "quantity": ""
         },
         {
-          "name": "⅓ teaspoon turmeric",
+          "name": "⅓ tsp turmeric",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon tomato paste",
+          "name": "1 tbsp tomato paste",
           "quantity": ""
         },
         {
@@ -3190,11 +3192,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon salt",
+          "name": "½ tsp salt",
           "quantity": ""
         },
         {
@@ -3210,23 +3212,23 @@
           "quantity": ""
         },
         {
-          "name": "2 ½ tablespoon nutritional yeast",
+          "name": "2 ½ tbsp nutritional yeast",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon garlic powder",
+          "name": "1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon paprika",
+          "name": "1 tsp paprika",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon oregano",
+          "name": "½ tsp oregano",
           "quantity": ""
         },
         {
@@ -3234,7 +3236,7 @@
           "quantity": ""
         },
         {
-          "name": "¼-1/2 teaspoon black pepper",
+          "name": "¼-1/2 tsp black pepper",
           "quantity": ""
         }
       ],
@@ -3273,15 +3275,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon soy sauce",
+          "name": "3 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -3293,11 +3295,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon cornstarch",
+          "name": "2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2  tablespoon water",
+          "name": "2  tbsp water",
           "quantity": ""
         },
         {
@@ -3309,31 +3311,31 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon soy sauce",
+          "name": "2 tbsp soy sauce",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon sesame oil",
+          "name": "1 tbsp sesame oil",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon white vinegar",
+          "name": "2 tsp white vinegar",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon garlic powder",
+          "name": "½ tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon white pepper",
+          "name": "¼ tsp white pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon cornstarch onto the tofu",
+          "name": "3 tbsp cornstarch onto the tofu",
           "quantity": ""
         },
         {
@@ -3441,15 +3443,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoons of toasted sesame oil",
+          "name": "2  tbsp of toasted sesame oil",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
+          "name": "2  tbsp of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
           "quantity": ""
         },
         {
-          "name": "3 tablespoons of perilla seed  flour (deulkkae garu)",
+          "name": "3  tbsp of perilla seed  flour (deulkkae garu)",
           "quantity": ""
         },
         {
@@ -3705,31 +3707,31 @@
           "quantity": ""
         },
         {
-          "name": "▢ 1  teaspoon agave",
+          "name": "1  tsp agave",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon toasted sesame oil (optional)",
+          "name": "½ tsp toasted sesame oil (optional)",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon red pepper flakes,  more or less to taste",
+          "name": "¼ tsp red pepper flakes,  more or less to taste",
           "quantity": ""
         },
         {
-          "name": "▢ 3 tablespoon vegan butter  (or oil*)",
+          "name": "3 tbsp vegan butter  (or oil*)",
           "quantity": ""
         },
         {
-          "name": "▢ 1 ½ cups frozen veggies (200g)",
+          "name": "1 ½ cups frozen veggies (200g)",
           "quantity": ""
         },
         {
-          "name": "▢ 4 cups day old cooked rice, white or brown (485g)",
+          "name": "4 cups day old cooked rice, white or brown (485g)",
           "quantity": ""
         },
         {
-          "name": "▢ green onions,  thinly sliced",
+          "name": "green onions,  thinly sliced",
           "quantity": ""
         }
       ],
@@ -3745,19 +3747,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon rice wine vinegar",
+          "name": "1 ½ tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon chili paste",
+          "name": "2 tsp chili paste",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon sesame oil",
+          "name": "1 tsp sesame oil",
           "quantity": ""
         },
         {
@@ -3773,11 +3775,11 @@
           "quantity": ""
         },
         {
-          "name": "2-3 tablespoon cornstarch",
+          "name": "2-3 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon brown sugar (can sub lime juice)",
+          "name": "3 tbsp brown sugar (can sub lime juice)",
           "quantity": ""
         },
         {
@@ -3789,7 +3791,7 @@
           "quantity": ""
         },
         {
-          "name": "½ teaspoon red chili flakes,  optional",
+          "name": "½ tsp red chili flakes,  optional",
           "quantity": ""
         },
         {
@@ -3817,91 +3819,91 @@
       "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "▢ 2 sticks courgette, thinly sliced",
+          "name": "2 sticks courgette, thinly sliced",
           "quantity": ""
         },
         {
-          "name": "▢ 1 large yellow onion, diced",
+          "name": "1 large yellow onion, diced",
           "quantity": ""
         },
         {
-          "name": "▢ 1 large carrot, diced",
+          "name": "1 large carrot, diced",
           "quantity": ""
         },
         {
-          "name": "▢ 4 sprigs fresh thyme",
+          "name": "4 sprigs fresh thyme",
           "quantity": ""
         },
         {
-          "name": "▢ 6 cloves garlic, minced",
+          "name": "6 cloves garlic, minced",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon onion powder",
+          "name": "1 tsp onion powder",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon dried parsley",
+          "name": "1 tsp dried parsley",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon garlic powder",
+          "name": "½ tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon dried basil",
+          "name": "½ tsp dried basil",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon dried thyme",
+          "name": "½ tsp dried thyme",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon dried rosemary",
+          "name": "½ tsp dried rosemary",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon allspice",
+          "name": "½ tsp allspice",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon ground sage",
+          "name": "¼ tsp ground sage",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon black pepper",
+          "name": "¼ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "▢ 3 tablespoon all purpose flour",
+          "name": "3 tbsp all purpose flour",
           "quantity": ""
         },
         {
-          "name": "▢ 4 cups vegetable stock",
+          "name": "4 cups vegetable stock",
           "quantity": ""
         },
         {
-          "name": "▢ 1 cup coconut milk or favorite non-dairy milk",
+          "name": "1 cup coconut milk or favorite non-dairy milk",
           "quantity": ""
         },
         {
-          "name": "▢ 1 cup frozen peas",
+          "name": "1 cup frozen peas",
           "quantity": ""
         },
         {
-          "name": "▢ 15 oz chickpeas cooked and drained",
+          "name": "15 oz chickpeas cooked and drained",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon vegan better than bouillon",
+          "name": "1 tsp vegan better than bouillon",
           "quantity": ""
         },
         {
@@ -3909,39 +3911,39 @@
           "quantity": ""
         },
         {
-          "name": "▢ 2 cups all purpose flour (240g)",
+          "name": "2 cups all purpose flour (240g)",
           "quantity": ""
         },
         {
-          "name": "▢ 2 teaspoon baking powder",
+          "name": "2 tsp baking powder",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon baking soda",
+          "name": "½ tsp baking soda",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon salt",
+          "name": "½ tsp salt",
           "quantity": ""
         },
         {
-          "name": "▢ ⅛ teaspoon nutmeg",
+          "name": "⅛ tsp nutmeg",
           "quantity": ""
         },
         {
-          "name": "▢ ¾ cups non-dairy milk (180g)",
+          "name": "¾ cups non-dairy milk (180g)",
           "quantity": ""
         },
         {
-          "name": "▢ 4 tablespoon vegan butter, melted",
+          "name": "4 tbsp vegan butter, melted",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon maple syrup",
+          "name": "1 tsp maple syrup",
           "quantity": ""
         }
       ],
@@ -3961,7 +3963,7 @@
           "quantity": ""
         },
         {
-          "name": "1/2 teaspoon whole cumin seeds optional",
+          "name": "1/2 tsp whole cumin seeds optional",
           "quantity": ""
         },
         {
@@ -3973,7 +3975,7 @@
           "quantity": ""
         },
         {
-          "name": "1\" thumb fresh ginger peeled and minced or grated (about 1 tablespoon)",
+          "name": "1\" thumb fresh ginger peeled and minced or grated (about 1 tbsp)",
           "quantity": ""
         },
         {
@@ -3985,23 +3987,23 @@
           "quantity": ""
         },
         {
-          "name": "2 teaspoons ground coriander",
+          "name": "2 tsp ground coriander",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon ground cumin",
+          "name": "1 tsp ground cumin",
           "quantity": ""
         },
         {
-          "name": "1/2 teaspoon garam masala",
+          "name": "1/2 tsp garam masala",
           "quantity": ""
         },
         {
-          "name": "1/4 teaspoon ground turmeric",
+          "name": "1/4 tsp ground turmeric",
           "quantity": ""
         },
         {
-          "name": "1/2 teaspoon kashmiri chili powder optional – can sub paprika (mild) or cayenne (spicy)",
+          "name": "1/2 tsp kashmiri chili powder optional – can sub paprika (mild) or cayenne (spicy)",
           "quantity": ""
         },
         {
@@ -4033,51 +4035,51 @@
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon sea salt",
+          "name": "½ tsp sea salt",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon balsamic vinegar",
+          "name": "1 tbsp balsamic vinegar",
           "quantity": ""
         },
         {
-          "name": "▢ 4 cloves garlic minced",
+          "name": "4 cloves garlic minced",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon garlic powder",
+          "name": "1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon black pepper",
+          "name": "1 tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon chili powder",
+          "name": "½ tsp chili powder",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon turmeric",
+          "name": "½ tsp turmeric",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon cumin",
+          "name": "½ tsp cumin",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon dried oregano",
+          "name": "¼ tsp dried oregano",
           "quantity": ""
         },
         {
-          "name": "▢ 1 bunch Broccolini",
+          "name": "1 bunch Broccolini",
           "quantity": ""
         },
         {
-          "name": "▢ 2 15oz cans cannellini beans, drained and rinsed",
+          "name": "2 15oz cans cannellini beans, drained and rinsed",
           "quantity": ""
         },
         {
@@ -4085,35 +4087,35 @@
           "quantity": ""
         },
         {
-          "name": "▢ 2 cups raw cashews not roasted",
+          "name": "2 cups raw cashews not roasted",
           "quantity": ""
         },
         {
-          "name": "▢ 2 – 3 cups unsweetened dairy free milk use soy for more protein",
+          "name": "2 – 3 cups unsweetened dairy free milk use soy for more protein",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ cup vegan butter",
+          "name": "¼ cup vegan butter",
           "quantity": ""
         },
         {
-          "name": "▢ 1 adobo chili in sauce",
+          "name": "1 adobo chili in sauce",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon white miso",
+          "name": "1 tbsp white miso",
           "quantity": ""
         },
         {
-          "name": "▢ 2 teaspoon dijon mustard",
+          "name": "2 tsp dijon mustard",
           "quantity": ""
         },
         {
-          "name": "▢ ¾ cup nutritional yeast",
+          "name": "¾ cup nutritional yeast",
           "quantity": ""
         },
         {
-          "name": "▢ 1-2 teaspoon fresh lemon juice",
+          "name": "1-2 tsp fresh lemon juice",
           "quantity": ""
         }
       ],
@@ -4276,7 +4278,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbp flour",
+          "name": "1 tbsp flour",
           "quantity": ""
         },
         {
@@ -4342,11 +4344,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon vegan butter or olive oil",
+          "name": "2 tbsp vegan butter or olive oil",
           "quantity": ""
         },
         {
-          "name": "1 ¼ tsp arrowroot or cornstarch or 1 tablespoon all-purpose flour",
+          "name": "1 ¼ tsp arrowroot or cornstarch or 1 tbsp all-purpose flour",
           "quantity": ""
         },
         {
@@ -4374,7 +4376,7 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon parsley chopped",
+          "name": "2 tbsp parsley chopped",
           "quantity": ""
         }
       ]
@@ -4542,7 +4544,7 @@
           "quantity": ""
         },
         {
-          "name": "1/10 ts ginger",
+          "name": "1/10 tsp ginger",
           "quantity": ""
         },
         {
@@ -4593,7 +4595,7 @@
           "quantity": ""
         },
         {
-          "name": "2 ts flour",
+          "name": "2 tsp flour",
           "quantity": ""
         }
       ]
@@ -4608,11 +4610,11 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon olive oil",
+          "name": "1 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons butter",
+          "name": "2  tbsp butter",
           "quantity": ""
         },
         {
@@ -4930,7 +4932,7 @@
     {
       "recipe_number": 1,
       "name": "Escalope & Rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 glass rice",
@@ -4945,7 +4947,7 @@
     {
       "recipe_number": 3,
       "name": "Potatoes & steak",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "Garlic powder",
@@ -4960,7 +4962,7 @@
     {
       "recipe_number": 5,
       "name": "Potatoes & Red beans",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 Sweet potatoe",
@@ -4975,7 +4977,7 @@
     {
       "recipe_number": 7,
       "name": "Tofu & rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 tofu steak",
@@ -4990,7 +4992,7 @@
     {
       "recipe_number": 8,
       "name": "Tofu & pasta",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 tofu steak",
@@ -5005,7 +5007,7 @@
     {
       "recipe_number": 10,
       "name": "Chickpea & rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 can chickpeas",
@@ -5020,7 +5022,7 @@
     {
       "recipe_number": 11,
       "name": "Ramen & Beans",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "2 Packs Ramens",
@@ -5039,7 +5041,7 @@
     {
       "recipe_number": 12,
       "name": "EZ Tofu Paprikash",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 Tofu",
@@ -5279,7 +5281,7 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon cornstarch",
+          "name": "1 ½ tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -5287,19 +5289,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon toasted sesame oil",
+          "name": "1 tsp toasted sesame oil",
           "quantity": ""
         },
         {
@@ -5334,15 +5336,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon soy sauce",
+          "name": "3 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -5354,42 +5356,42 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon cornstarch",
+          "name": "2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2  tablespoon water",
+          "name": "2  tbsp water",
           "quantity": ""
         },
-         {
+        {
           "name": "For the tofu",
           "quantity": ""
         },
-         {
+        {
           "name": "400 g block  extra firm tofu, pressed, roughly broken into pieces,",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon white pepper",
+          "name": "¼ tsp white pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon cornstarch onto the tofu",
+          "name": "3 tbsp cornstarch onto the tofu",
           "quantity": ""
         },
         {
           "name": "¼ cup neutral oil for frying",
           "quantity": ""
         },
-         {
+        {
           "name": "Serve w",
           "quantity": ""
         },
-         {
+        {
           "name": "600g broccoli & carrots boiled",
           "quantity": ""
         }
@@ -5464,19 +5466,19 @@
           "quantity": ""
         },
         {
-          "name": "1  teaspoon agave",
+          "name": "1  tsp agave",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon toasted sesame oil (optional)",
+          "name": "½ tsp toasted sesame oil (optional)",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon red pepper flakes,  more or less to taste",
+          "name": "¼ tsp red pepper flakes,  more or less to taste",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon vegan butter  (or oil*)",
+          "name": "3 tbsp vegan butter  (or oil*)",
           "quantity": ""
         },
         {
@@ -5500,19 +5502,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon rice wine vinegar",
+          "name": "1 ½ tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon chili paste",
+          "name": "2 tsp chili paste",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon sesame oil",
+          "name": "1 tsp sesame oil",
           "quantity": ""
         },
         {
@@ -5528,11 +5530,11 @@
           "quantity": ""
         },
         {
-          "name": "2-3 tablespoon cornstarch",
+          "name": "2-3 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon brown sugar (can sub lime juice)",
+          "name": "3 tbsp brown sugar (can sub lime juice)",
           "quantity": ""
         },
         {
@@ -5544,7 +5546,7 @@
           "quantity": ""
         },
         {
-          "name": "½ teaspoon red chili flakes,  optional",
+          "name": "½ tsp red chili flakes,  optional",
           "quantity": ""
         },
         {
@@ -5733,23 +5735,23 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch,  optional (only if needed)",
+          "name": "1 tbsp cornstarch,  optional (only if needed)",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon coconut sugar (sub with brown sugar)",
+          "name": "½ tbsp coconut sugar (sub with brown sugar)",
           "quantity": ""
         },
         {
-          "name": "¾ teaspoon dried sage",
+          "name": "¾ tsp dried sage",
           "quantity": ""
         },
         {
-          "name": "¾ teaspoon dried thyme",
+          "name": "¾ tsp dried thyme",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon black pepper",
+          "name": "¼ tsp black pepper",
           "quantity": ""
         },
         {
@@ -5757,11 +5759,11 @@
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon cayenne pepper (add up to ¼ is spicier preferred)",
+          "name": "⅛ tsp cayenne pepper (add up to ¼ is spicier preferred)",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon nutmeg",
+          "name": "¼ tsp nutmeg",
           "quantity": ""
         },
         {
@@ -5769,19 +5771,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "2-3 tablespoon low-sodium vegetable stock",
+          "name": "2-3 tbsp low-sodium vegetable stock",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon coconut aminos (sub with soy sauce or tamari)",
+          "name": "½ tbsp coconut aminos (sub with soy sauce or tamari)",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon oil",
+          "name": "1 tbsp oil",
           "quantity": ""
         },
         {
@@ -5797,27 +5799,27 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoon nutritional yeast",
+          "name": "3 tbsp nutritional yeast",
           "quantity": ""
         },
         {
-          "name": "1 ½ teaspoon garlic powder",
+          "name": "1 ½ tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon all purpose seasoning blend",
+          "name": "1 tsp all purpose seasoning blend",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon onion powder",
+          "name": "1 tsp onion powder",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon turmeric",
+          "name": "½ tsp turmeric",
           "quantity": ""
         },
         {
@@ -5915,11 +5917,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tbp yeast",
+          "name": "2 tbsp yeast",
           "quantity": ""
         },
         {
-          "name": "4 tbp soy sauce",
+          "name": "4 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -6059,23 +6061,23 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon garlic powder",
+          "name": "1 tbsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon onion powder",
+          "name": "1 tbsp onion powder",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon smoked paprika",
+          "name": "½ tbsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon black pepper",
+          "name": "1 tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons salt",
+          "name": "2 tsp salt",
           "quantity": ""
         },
         {
@@ -6087,15 +6089,15 @@
           "quantity": ""
         },
         {
-          "name": "5 tablespoons mustard",
+          "name": "5  tbsp mustard",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon maple syrup",
+          "name": "1 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoons tahini or peanut butter",
+          "name": "3  tbsp tahini or peanut butter",
           "quantity": ""
         },
         {
@@ -6123,7 +6125,7 @@
           "quantity": ""
         },
         {
-          "name": "2 teaspoons thyme",
+          "name": "2 tsp thyme",
           "quantity": ""
         },
         {
@@ -6178,43 +6180,43 @@
           "quantity": ""
         },
         {
-          "name": "▢ 3 tablespoon avocado oil",
+          "name": "3 tbsp avocado oil",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon kosher salt",
+          "name": "½ tsp kosher salt",
           "quantity": ""
         },
         {
-          "name": "▢ ¼ teaspoon black pepper",
+          "name": "¼ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "▢ 2 tablespoon pure maple syrup",
+          "name": "2 tbsp pure maple syrup",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon soy sauce",
+          "name": "1 tbsp soy sauce",
           "quantity": ""
         },
         {
-          "name": "▢ 2 teaspoon rice vinegar",
+          "name": "2 tsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon gochujang",
+          "name": "1 tsp gochujang",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon sesame oil",
+          "name": "½ tsp sesame oil",
           "quantity": ""
         },
         {
-          "name": "▢ 1 small clove garlic",
+          "name": "1 small clove garlic",
           "quantity": ""
         },
         {
@@ -6229,10 +6231,10 @@
     {
       "recipe_number": 1,
       "name": "Potato & Nuggets/tof",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1 sweet potato bake cut",
+          "name": "1 sweet potatoe bake cut",
           "quantity": ""
         },
         {
@@ -6252,10 +6254,10 @@
     {
       "recipe_number": 2,
       "name": "Budha Bowl 1",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "1/3 chick peas",
+          "name": "1/3 chickpeas",
           "quantity": ""
         },
         {
@@ -6275,7 +6277,7 @@
     {
       "recipe_number": 3,
       "name": "Veggie Steak & Rice",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 glass rice",
@@ -6290,7 +6292,7 @@
     {
       "recipe_number": 4,
       "name": "Steak & pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "100g pasta",
@@ -6305,7 +6307,7 @@
     {
       "recipe_number": 5,
       "name": "Hot dogs",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "4 buns",
@@ -6336,7 +6338,7 @@
     {
       "recipe_number": 6,
       "name": "Spicy pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1/4 tofu",
@@ -6367,7 +6369,7 @@
     {
       "recipe_number": 7,
       "name": "Red bean quesadillas",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1/2 can red beans",
@@ -6378,7 +6380,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbp nutritional yeast",
+          "name": "1 tbsp nutritional yeast",
           "quantity": ""
         },
         {
@@ -6394,7 +6396,7 @@
     {
       "recipe_number": 8,
       "name": "Rice & lentils (3)",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 cup Rice",
@@ -6428,15 +6430,15 @@
     },
     {
       "recipe_number": 9,
-      "name": "SP & Chick peas",
-      "section": "GRAIN & PROT",
+      "name": "SP & chickpeas",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 sweet potatoe",
           "quantity": ""
         },
         {
-          "name": "1/3 chick peas",
+          "name": "1/3 chickpeas",
           "quantity": ""
         },
         {
@@ -6452,7 +6454,7 @@
     {
       "recipe_number": 10,
       "name": "One-Pot \"Baked\" Feta Pasta",
-      "section": "GRAIN & PROT",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "454 g silken tofu, *",
@@ -6463,27 +6465,27 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoons lemon juice, or lime juice",
+          "name": "3  tbsp lemon juice, or lime juice",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon apple cider vinegar",
+          "name": "1 tbsp apple cider vinegar",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons garlic, minced, or 1 teaspoon garlic powder",
+          "name": "2 tsp garlic, minced, or 1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon dried basil",
+          "name": "1 tsp dried basil",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon dried oregano",
+          "name": "1 tsp dried oregano",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
@@ -6508,7 +6510,7 @@
     {
       "recipe_number": 11,
       "name": "Red beans & Rice",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "250g red beans",
@@ -6523,7 +6525,7 @@
     {
       "recipe_number": 12,
       "name": "SP & Red beans",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 Sweet potatoe",
@@ -6538,7 +6540,7 @@
     {
       "recipe_number": 13,
       "name": "Chickpease & rice",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 glass rice",
@@ -6553,7 +6555,7 @@
     {
       "recipe_number": 14,
       "name": "Gnoccis tom tofu",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "500 g gnoccis",
@@ -6584,7 +6586,7 @@
     {
       "recipe_number": 15,
       "name": "Soy Tofu & rice",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1 pack tofu",
@@ -6615,7 +6617,7 @@
     {
       "recipe_number": 16,
       "name": "SP & Scrambled tofu x2",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "2 SP (cut & bake)",
@@ -6638,7 +6640,7 @@
     {
       "recipe_number": 17,
       "name": "Tofu Broc Rice",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "1/3 tofu (steak, plain)",
@@ -6669,7 +6671,7 @@
     {
       "recipe_number": 18,
       "name": "Soybean Pasta soup (Summer)",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "225g Wheat Noodles somen (somyun) noodles or any thin & chewy wheat noodles",
@@ -6717,10 +6719,10 @@
     {
       "recipe_number": 19,
       "name": "Curry Ramen",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
@@ -6732,31 +6734,31 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon curry powder",
+          "name": "1 ½ tbsp curry powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon garam masala",
+          "name": "1 tsp garam masala",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon cinnamon",
+          "name": "½ tsp cinnamon",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon chili garlic sauce",
+          "name": "1 tbsp chili garlic sauce",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon tomato paste",
+          "name": "2 tsp tomato paste",
           "quantity": ""
         },
         {
@@ -6805,26 +6807,26 @@
     {
       "recipe_number": 20,
       "name": "Tofu Paprikash",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon garlic powder",
+          "name": "1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon olive oil",
+          "name": "3 tbsp olive oil",
           "quantity": ""
         },
         {
@@ -6836,19 +6838,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon tomato paste",
+          "name": "2 tbsp tomato paste",
           "quantity": ""
         },
         {
-          "name": "4 tablespoon all purpose flour (use gluten free if needed)",
+          "name": "4 tbsp all purpose flour (use gluten free if needed)",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon sweet paprika",
+          "name": "3 tbsp sweet paprika",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
@@ -6873,7 +6875,7 @@
     {
       "recipe_number": 21,
       "name": "Pasta Salad & Sausage",
-      "section": "GRAIN & PROT 11-21",
+      "section": "PROT & GRAIN",
       "ingredients": [
         {
           "name": "2 tb tomate confites",
@@ -7565,7 +7567,7 @@
           "quantity": ""
         },
         {
-          "name": "1/4 can chick peas",
+          "name": "1/4 can chickpeas",
           "quantity": ""
         },
         {
@@ -7620,7 +7622,7 @@
           "quantity": ""
         },
         {
-          "name": "1/2 teaspoon salt",
+          "name": "1/2 tsp salt",
           "quantity": ""
         }
       ],
@@ -7747,7 +7749,7 @@
           "quantity": ""
         },
         {
-          "name": "1 large sweet potato",
+          "name": "1 large sweet potatoe",
           "quantity": ""
         },
         {
@@ -8162,7 +8164,7 @@
           "quantity": ""
         },
         {
-          "name": "2 tbs Rice Vinegar",
+          "name": "2 tbsp Rice Vinegar",
           "quantity": ""
         },
         {
@@ -8174,11 +8176,11 @@
           "quantity": ""
         },
         {
-          "name": "3 tbs Aminos",
+          "name": "3 tbsp Aminos",
           "quantity": ""
         },
         {
-          "name": "3 tbs Tahini",
+          "name": "3 tbsp Tahini",
           "quantity": ""
         },
         {
@@ -8190,7 +8192,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbs Dried Tarragon",
+          "name": "1 tbsp Dried Tarragon",
           "quantity": ""
         },
         {
@@ -8198,7 +8200,7 @@
           "quantity": ""
         },
         {
-          "name": "2 tbs Pumpkin Seeds",
+          "name": "2 tbsp Pumpkin Seeds",
           "quantity": ""
         },
         {
@@ -8342,7 +8344,7 @@
     {
       "recipe_number": 31,
       "name": "Sushi Nurish Bowl",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "2 servings Roasted Sweet Potatoes",
@@ -8406,7 +8408,7 @@
     {
       "recipe_number": 32,
       "name": "Salmon Nourish Bowl",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "½ salmon tofu",
@@ -8446,7 +8448,7 @@
     {
       "recipe_number": 33,
       "name": "Tahini Soba Nourish",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "2 servings soba noodles",
@@ -8482,7 +8484,7 @@
     {
       "recipe_number": 34,
       "name": "Sheet Pan Teriyaki Tofu & Broc",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "For Tofu",
@@ -8493,15 +8495,15 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch",
+          "name": "1 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon low sodium soy sauce",
+          "name": "2 tsp low sodium soy sauce",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon extra virgin olive oil",
+          "name": "2 tsp extra virgin olive oil",
           "quantity": ""
         },
         {
@@ -8517,7 +8519,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon extra virgin olive oil",
+          "name": "1 tbsp extra virgin olive oil",
           "quantity": ""
         },
         {
@@ -8537,11 +8539,11 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoon brown sugar (can sub with maple syrup)",
+          "name": "3 tbsp brown sugar (can sub with maple syrup)",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
@@ -8553,11 +8555,11 @@
           "quantity": ""
         },
         {
-          "name": "¼-1/2 teaspoon red pepper flakes,  optional",
+          "name": "¼-1/2 tsp red pepper flakes,  optional",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch",
+          "name": "1 tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -8574,7 +8576,7 @@
     {
       "recipe_number": 35,
       "name": "Cashew Tacos",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 cup cashew (hot water)",
@@ -8625,10 +8627,10 @@
     {
       "recipe_number": 36,
       "name": "Mango Chickpea Salad",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
-          "name": "1/2 teaspoon turmeric",
+          "name": "1/2 tsp turmeric",
           "quantity": ""
         },
         {
@@ -8656,11 +8658,11 @@
           "quantity": ""
         },
         {
-          "name": "1 tbp maple syrup",
+          "name": "1 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1/2 tbp soy sauce",
+          "name": "1/2 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -8701,7 +8703,7 @@
     {
       "recipe_number": 37,
       "name": "Sweet & Sour Chick x4",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1/2 cup coconut sugar*",
@@ -8757,7 +8759,7 @@
     {
       "recipe_number": 38,
       "name": "Cabbage slaw & Tofu",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 Tofu (slice thin)",
@@ -8829,7 +8831,7 @@
     {
       "recipe_number": 39,
       "name": "Chick Cashew Brock (4)",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 cuproasted cashews",
@@ -8873,18 +8875,18 @@
     {
       "recipe_number": 40,
       "name": "Cashew Tofu",
-      "section": "PROT & VEG 40",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "14 oz block extra firm tofu",
           "quantity": ""
         },
         {
-          "name": "1-2 tablespoon cornstarch",
+          "name": "1-2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon olive oil,  divided",
+          "name": "3 tbsp olive oil,  divided",
           "quantity": ""
         },
         {
@@ -8896,11 +8898,11 @@
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt,  more to taste",
+          "name": "¼ tsp salt,  more to taste",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon black pepper,  more to taste",
+          "name": "¼ tsp black pepper,  more to taste",
           "quantity": ""
         },
         {
@@ -8908,11 +8910,11 @@
           "quantity": ""
         },
         {
-          "name": "3-4 tablespoon water",
+          "name": "3-4 tbsp water",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon fresh ginger,  minced",
+          "name": "½ tsp fresh ginger,  minced",
           "quantity": ""
         },
         {
@@ -8936,7 +8938,7 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon cornstarch",
+          "name": "1 ½ tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -8944,19 +8946,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon toasted sesame oil",
+          "name": "1 tsp toasted sesame oil",
           "quantity": ""
         },
         {
@@ -8969,26 +8971,26 @@
     {
       "recipe_number": 41,
       "name": "Vegan Tofu Paprikash (x4)",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "2 blocks super firm tofu,  cut into 8 squares (or desired size)",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon garlic powder",
+          "name": "1 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon olive oil",
+          "name": "3 tbsp olive oil",
           "quantity": ""
         },
         {
@@ -9000,19 +9002,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon tomato paste",
+          "name": "2 tbsp tomato paste",
           "quantity": ""
         },
         {
-          "name": "4 tablespoon all purpose flour (use gluten free if needed)",
+          "name": "4 tbsp all purpose flour (use gluten free if needed)",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon sweet paprika",
+          "name": "3 tbsp sweet paprika",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon smoked paprika",
+          "name": "½ tsp smoked paprika",
           "quantity": ""
         },
         {
@@ -9041,7 +9043,7 @@
     {
       "recipe_number": 42,
       "name": "Vegan Quinoa Salad (12 servings ?)",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 cup uncooked quinoa,  rinsed",
@@ -9092,31 +9094,31 @@
           "quantity": ""
         },
         {
-          "name": "▢ ⅓ cup creamy peanut butter (natural preferred)",
+          "name": "⅓ cup creamy peanut butter (natural preferred)",
           "quantity": ""
         },
         {
-          "name": "▢ 1  teaspoon ginger,  grated",
+          "name": "1  tsp ginger,  grated",
           "quantity": ""
         },
         {
-          "name": "▢ 3 tablespoon soy sauce",
+          "name": "3 tbsp soy sauce",
           "quantity": ""
         },
         {
-          "name": "▢ 2 tablespoon agave",
+          "name": "2 tbsp agave",
           "quantity": ""
         },
         {
-          "name": "▢ 2 tablespoon red wine vinegar",
+          "name": "2 tbsp red wine vinegar",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon toasted sesame oil",
+          "name": "1 tbsp toasted sesame oil",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon olive oil",
+          "name": "1 tbsp olive oil",
           "quantity": ""
         }
       ],
@@ -9125,7 +9127,7 @@
     {
       "recipe_number": 43,
       "name": "Soup",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 Pre-made soup",
@@ -9140,7 +9142,7 @@
     {
       "recipe_number": 45,
       "name": "Orange Tofu",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "For the orange sauce",
@@ -9155,15 +9157,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon soy sauce",
+          "name": "3 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -9175,11 +9177,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon cornstarch",
+          "name": "2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2  tablespoon water",
+          "name": "2  tbsp water",
           "quantity": ""
         },
         {
@@ -9191,42 +9193,42 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon soy sauce",
+          "name": "2 tbsp soy sauce",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon sesame oil",
+          "name": "1 tbsp sesame oil",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon white vinegar",
+          "name": "2 tsp white vinegar",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon garlic powder",
+          "name": "½ tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon white pepper",
+          "name": "¼ tsp white pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon cornstarch onto the tofu",
+          "name": "3 tbsp cornstarch onto the tofu",
           "quantity": ""
         },
         {
           "name": "¼ cup neutral oil for frying",
           "quantity": ""
         },
-         {
+        {
           "name": "Serve w",
           "quantity": ""
         },
-         {
+        {
           "name": "600g snow peas, broccoli, or carrots",
           "quantity": ""
         }
@@ -9236,7 +9238,7 @@
     {
       "recipe_number": 46,
       "name": "Farro Salad",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "For the Salad",
@@ -9279,23 +9281,23 @@
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon smoked paprika",
+          "name": "¼ tsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon ground cumin",
+          "name": "¼ tsp ground cumin",
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon cinnamon",
+          "name": "⅛ tsp cinnamon",
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon cayenne",
+          "name": "⅛ tsp cayenne",
           "quantity": ""
         },
         {
@@ -9303,11 +9305,11 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoons olive oil",
+          "name": "1 ½  tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "1  tablespoon maple syrup",
+          "name": "1  tbsp maple syrup",
           "quantity": ""
         },
         {
@@ -9319,7 +9321,7 @@
           "quantity": ""
         },
         {
-          "name": "2-3 teaspoons zest of a blood orange",
+          "name": "2-3 tsp zest of a blood orange",
           "quantity": ""
         },
         {
@@ -9331,27 +9333,27 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoons shallots,  minced",
+          "name": "2  tbsp shallots,  minced",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons white wine vinegar",
+          "name": "2  tbsp white wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons maple syrup",
+          "name": "2 tsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons dijon mustard",
+          "name": "2 tsp dijon mustard",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon salt",
+          "name": "½ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon black pepper",
+          "name": "¼ tsp black pepper",
           "quantity": ""
         }
       ],
@@ -9360,7 +9362,7 @@
     {
       "recipe_number": 47,
       "name": "Japchea Noodles",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "300g glass noodles",
@@ -9432,7 +9434,7 @@
     {
       "recipe_number": 48,
       "name": "Miyeokguk for 1",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "6 Cups of water",
@@ -9447,15 +9449,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoons of toasted sesame oil",
+          "name": "2  tbsp of toasted sesame oil",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
+          "name": "2  tbsp of authentic Korean soup soy sauce (or regular soy sauce) – adjust to your taste",
           "quantity": ""
         },
         {
-          "name": "3 tablespoons of perilla seed  flour (deulkkae garu)",
+          "name": "3  tbsp of perilla seed  flour (deulkkae garu)",
           "quantity": ""
         },
         {
@@ -9468,7 +9470,7 @@
     {
       "recipe_number": 49,
       "name": "Gochujang Fried Tofu",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "Serve with broc",
@@ -9540,7 +9542,7 @@
     {
       "recipe_number": 50,
       "name": "Miso soba soup x2",
-      "section": "PROT & VEG 50",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "4 shiitake",
@@ -9568,7 +9570,7 @@
     {
       "recipe_number": 51,
       "name": "Tempeh Fried Rice",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 227g Tempeh or Tofu",
@@ -9636,26 +9638,26 @@
     {
       "recipe_number": 52,
       "name": "EZ vegan fried rice",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "⅓ cup low sodium soy sauce (75g)",
           "quantity": ""
         },
         {
-          "name": "1  teaspoon agave",
+          "name": "1  tsp agave",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon toasted sesame oil (optional)",
+          "name": "½ tsp toasted sesame oil (optional)",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon red pepper flakes,  more or less to taste",
+          "name": "¼ tsp red pepper flakes,  more or less to taste",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon vegan butter  (or oil*)",
+          "name": "3 tbsp vegan butter  (or oil*)",
           "quantity": ""
         },
         {
@@ -9676,7 +9678,7 @@
     {
       "recipe_number": 53,
       "name": "Buffalo Chick Wraps",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "½ cup vegan mayo (110g)",
@@ -9687,15 +9689,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon vegan butter, melted, Optional",
+          "name": "2 tbsp vegan butter, melted, Optional",
           "quantity": ""
         },
         {
-          "name": "1-2 tablespoon brown sugar",
+          "name": "1-2 tbsp brown sugar",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon dried parsley",
+          "name": "½ tsp dried parsley",
           "quantity": ""
         },
         {
@@ -9723,27 +9725,27 @@
           "quantity": ""
         },
         {
-          "name": "4 tablespoon fresh lemon juice",
+          "name": "4 tbsp fresh lemon juice",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon garlic powder",
+          "name": "2 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon paprika",
+          "name": "½ tsp paprika",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon dried parsley",
+          "name": "1 tsp dried parsley",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon dried dill",
+          "name": "1 tsp dried dill",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon salt more or less to taste",
+          "name": "½ tsp salt more or less to taste",
           "quantity": ""
         },
         {
@@ -9760,7 +9762,7 @@
     {
       "recipe_number": 54,
       "name": "Scramble Tofu, Beans & Veg",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 tsp oil",
@@ -9815,7 +9817,7 @@
     {
       "recipe_number": 55,
       "name": "Scrambled Tofu Sandwich",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "1 bread",
@@ -9854,7 +9856,7 @@
     {
       "recipe_number": 56,
       "name": "Garlic Peanut Noodles",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "Garlic Peanut Noodles",
@@ -9893,7 +9895,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon peanut oil or other neutral vegetable oil",
+          "name": "1 tbsp peanut oil or other neutral vegetable oil",
           "quantity": ""
         },
         {
@@ -9905,35 +9907,35 @@
           "quantity": ""
         },
         {
-          "name": "1 teaspoon grated fresh ginger optional",
+          "name": "1 tsp grated fresh ginger optional",
           "quantity": ""
         },
         {
-          "name": "1-3 teaspoons red pepper flakes I like to use gochugaru",
+          "name": "1-3 tsp red pepper flakes I like to use gochugaru",
           "quantity": ""
         },
         {
-          "name": "3 tablespoons soy sauce sub tamari for gluten-free",
+          "name": "3  tbsp soy sauce sub tamari for gluten-free",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon maple syrup (optional)",
+          "name": "1 tbsp maple syrup (optional)",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons toasted sesame oil",
+          "name": "2 tsp toasted sesame oil",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon fresh lime juice from about 1/2 a lime",
+          "name": "1 tbsp fresh lime juice from about 1/2 a lime",
           "quantity": ""
         },
         {
-          "name": "4-6 tablespoons warm water to thin sauce as needed",
+          "name": "4-6  tbsp warm water to thin sauce as needed",
           "quantity": ""
         },
         {
@@ -9949,7 +9951,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon toasted sesame seeds",
+          "name": "1 tbsp toasted sesame seeds",
           "quantity": ""
         },
         {
@@ -9966,14 +9968,14 @@
     {
       "recipe_number": 57,
       "name": "Ramen salad",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [],
       "recipe_link": "https://makeitdairyfree.com/ramen-noodle-salad/"
     },
     {
       "recipe_number": null,
       "name": "425g canned full fat coconut milk",
-      "section": "PROT & VEG 57",
+      "section": "PROT & VEG",
       "ingredients": [
         {
           "name": "2 cloves garlic",
@@ -9984,23 +9986,23 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoons low-sodium soy sauce",
+          "name": "3  tbsp low-sodium soy sauce",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons tahini",
+          "name": "2  tbsp tahini",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons red curry paste",
+          "name": "2  tbsp red curry paste",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon maple syrup",
+          "name": "1 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon sriracha",
+          "name": "1 tbsp sriracha",
           "quantity": ""
         },
         {
@@ -10052,7 +10054,7 @@
     {
       "recipe_number": 1,
       "name": "Olive Pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "120g spaghetti",
@@ -10071,7 +10073,7 @@
     {
       "recipe_number": 2,
       "name": "Strogannof Pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "85g Fusili",
@@ -10098,7 +10100,7 @@
           "quantity": ""
         },
         {
-          "name": "1 tbp flour",
+          "name": "1 tbsp flour",
           "quantity": ""
         },
         {
@@ -10110,7 +10112,7 @@
     {
       "recipe_number": 3,
       "name": "Cold avocado pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "1 avocado",
@@ -10137,7 +10139,7 @@
     {
       "recipe_number": 4,
       "name": "Tomato pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "120g Spaghetti",
@@ -10160,7 +10162,7 @@
     {
       "recipe_number": 5,
       "name": "Ramen",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "1 pack ramen",
@@ -10171,7 +10173,7 @@
     {
       "recipe_number": 6,
       "name": "Garlic Spaghetti",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "125g spaghetti",
@@ -10190,7 +10192,7 @@
     {
       "recipe_number": 7,
       "name": "Veggie broth Gnoccis",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "800g gnoccis",
@@ -10209,7 +10211,7 @@
     {
       "recipe_number": 8,
       "name": "Kung Pao Noodles",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "500g spaghettis",
@@ -10220,7 +10222,7 @@
           "quantity": ""
         },
         {
-          "name": "1/10 ts ginger",
+          "name": "1/10 tsp ginger",
           "quantity": ""
         },
         {
@@ -10248,7 +10250,7 @@
     {
       "recipe_number": 9,
       "name": "Lemon cream pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "vegan butter",
@@ -10271,7 +10273,7 @@
           "quantity": ""
         },
         {
-          "name": "2 ts flour",
+          "name": "2 tsp flour",
           "quantity": ""
         }
       ]
@@ -10279,18 +10281,18 @@
     {
       "recipe_number": 10,
       "name": "Vodka Pasta (no vodka)",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "8 ounces uncooked penne pasta",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon olive oil",
+          "name": "1 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "2 tablespoons butter",
+          "name": "2  tbsp butter",
           "quantity": ""
         },
         {
@@ -10330,7 +10332,7 @@
     {
       "recipe_number": 11,
       "name": "Kale & lemon pasta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "Garlic (a ton)",
@@ -10357,7 +10359,7 @@
     {
       "recipe_number": 12,
       "name": "Mushroom & Tahin PAsta",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "1/2 onion",
@@ -10408,7 +10410,7 @@
     {
       "recipe_number": 13,
       "name": "Cauliflower alfredo",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "4 cups froz cauliflower",
@@ -10447,7 +10449,7 @@
     {
       "recipe_number": 14,
       "name": "Garlic Parmesan",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "0.13 cup vegan butter",
@@ -10491,7 +10493,7 @@
     {
       "recipe_number": 15,
       "name": "Pasta Humus salad",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "250g pasta (macaronie&cie)",
@@ -10526,7 +10528,7 @@
     {
       "recipe_number": 16,
       "name": "Pepper Pasta (x2)",
-      "section": "GRAIN 17",
+      "section": "GRAIN",
       "ingredients": [
         {
           "name": "1 red pepper",
@@ -10573,7 +10575,7 @@
     {
       "recipe_number": 1,
       "name": "Escalope & Rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 glass rice",
@@ -10588,7 +10590,7 @@
     {
       "recipe_number": 3,
       "name": "Potatoes & steak",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "Garlic powder",
@@ -10603,7 +10605,7 @@
     {
       "recipe_number": 5,
       "name": "Potatoes & Red beans",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 Sweet potatoe",
@@ -10618,7 +10620,7 @@
     {
       "recipe_number": 7,
       "name": "Tofu & rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 tofu steak",
@@ -10633,7 +10635,7 @@
     {
       "recipe_number": 8,
       "name": "Tofu & pasta",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 tofu steak",
@@ -10648,7 +10650,7 @@
     {
       "recipe_number": 9,
       "name": "Chickpea & rice",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "1 can chickpeas",
@@ -10663,7 +10665,7 @@
     {
       "recipe_number": 10,
       "name": "Ramen & Beans",
-      "section": "EZ GRAIN & PROT",
+      "section": "EZ PROT & GRAIN ",
       "ingredients": [
         {
           "name": "2 Packs Ramens",
@@ -10872,7 +10874,7 @@
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon cornstarch",
+          "name": "1 ½ tbsp cornstarch",
           "quantity": ""
         },
         {
@@ -10880,19 +10882,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon hoisin sauce",
+          "name": "2 tbsp hoisin sauce",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon toasted sesame oil",
+          "name": "1 tsp toasted sesame oil",
           "quantity": ""
         },
         {
@@ -10927,15 +10929,15 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon rice wine vinegar",
+          "name": "2 tbsp rice wine vinegar",
           "quantity": ""
         },
         {
-          "name": "2 tablespoon maple syrup",
+          "name": "2 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon soy sauce",
+          "name": "3 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -10947,11 +10949,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon cornstarch",
+          "name": "2 tbsp cornstarch",
           "quantity": ""
         },
         {
-          "name": "2  tablespoon water",
+          "name": "2  tbsp water",
           "quantity": ""
         },
         {
@@ -10963,15 +10965,15 @@
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon salt",
+          "name": "¼ tsp salt",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon white pepper",
+          "name": "¼ tsp white pepper",
           "quantity": ""
         },
         {
-          "name": "3 tablespoon cornstarch onto the tofu",
+          "name": "3 tbsp cornstarch onto the tofu",
           "quantity": ""
         },
         {
@@ -11030,39 +11032,39 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon sherry vinegar",
+          "name": "2 tbsp sherry vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon balsamic vinegar",
+          "name": "1 tsp balsamic vinegar",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon salt",
+          "name": "1 tsp salt",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon cumin",
+          "name": "½ tsp cumin",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon oregano",
+          "name": "¼ tsp oregano",
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon coriander",
+          "name": "⅛ tsp coriander",
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon onion powder",
+          "name": "⅛ tsp onion powder",
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon garlic powder",
+          "name": "⅛ tsp garlic powder",
           "quantity": ""
         },
         {
@@ -11078,15 +11080,15 @@
           "quantity": ""
         },
         {
-          "name": "3-4 tablespoon olive oil",
+          "name": "3-4 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "1 ½ tablespoon Italian seasoning",
+          "name": "1 ½ tbsp Italian seasoning",
           "quantity": ""
         },
         {
-          "name": "2 teaspoon garlic powder",
+          "name": "2 tsp garlic powder",
           "quantity": ""
         }
       ],
@@ -11157,71 +11159,71 @@
       "section": "EZ PROT & VEG",
       "ingredients": [
         {
-          "name": "▢ ½ cup vegan mayo (110g)",
+          "name": "½ cup vegan mayo (110g)",
           "quantity": ""
         },
         {
-          "name": "▢ ½ cup hot sauce (120g)",
+          "name": "½ cup hot sauce (120g)",
           "quantity": ""
         },
         {
-          "name": "▢ 2 tablespoon vegan butter, melted, Optional",
+          "name": "2 tbsp vegan butter, melted, Optional",
           "quantity": ""
         },
         {
-          "name": "▢ 1-2 tablespoon brown sugar",
+          "name": "1-2 tbsp brown sugar",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon dried parsley",
+          "name": "½ tsp dried parsley",
           "quantity": ""
         },
         {
-          "name": "▢ 3 ½ cups chickpeas drained and rinsed (2 cans or 575g)",
+          "name": "3 ½ cups chickpeas drained and rinsed (2 cans or 575g)",
           "quantity": ""
         },
         {
-          "name": "▢ 1 medium red onion, chopped",
+          "name": "1 medium red onion, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 2 sticks zuccini, chopped",
+          "name": "2 sticks zuccini, chopped",
           "quantity": ""
         },
         {
-          "name": "▢ 1 medium carrot, grated",
+          "name": "1 medium carrot, grated",
           "quantity": ""
         },
         {
-          "name": "▢ 4 tablespoon fresh lemon juice",
+          "name": "4 tbsp fresh lemon juice",
           "quantity": ""
         },
         {
-          "name": "▢ 2 teaspoon garlic powder",
+          "name": "2 tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon paprika",
+          "name": "½ tsp paprika",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon dried parsley",
+          "name": "1 tsp dried parsley",
           "quantity": ""
         },
         {
-          "name": "▢ 1 teaspoon dried dill",
+          "name": "1 tsp dried dill",
           "quantity": ""
         },
         {
-          "name": "▢ ½ teaspoon salt more or less to taste",
+          "name": "½ tsp salt more or less to taste",
           "quantity": ""
         },
         {
-          "name": "▢ Tortilla Wraps, Bread, Crackers or Lettuce",
+          "name": "Tortilla Wraps, Bread, Crackers or Lettuce",
           "quantity": ""
         },
         {
-          "name": "▢ Avocado, Lettuce, Tomatoes, Onions",
+          "name": "Avocado, Lettuce, Tomatoes, Onions",
           "quantity": ""
         }
       ],
@@ -11280,11 +11282,11 @@
           "quantity": ""
         },
         {
-          "name": "▢ 1/3 cup natural peanut butter",
+          "name": "1/3 cup natural peanut butter",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon peanut oil or other neutral vegetable oil",
+          "name": "1 tbsp peanut oil or other neutral vegetable oil",
           "quantity": ""
         },
         {
@@ -11304,27 +11306,27 @@
           "quantity": ""
         },
         {
-          "name": "▢ 3 tablespoons soy sauce sub tamari for gluten-free",
+          "name": "3  tbsp soy sauce sub tamari for gluten-free",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon rice vinegar",
+          "name": "1 tbsp rice vinegar",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon maple syrup (optional)",
+          "name": "1 tbsp maple syrup (optional)",
           "quantity": ""
         },
         {
-          "name": "▢ 2 teaspoons toasted sesame oil",
+          "name": "2 tsp toasted sesame oil",
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon fresh lime juice from about 1/2 a lime",
+          "name": "1 tbsp fresh lime juice from about 1/2 a lime",
           "quantity": ""
         },
         {
-          "name": "▢ 4-6 tablespoons warm water to thin sauce as needed",
+          "name": "4-6  tbsp warm water to thin sauce as needed",
           "quantity": ""
         },
         {
@@ -11332,7 +11334,7 @@
           "quantity": ""
         },
         {
-          "name": "▢ 1 tablespoon toasted sesame seeds",
+          "name": "1 tbsp toasted sesame seeds",
           "quantity": ""
         }
       ]
@@ -11340,7 +11342,7 @@
     {
       "recipe_number": 6,
       "name": "Tomato pasta & salad",
-      "section": "EZ Grain",
+      "section": "EZ GRAIN",
       "ingredients": [
         {
           "name": "250g spaghettis",
@@ -11371,7 +11373,7 @@
     {
       "recipe_number": 7,
       "name": "Soba veggies (cold)",
-      "section": "EZ Grain",
+      "section": "EZ GRAIN",
       "ingredients": [
         {
           "name": "150g soba/spaghettis",
@@ -11627,23 +11629,23 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon cornstarch,  optional (only if needed)",
+          "name": "1 tbsp cornstarch,  optional (only if needed)",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon coconut sugar (sub with brown sugar)",
+          "name": "½ tbsp coconut sugar (sub with brown sugar)",
           "quantity": ""
         },
         {
-          "name": "¾ teaspoon dried sage",
+          "name": "¾ tsp dried sage",
           "quantity": ""
         },
         {
-          "name": "¾ teaspoon dried thyme",
+          "name": "¾ tsp dried thyme",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon black pepper",
+          "name": "¼ tsp black pepper",
           "quantity": ""
         },
         {
@@ -11651,11 +11653,11 @@
           "quantity": ""
         },
         {
-          "name": "⅛ teaspoon cayenne pepper (add up to ¼ is spicier preferred)",
+          "name": "⅛ tsp cayenne pepper (add up to ¼ is spicier preferred)",
           "quantity": ""
         },
         {
-          "name": "¼ teaspoon nutmeg",
+          "name": "¼ tsp nutmeg",
           "quantity": ""
         },
         {
@@ -11663,19 +11665,19 @@
           "quantity": ""
         },
         {
-          "name": "2 tablespoon olive oil",
+          "name": "2 tbsp olive oil",
           "quantity": ""
         },
         {
-          "name": "2-3 tablespoon low-sodium vegetable stock",
+          "name": "2-3 tbsp low-sodium vegetable stock",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon coconut aminos (sub with soy sauce or tamari)",
+          "name": "½ tbsp coconut aminos (sub with soy sauce or tamari)",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon oil",
+          "name": "1 tbsp oil",
           "quantity": ""
         },
         {
@@ -11691,27 +11693,27 @@
           "quantity": ""
         },
         {
-          "name": "3 tablespoon nutritional yeast",
+          "name": "3 tbsp nutritional yeast",
           "quantity": ""
         },
         {
-          "name": "1 ½ teaspoon garlic powder",
+          "name": "1 ½ tsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon all purpose seasoning blend",
+          "name": "1 tsp all purpose seasoning blend",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon onion powder",
+          "name": "1 tsp onion powder",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon black pepper",
+          "name": "½ tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "½ teaspoon turmeric",
+          "name": "½ tsp turmeric",
           "quantity": ""
         },
         {
@@ -11850,11 +11852,11 @@
           "quantity": ""
         },
         {
-          "name": "2 tbp yeast",
+          "name": "2 tbsp yeast",
           "quantity": ""
         },
         {
-          "name": "4 tbp soy sauce",
+          "name": "4 tbsp soy sauce",
           "quantity": ""
         },
         {
@@ -11992,23 +11994,23 @@
           "quantity": ""
         },
         {
-          "name": "1 tablespoon garlic powder",
+          "name": "1 tbsp garlic powder",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon onion powder",
+          "name": "1 tbsp onion powder",
           "quantity": ""
         },
         {
-          "name": "½ tablespoon smoked paprika",
+          "name": "½ tbsp smoked paprika",
           "quantity": ""
         },
         {
-          "name": "1 teaspoon black pepper",
+          "name": "1 tsp black pepper",
           "quantity": ""
         },
         {
-          "name": "2 teaspoons salt",
+          "name": "2 tsp salt",
           "quantity": ""
         },
         {
@@ -12020,15 +12022,15 @@
           "quantity": ""
         },
         {
-          "name": "5 tablespoons mustard",
+          "name": "5  tbsp mustard",
           "quantity": ""
         },
         {
-          "name": "1 tablespoon maple syrup",
+          "name": "1 tbsp maple syrup",
           "quantity": ""
         },
         {
-          "name": "3 tablespoons tahini or peanut butter",
+          "name": "3  tbsp tahini or peanut butter",
           "quantity": ""
         },
         {
@@ -12056,7 +12058,7 @@
           "quantity": ""
         },
         {
-          "name": "2 teaspoons thyme",
+          "name": "2 tsp thyme",
           "quantity": ""
         },
         {

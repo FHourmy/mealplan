@@ -1,16 +1,64 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import RecipeModal from './RecipeModal';
 
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const MEALS = ['Lunch','Dinner'];
 
-export default function PlannerView({ plan, setPlan, readonly = false, openPicker }) {
+export default function PlannerView({ plan, setPlan, filters, setFilters, readonly = false, openPicker, fillPlan, resetPlan }) {
   const [activeDay,    setActiveDay]    = useState('Monday');
   const [viewedRecipe, setViewedRecipe] = useState(null);
+  const [hoveredIng,   setHoveredIng]   = useState(null);
 
   const clearMeal = (day, meal) => {
     if (readonly) return;
     setPlan(prev => ({ ...prev, [day]: { ...prev[day], [meal]: null } }));
+  };
+
+  // Aggregate all ingredients from selected recipes
+  const shoppingList = useMemo(() => {
+    const map = new Map();
+    
+    DAYS.forEach(day => {
+      MEALS.forEach(meal => {
+        const recipe = plan[day]?.[meal];
+        if (!recipe) return;
+        
+        const ingredients = recipe.ingredients || [];
+        ingredients.forEach(ing => {
+          const ingObj = typeof ing === 'string' ? {name: ing, quantity: ''} : ing;
+          if (!ingObj.name) return;
+          
+          const key = ingObj.name.toLowerCase().trim();
+          if (!map.has(key)) {
+            map.set(key, {name: ingObj.name.trim(), quantities: []});
+          }
+          const entry = map.get(key);
+          entry.quantities.push({qty: ingObj.quantity?.trim() || '', recipe: recipe.name});
+        });
+      });
+    });
+    
+    const list = [];
+    map.forEach(({name, quantities}) => {
+      const allQty = quantities.map(q => q.qty).filter(Boolean).join(' + ');
+      const recipes = [...new Set(quantities.map(q => q.recipe))];
+      list.push({name, quantity: allQty, recipes});
+    });
+    
+    return list.sort((a,b) => a.name.localeCompare(b.name));
+  }, [plan]);
+
+  const copyShoppingList = () => {
+    const text = shoppingList.map(item => {
+      const qty = item.quantity ? `${item.quantity} ` : '';
+      return `${qty}${item.name}`;
+    }).join('\n');
+    
+    navigator.clipboard.writeText(text).then(() => {
+      alert('Shopping list copied to clipboard!');
+    }).catch(() => {
+      alert('Failed to copy to clipboard');
+    });
   };
 
   return (
@@ -81,7 +129,19 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
 
         {/* Weekly overview */}
         <div className="overview">
-          <h3 className="overview-title">Weekly Overview</h3>
+          <div className="overview-header">
+            <h3 className="overview-title">Weekly Overview</h3>
+            {!readonly && (
+              <div className="overview-actions">
+                <button className="overview-action-btn" onClick={fillPlan} title="Fill all empty meals">
+                  ↻ Fill
+                </button>
+                <button className="overview-action-btn overview-delete-btn" onClick={resetPlan} title="Reset plan">
+                  🗑 Delete
+                </button>
+              </div>
+            )}
+          </div>
           <div className="overview-grid">
             {DAYS.map(day => (
               <div
@@ -92,20 +152,27 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
                 <div className="ov-day">{day.slice(0,3)}</div>
                 {MEALS.map(meal => {
                   const recipe = plan[day]?.[meal];
+                  const filter = filters?.[day]?.[meal];
+                  const hasFilter = filter?.sections && filter.sections.length > 0;
+                  
                   return (
-                    <div
-                      key={meal}
-                      className="ov-meal"
-                      onClick={(e) => {
-                        if (recipe) {
-                          e.stopPropagation();
-                          setViewedRecipe(recipe);
-                        }
-                      }}
-                    >
-                      <span className="ov-meal-type">{meal[0]}</span>
-                      <span className={`ov-meal-name ${recipe ? 'ov-meal-clickable' : ''}`}>
-                        {recipe?.name || '—'}
+                    <div key={meal} className="ov-meal">
+                      <span 
+                        className="ov-meal-type"
+                        onClick={(e) => {
+                          if (recipe) {
+                            e.stopPropagation();
+                            setViewedRecipe(recipe);
+                          }
+                        }}
+                        style={recipe ? {cursor: 'pointer'} : {}}
+                      >
+                        {meal[0]}
+                      </span>
+                      <span className="ov-meal-name">
+                        {recipe ? recipe.name : hasFilter ? (
+                          <span className="ov-filter-hint">{filter.sections.join(', ')}</span>
+                        ) : '—'}
                       </span>
                     </div>
                   );
@@ -114,6 +181,40 @@ export default function PlannerView({ plan, setPlan, readonly = false, openPicke
             ))}
           </div>
         </div>
+
+        {/* Shopping list */}
+        {shoppingList.length > 0 && (
+          <div className="shopping-section">
+            <div className="shopping-header">
+              <h3 className="shopping-title">Shopping List</h3>
+              <button className="shopping-copy-btn" onClick={copyShoppingList} title="Copy to clipboard">
+                📋 Copy
+              </button>
+            </div>
+            <ul className="shopping-list">
+              {shoppingList.map((item, i) => (
+                <li
+                  key={i}
+                  className="shopping-item"
+                  onMouseEnter={() => setHoveredIng(item.name)}
+                  onMouseLeave={() => setHoveredIng(null)}
+                >
+                  {item.quantity && <span className="shopping-qty">{item.quantity}</span>}
+                  <span className="shopping-name">{item.name}</span>
+                  
+                  {hoveredIng === item.name && item.recipes.length > 0 && (
+                    <div className="shopping-popover">
+                      <div className="shopping-popover-title">Used in:</div>
+                      {item.recipes.map(r => (
+                        <div key={r} className="shopping-popover-recipe">{r}</div>
+                      ))}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </main>
 
       {viewedRecipe && (
