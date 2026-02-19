@@ -65,7 +65,8 @@ ipcMain.handle('save-recipes', (_e, { filename, data }) => {
 ipcMain.handle('list-plan-files', () => {
   const dir = getUserDataDir();
   if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir).filter(f => /^MP_\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse();
+  // Updated regex to match both MP_YYYY-MM-DD.json and MP_YYYY-MM-DD_X.json
+  return fs.readdirSync(dir).filter(f => /^MP_\d{4}-\d{2}-\d{2}(?:_\d+)?\.json$/.test(f)).sort().reverse();
 });
 
 ipcMain.handle('read-plan', (_e, filename) => {
@@ -77,6 +78,22 @@ ipcMain.handle('save-plan', (_e, { filename, data }) => {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   writeJsonFile(path.join(dir, filename), data);
   return { ok: true };
+});
+
+ipcMain.handle('delete-plan', (_e, filename) => {
+  const dir = getUserDataDir();
+  const filePath = path.join(dir, filename);
+  
+  if (!fs.existsSync(filePath)) {
+    return { ok: false, error: 'File not found' };
+  }
+  
+  try {
+    fs.unlinkSync(filePath);
+    return { ok: true };
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
 });
 
 ipcMain.handle('get-user-data-path', () => getUserDataDir());

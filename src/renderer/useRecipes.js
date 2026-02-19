@@ -40,11 +40,36 @@ export async function saveRecipes(data) {
 }
 
 export async function savePlan(data) {
-  const filename = todayFilename('MP_');
+  if (!window.electronAPI?.savePlan || !window.electronAPI?.listPlanFiles) {
+    throw new Error('Electron IPC not available.');
+  }
+  
+  const files = await window.electronAPI.listPlanFiles();
+  
+  let filename;
+  if (files.length > 0) {
+    filename = files[0];
+  } else {
+    filename = todayFilename('MP_');
+  }
+  
+  const result = await window.electronAPI.savePlan(filename, data);
+  if (!result.ok) throw new Error('Save failed');
+  return { ok: true, filename };
+}
+
+export async function savePlanToFile(filename, data) {
   if (!window.electronAPI?.savePlan) throw new Error('Electron IPC not available.');
   const result = await window.electronAPI.savePlan(filename, data);
   if (!result.ok) throw new Error('Save failed');
   return { ok: true, filename };
+}
+
+export async function deletePlanFile(filename) {
+  if (!window.electronAPI?.deletePlan) throw new Error('Electron IPC not available.');
+  const result = await window.electronAPI.deletePlan(filename);
+  if (!result.ok) throw new Error(result.error || 'Delete failed');
+  return { ok: true };
 }
 
 export async function listPlanFiles() {

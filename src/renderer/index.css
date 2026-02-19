@@ -888,3 +888,43 @@ body {
 .ov-meal-type {
   transition: color 0.12s;
 }
+
+/* ── New Plan button ── */
+.plan-new-btn {
+  width: 100%;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #000;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-bottom: 12px;
+}
+.plan-new-btn:hover {
+  background: #c5f863;
+  border-color: #c5f863;
+}
+
+/* ── Enable edit button in tab bar ── */
+.enable-edit-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 14px;
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.enable-edit-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

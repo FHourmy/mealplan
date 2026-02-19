@@ -8,5 +8,6 @@ contextBridge.exposeInMainWorld('electronAPI', {
   listPlanFiles:   ()               => ipcRenderer.invoke('list-plan-files'),
   readPlan:        (filename)       => ipcRenderer.invoke('read-plan', filename),
   savePlan:        (filename, data) => ipcRenderer.invoke('save-plan', { filename, data }),
+  deletePlan:      (filename)       => ipcRenderer.invoke('delete-plan', filename),
   getUserDataPath: ()               => ipcRenderer.invoke('get-user-data-path'),
 });

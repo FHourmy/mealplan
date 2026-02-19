@@ -4,7 +4,7 @@ import RecipeModal from './RecipeModal';
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const MEALS = ['Lunch','Dinner'];
 
-export default function PlannerView({ plan, setPlan, filters, setFilters, readonly = false, openPicker, fillPlan, resetPlan }) {
+export default function PlannerView({ plan, setPlan, filters, setFilters, readonly = false, openPicker, fillPlan, deletePlan, onEnableEditing }) {
   const [activeDay,    setActiveDay]    = useState('Monday');
   const [viewedRecipe, setViewedRecipe] = useState(null);
   const [hoveredIng,   setHoveredIng]   = useState(null);
@@ -14,7 +14,6 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
     setPlan(prev => ({ ...prev, [day]: { ...prev[day], [meal]: null } }));
   };
 
-  // Aggregate all ingredients from selected recipes
   const shoppingList = useMemo(() => {
     const map = new Map();
     
@@ -64,7 +63,6 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
   return (
     <div className="planner-wrap">
 
-      {/* Day tabs */}
       <div className="day-tabs">
         {DAYS.map(day => {
           const filled = Object.values(plan[day] || {}).filter(Boolean).length;
@@ -80,6 +78,11 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
           );
         })}
         {readonly && <span className="readonly-badge">Read only</span>}
+        {readonly && onEnableEditing && (
+          <button className="enable-edit-btn" onClick={onEnableEditing} title="Enable editing">
+            ✏️ Edit
+          </button>
+        )}
       </div>
 
       <main className="content">
@@ -127,7 +130,6 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
           })}
         </div>
 
-        {/* Weekly overview */}
         <div className="overview">
           <div className="overview-header">
             <h3 className="overview-title">Weekly Overview</h3>
@@ -136,7 +138,7 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
                 <button className="overview-action-btn" onClick={fillPlan} title="Fill all empty meals">
                   ↻ Fill
                 </button>
-                <button className="overview-action-btn overview-delete-btn" onClick={resetPlan} title="Reset plan">
+                <button className="overview-action-btn overview-delete-btn" onClick={deletePlan} title="Delete this plan">
                   🗑 Delete
                 </button>
               </div>
@@ -182,7 +184,6 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
           </div>
         </div>
 
-        {/* Shopping list */}
         {shoppingList.length > 0 && (
           <div className="shopping-section">
             <div className="shopping-header">
