@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import RecipePicker from './RecipePicker';
 import RecipeEditor from './RecipeEditor';
 import PlannerView  from './PlannerView';
-import { useRecipes, savePlan, savePlanToFile, deletePlanFile, listPlanFiles, readPlan } from './useRecipes';
+import { useRecipes, savePlanToFile, deletePlanFile, listPlanFiles, readPlan } from './useRecipes';
 
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const MEALS = ['Lunch','Dinner'];
@@ -22,6 +22,14 @@ const defaultFilters = () =>
     return acc;
   }, {});
 
+function getTodayFilename() {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  return `MP_${yyyy}-${mm}-${dd}.json`;
+}
+
 function formatPlanLabel(filename) {
   const m = filename.match(/^MP_(\d{4})-(\d{2})-(\d{2})(?:_(\d+))?\.json$/);
   if (!m) return filename;
@@ -31,23 +39,18 @@ function formatPlanLabel(filename) {
 }
 
 export default function App() {
-  const [page,    setPage]    = useState('planner');
-  const [plannerView, setPlannerView] = useState('current');
-  const [editingFile, setEditingFile] = useState(null);
-
-  const [currentPlan, setCurrentPlan] = useState(null);
-  const [archivedPlan, setArchivedPlan] = useState(null);
+  const [page, setPage] = useState('planner');
+  const [selectedFile, setSelectedFile] = useState(null);
+  const [activePlan, setActivePlan] = useState(null);
   const [planLoading, setPlanLoading] = useState(true);
   const [picker, setPicker] = useState(null);
   
   const [pickerFilters, setPickerFilters] = useState(defaultFilters());
-
   const [planFiles, setPlanFiles] = useState([]);
-  const [archiveLoading, setArchiveLoading] = useState(false);
 
-  // Refs to hold save timers so we can clear them
-  const currentPlanSaveTimer = useRef(null);
-  const archivedPlanSaveTimer = useRef(null);
+  const saveTimer = useRef(null);
+  const previousFile = useRef(null);
+  const previousPlan = useRef(null);
 
   const { recipes, loading, error, sourceFile, reload } = useRecipes();
 
@@ -57,105 +60,38 @@ export default function App() {
     return files;
   }, []);
 
-  const loadCurrentPlan = useCallback(async () => {
-    setPlanLoading(true);
+  // Save immediately (used when switching files)
+  const saveImmediately = useCallback(async (filename, plan) => {
+    if (!filename || !plan) return;
     try {
-      const files = await refreshPlanFiles();
-      if (files.length > 0) {
-        const data = await readPlan(files[0]);
-        if (data) {
-          const normalized = defaultPlan();
-          DAYS.forEach(day => {
-            if (data[day]) {
-              MEALS.forEach(meal => {
-                if (data[day][meal]) {
-                  normalized[day][meal] = data[day][meal];
-                }
-              });
-            }
-          });
-          setCurrentPlan(normalized);
-        } else {
-          setCurrentPlan(defaultPlan());
-        }
-      } else {
-        setCurrentPlan(defaultPlan());
-      }
-    } catch {
-      setCurrentPlan(defaultPlan());
-    } finally {
-      setPlanLoading(false);
+      await savePlanToFile(filename, plan);
+      await refreshPlanFiles();
+    } catch (err) {
+      console.error('Failed to save:', err);
     }
   }, [refreshPlanFiles]);
 
+  // Initial load
   useEffect(() => {
-    loadCurrentPlan();
-  }, [loadCurrentPlan]);
-
-  // Auto-save current plan - clear timer on cleanup
-  useEffect(() => {
-    if (!currentPlan || plannerView !== 'current') {
-      // Clear any pending save when leaving current view
-      if (currentPlanSaveTimer.current) {
-        clearTimeout(currentPlanSaveTimer.current);
-        currentPlanSaveTimer.current = null;
-      }
-      return;
-    }
-    
-    currentPlanSaveTimer.current = setTimeout(async () => {
-      try { 
-        await savePlan(currentPlan); 
-        await refreshPlanFiles(); 
-      } catch {}
-    }, 800);
-    
-    return () => {
-      if (currentPlanSaveTimer.current) {
-        clearTimeout(currentPlanSaveTimer.current);
-        currentPlanSaveTimer.current = null;
-      }
-    };
-  }, [currentPlan, plannerView, refreshPlanFiles]);
-
-  // Auto-save archived plan when editing - clear timer on cleanup
-  useEffect(() => {
-    if (!archivedPlan || !editingFile || plannerView === 'current') {
-      // Clear any pending save when leaving archived view
-      if (archivedPlanSaveTimer.current) {
-        clearTimeout(archivedPlanSaveTimer.current);
-        archivedPlanSaveTimer.current = null;
-      }
-      return;
-    }
-    
-    archivedPlanSaveTimer.current = setTimeout(async () => {
-      try { 
-        await savePlanToFile(editingFile, archivedPlan); 
-        await refreshPlanFiles(); 
-      } catch {}
-    }, 800);
-    
-    return () => {
-      if (archivedPlanSaveTimer.current) {
-        clearTimeout(archivedPlanSaveTimer.current);
-        archivedPlanSaveTimer.current = null;
-      }
-    };
-  }, [archivedPlan, editingFile, plannerView, refreshPlanFiles]);
-
-  // Load archived plan when switching to it
-  useEffect(() => {
-    if (plannerView === 'current') { 
-      setArchivedPlan(null);
-      setEditingFile(null);
-      return; 
-    }
-    
-    setArchiveLoading(true);
-    setEditingFile(null);
-    readPlan(plannerView)
-      .then(data => {
+    const initialize = async () => {
+      setPlanLoading(true);
+      try {
+        const files = await refreshPlanFiles();
+        
+        let fileToLoad;
+        if (files.length === 0) {
+          const todayFile = getTodayFilename();
+          await savePlanToFile(todayFile, defaultPlan());
+          await refreshPlanFiles();
+          fileToLoad = todayFile;
+        } else {
+          fileToLoad = files[0];
+        }
+        
+        setSelectedFile(fileToLoad);
+        previousFile.current = fileToLoad;
+        
+        const data = await readPlan(fileToLoad);
         if (data) {
           const normalized = defaultPlan();
           DAYS.forEach(day => {
@@ -167,26 +103,100 @@ export default function App() {
               });
             }
           });
-          setArchivedPlan(normalized);
+          setActivePlan(normalized);
+          previousPlan.current = normalized;
         } else {
-          setArchivedPlan(defaultPlan());
+          setActivePlan(defaultPlan());
+          previousPlan.current = defaultPlan();
         }
-      })
-      .catch(() => setArchivedPlan(defaultPlan()))
-      .finally(() => setArchiveLoading(false));
-  }, [plannerView]);
+      } catch {
+        setActivePlan(defaultPlan());
+        previousPlan.current = defaultPlan();
+      } finally {
+        setPlanLoading(false);
+      }
+    };
+    initialize();
+  }, [refreshPlanFiles, saveImmediately]);
+
+  // Auto-save with debounce
+  useEffect(() => {
+    if (!activePlan || !selectedFile) return;
+    
+    if (saveTimer.current) {
+      clearTimeout(saveTimer.current);
+    }
+    
+    saveTimer.current = setTimeout(async () => {
+      try { 
+        await savePlanToFile(selectedFile, activePlan); 
+        await refreshPlanFiles();
+        previousPlan.current = activePlan;
+      } catch {}
+    }, 800);
+    
+    return () => {
+      if (saveTimer.current) {
+        clearTimeout(saveTimer.current);
+        saveTimer.current = null;
+      }
+    };
+  }, [activePlan, selectedFile, refreshPlanFiles]);
+
+  // When selected file changes, save previous file immediately then load new file
+  useEffect(() => {
+    if (!selectedFile) return;
+    
+    const handleFileSwitch = async () => {
+      // Save previous file immediately if it changed
+      if (previousFile.current && previousPlan.current && previousFile.current !== selectedFile) {
+        await saveImmediately(previousFile.current, previousPlan.current);
+      }
+      
+      // Load new file
+      try {
+        const data = await readPlan(selectedFile);
+        if (data) {
+          const normalized = defaultPlan();
+          DAYS.forEach(day => {
+            if (data[day]) {
+              MEALS.forEach(meal => {
+                if (data[day][meal]) {
+                  normalized[day][meal] = data[day][meal];
+                }
+              });
+            }
+          });
+          setActivePlan(normalized);
+          previousPlan.current = normalized;
+        } else {
+          setActivePlan(defaultPlan());
+          previousPlan.current = defaultPlan();
+        }
+      } catch {
+        setActivePlan(defaultPlan());
+        previousPlan.current = defaultPlan();
+      }
+      
+      previousFile.current = selectedFile;
+    };
+    
+    handleFileSwitch();
+  }, [selectedFile, saveImmediately]);
+
+  // Track plan changes
+  useEffect(() => {
+    if (activePlan) {
+      previousPlan.current = activePlan;
+    }
+  }, [activePlan]);
 
   const openPicker  = (day, meal) => setPicker({ day, meal });
   const closePicker = ()           => setPicker(null);
 
   const handleSelectRecipe = (recipe) => {
     if (!picker) return;
-    
-    if (plannerView === 'current') {
-      setCurrentPlan(prev => ({ ...prev, [picker.day]: { ...prev[picker.day], [picker.meal]: recipe } }));
-    } else {
-      setArchivedPlan(prev => ({ ...prev, [picker.day]: { ...prev[picker.day], [picker.meal]: recipe } }));
-    }
+    setActivePlan(prev => ({ ...prev, [picker.day]: { ...prev[picker.day], [picker.meal]: recipe } }));
     closePicker();
   };
 
@@ -201,12 +211,12 @@ export default function App() {
   const handleRecipesSaved = useCallback((updatedRecipes) => {
     reload();
     
-    const updatePlanRecipes = (plan) => {
-      if (!plan) return plan;
-      const next = {...plan};
+    setActivePlan(prev => {
+      if (!prev) return prev;
+      const next = {...prev};
       DAYS.forEach(day => {
         MEALS.forEach(meal => {
-          const current = plan[day]?.[meal];
+          const current = prev[day]?.[meal];
           if (!current) return;
           const allUpdated = [
             ...(updatedRecipes.winter_recipes||[]).map(r=>({...r,_season:'winter'})),
@@ -219,13 +229,8 @@ export default function App() {
         });
       });
       return next;
-    };
-    
-    setCurrentPlan(updatePlanRecipes);
-    if (archivedPlan) {
-      setArchivedPlan(updatePlanRecipes);
-    }
-  }, [reload, archivedPlan]);
+    });
+  }, [reload]);
 
   const fillPlan = useCallback(() => {
     if (!recipes) return;
@@ -235,7 +240,7 @@ export default function App() {
       ...(recipes.summer_recipes||[]).map(r=>({...r,_season:'summer'}))
     ];
     
-    const fillLogic = (prev) => {
+    setActivePlan(prev => {
       const next = {...prev};
       DAYS.forEach(day => {
         MEALS.forEach(meal => {
@@ -258,44 +263,38 @@ export default function App() {
         });
       });
       return next;
-    };
-
-    if (plannerView === 'current') {
-      setCurrentPlan(fillLogic);
-    } else {
-      setArchivedPlan(fillLogic);
-    }
-  }, [recipes, pickerFilters, plannerView]);
+    });
+  }, [recipes, pickerFilters]);
 
   const deletePlan = useCallback(async () => {
-    let fileToDelete;
+    if (!selectedFile) return;
     
-    if (plannerView === 'current') {
-      const files = await listPlanFiles();
-      if (files.length === 0) {
-        alert('No plan file to delete');
-        return;
-      }
-      fileToDelete = files[0];
-    } else {
-      fileToDelete = plannerView;
-    }
-    
-    if (!window.confirm(`Delete plan "${formatPlanLabel(fileToDelete)}"? This cannot be undone.`)) return;
+    if (!window.confirm(`Delete plan "${formatPlanLabel(selectedFile)}"? This cannot be undone.`)) return;
     
     try {
-      await deletePlanFile(fileToDelete);
+      await deletePlanFile(selectedFile);
       const files = await refreshPlanFiles();
       
-      setPlannerView('current');
-      await loadCurrentPlan();
-      
+      if (files.length > 0) {
+        setSelectedFile(files[0]);
+      } else {
+        const todayFile = getTodayFilename();
+        await savePlanToFile(todayFile, defaultPlan());
+        await refreshPlanFiles();
+        setSelectedFile(todayFile);
+        setActivePlan(defaultPlan());
+      }
     } catch (err) {
       alert('Failed to delete plan: ' + err.message);
     }
-  }, [plannerView, refreshPlanFiles, loadCurrentPlan]);
+  }, [selectedFile, refreshPlanFiles]);
 
   const createNewPlan = useCallback(async () => {
+    // Save current plan immediately before creating new one
+    if (selectedFile && activePlan) {
+      await saveImmediately(selectedFile, activePlan);
+    }
+    
     try {
       const now = new Date();
       const yyyy = now.getFullYear();
@@ -323,27 +322,15 @@ export default function App() {
       await savePlanToFile(filename, defaultPlan());
       await refreshPlanFiles();
       
-      setPlannerView('current');
-      setCurrentPlan(defaultPlan());
+      setSelectedFile(filename);
+      setActivePlan(defaultPlan());
       setPickerFilters(defaultFilters());
-      await loadCurrentPlan();
       
     } catch (err) {
       console.error('Failed to create new plan:', err);
       alert('Failed to create new plan: ' + err.message);
     }
-  }, [refreshPlanFiles, loadCurrentPlan]);
-
-  const enableEditingArchived = useCallback(() => {
-    if (plannerView === 'current' || !archivedPlan) return;
-    setEditingFile(plannerView);
-  }, [plannerView, archivedPlan]);
-
-  const isEditingArchived = plannerView !== 'current' && editingFile === plannerView;
-  const isReadonly = plannerView !== 'current' && !isEditingArchived;
-  
-  const activePlan = plannerView === 'current' ? currentPlan : archivedPlan;
-  const setActivePlan = plannerView === 'current' ? setCurrentPlan : setArchivedPlan;
+  }, [refreshPlanFiles, selectedFile, activePlan, saveImmediately]);
 
   const currentPickerFilter = picker ? pickerFilters[picker.day]?.[picker.meal] : null;
 
@@ -376,41 +363,30 @@ export default function App() {
               + New Plan
             </button>
 
-            <button
-              className={`plan-sidebar-item ${plannerView === 'current' ? 'active' : ''}`}
-              onClick={() => setPlannerView('current')}
-            >
-              <span className="plan-sidebar-label">Current</span>
-              <span className="plan-sidebar-sub">editing</span>
-            </button>
-
-            {planFiles.map(file => (
+            {planFiles.map((file, index) => (
               <button
                 key={file}
-                className={`plan-sidebar-item ${plannerView === file ? 'active' : ''}`}
-                onClick={() => setPlannerView(file)}
+                className={`plan-sidebar-item ${selectedFile === file ? 'active' : ''}`}
+                onClick={() => setSelectedFile(file)}
               >
                 <span className="plan-sidebar-label">{formatPlanLabel(file)}</span>
-                <span className="plan-sidebar-sub">{editingFile === file ? 'editing' : 'saved'}</span>
+                <span className="plan-sidebar-sub">{index === 0 ? 'current' : 'saved'}</span>
               </button>
             ))}
           </nav>
 
-          {archiveLoading
-            ? <div className="app-status">Loading plan…</div>
-            : <PlannerView
-                plan={activePlan || defaultPlan()}
-                setPlan={isReadonly ? null : setActivePlan}
-                filters={pickerFilters}
-                setFilters={setPickerFilters}
-                readonly={isReadonly}
-                recipes={recipes}
-                openPicker={openPicker}
-                fillPlan={fillPlan}
-                deletePlan={deletePlan}
-                onEnableEditing={isReadonly ? enableEditingArchived : null}
-              />
-          }
+          <PlannerView
+            plan={activePlan || defaultPlan()}
+            setPlan={setActivePlan}
+            filters={pickerFilters}
+            setFilters={setPickerFilters}
+            readonly={false}
+            recipes={recipes}
+            openPicker={openPicker}
+            fillPlan={fillPlan}
+            deletePlan={deletePlan}
+            onEnableEditing={null}
+          />
         </div>
       )}
 

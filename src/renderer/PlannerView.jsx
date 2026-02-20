@@ -4,7 +4,7 @@ import RecipeModal from './RecipeModal';
 const DAYS  = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const MEALS = ['Lunch','Dinner'];
 
-export default function PlannerView({ plan, setPlan, filters, setFilters, readonly = false, openPicker, fillPlan, deletePlan, onEnableEditing }) {
+export default function PlannerView({ plan, setPlan, filters, setFilters, readonly = false, openPicker, fillPlan, deletePlan }) {
   const [activeDay,    setActiveDay]    = useState('Monday');
   const [viewedRecipe, setViewedRecipe] = useState(null);
   const [hoveredIng,   setHoveredIng]   = useState(null);
@@ -77,12 +77,6 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
             </button>
           );
         })}
-        {readonly && <span className="readonly-badge">Read only</span>}
-        {readonly && onEnableEditing && (
-          <button className="enable-edit-btn" onClick={onEnableEditing} title="Enable editing">
-            ✏️ Edit
-          </button>
-        )}
       </div>
 
       <main className="content">
@@ -98,8 +92,8 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
                   <div className="meal-selected">
                     <div
                       className="meal-selected-info meal-selected-clickable"
-                      onClick={() => readonly ? setViewedRecipe(selected) : openPicker(activeDay, meal)}
-                      title={readonly ? "View recipe details" : "Change recipe"}
+                      onClick={() => openPicker(activeDay, meal)}
+                      title="Change recipe"
                     >
                       <span className="meal-selected-name">{selected.name}</span>
                       {selected.recipe_number && <span className="meal-selected-num">#{selected.recipe_number}</span>}
@@ -114,16 +108,12 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
                       {selected.recipe_link && (
                         <a className="meal-action-link" href={selected.recipe_link} target="_blank" rel="noreferrer" title="Open recipe">↗</a>
                       )}
-                      {!readonly && <>
-                        <button className="meal-action-btn" onClick={() => setViewedRecipe(selected)} title="View details">📖</button>
-                        <button className="meal-action-btn meal-action-clear" onClick={() => clearMeal(activeDay, meal)} title="Clear">✕</button>
-                      </>}
+                      <button className="meal-action-btn" onClick={() => setViewedRecipe(selected)} title="View details">📖</button>
+                      <button className="meal-action-btn meal-action-clear" onClick={() => clearMeal(activeDay, meal)} title="Clear">✕</button>
                     </div>
                   </div>
                 ) : (
-                  readonly
-                    ? <div className="meal-empty-readonly">—</div>
-                    : <button className="meal-pick-btn" onClick={() => openPicker(activeDay, meal)}>+ Pick a recipe</button>
+                  <button className="meal-pick-btn" onClick={() => openPicker(activeDay, meal)}>+ Pick a recipe</button>
                 )}
               </div>
             );
@@ -133,16 +123,14 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
         <div className="overview">
           <div className="overview-header">
             <h3 className="overview-title">Weekly Overview</h3>
-            {!readonly && (
-              <div className="overview-actions">
-                <button className="overview-action-btn" onClick={fillPlan} title="Fill all empty meals">
-                  ↻ Fill
-                </button>
-                <button className="overview-action-btn overview-delete-btn" onClick={deletePlan} title="Delete this plan">
-                  🗑 Delete
-                </button>
-              </div>
-            )}
+            <div className="overview-actions">
+              <button className="overview-action-btn" onClick={fillPlan} title="Fill all empty meals">
+                ↻ Fill
+              </button>
+              <button className="overview-action-btn overview-delete-btn" onClick={deletePlan} title="Delete this plan">
+                🗑 Delete
+              </button>
+            </div>
           </div>
           <div className="overview-grid">
             {DAYS.map(day => (
