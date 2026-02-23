@@ -3,7 +3,7 @@ import { saveRecipes } from './useRecipes';
 
 const EMPTY_RECIPE = () => ({
   recipe_number:'', name:'', section:'', 
-  ingredients:[{name:'',quantity:''}], 
+  ingredients:[], 
   recipe_link:'', tags:[''], _season:'winter'
 });
 
@@ -63,16 +63,54 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     return true;
   }),[flatList,filterSeason,filterSection,filterTags,search]);
 
-  function openNew(){ setForm(EMPTY_RECIPE()); setEditing('new'); setErrors({}); }
+  // Convert ingredients array to textarea text
+  function ingredientsToText(ingredients) {
+    if (!ingredients || ingredients.length === 0) return '';
+    return ingredients.map(ing => {
+      const qty = (ing.quantity || '').trim();
+      const name = (ing.name || '').trim();
+      if (qty && name) return `${qty} | ${name}`;
+      if (name) return name;
+      return '';
+    }).filter(Boolean).join('\n');
+  }
+
+  // Convert textarea text to ingredients array
+  function textToIngredients(text) {
+    if (!text || !text.trim()) return [];
+    return text.split('\n').map(line => {
+      line = line.trim();
+      if (!line) return null;
+      
+      if (line.includes('|')) {
+        const parts = line.split('|');
+        const quantity = parts[0]?.trim() || '';
+        const name = parts.slice(1).join('|').trim(); // Handle pipes in ingredient names
+        if (name) {
+          return quantity ? { quantity, name } : { name, quantity: '' };
+        }
+      } else {
+        return { quantity: '', name: line };
+      }
+      return null;
+    }).filter(Boolean);
+  }
+
+  function openNew(){ 
+    setForm({
+      ...EMPTY_RECIPE(),
+      ingredientsText: ''
+    }); 
+    setEditing('new'); 
+    setErrors({}); 
+  }
+  
   function openEdit(r){ 
     setForm({
       recipe_number:r.recipe_number??'',
       name:r.name,
       section:r.section||'',
-      ingredients:(r.ingredients?.length?r.ingredients:[{name:'',quantity:''}]).map(ing=>({
-        name:ing.name||'',
-        quantity:ing.quantity||''
-      })),
+      ingredientsText: ingredientsToText(r.ingredients || []),
       recipe_link:r.recipe_link||'',
       tags:r.tags?.length?[...r.tags]:[''],
       _season:r._season,
@@ -81,23 +119,9 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     setEditing(`${r._season}-${r._idx}`); 
     setErrors({}); 
   }
+  
   function closeEditor(){ setEditing(null); setForm(null); setErrors({}); }
   function setField(k,v){ setForm(f=>({...f,[k]:v})); }
-
-  function setIngredient(i,field,v){ 
-    setForm(f=>{
-      const a=[...f.ingredients];
-      a[i]={...a[i],[field]:v};
-      return{...f,ingredients:a};
-    }); 
-  }
-  function addIngredient(){ setForm(f=>({...f,ingredients:[...f.ingredients,{name:'',quantity:''}]})); }
-  function removeIngredient(i){ 
-    setForm(f=>{
-      const a=f.ingredients.filter((_,idx)=>idx!==i);
-      return{...f,ingredients:a.length?a:[{name:'',quantity:''}]};
-    }); 
-  }
 
   function setTag(i,v){ setForm(f=>{const a=[...f.tags];a[i]=v;return{...f,tags:a};}); }
   function addTag(){ setForm(f=>({...f,tags:[...f.tags,'']})); }
@@ -111,12 +135,7 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
     const cleaned={
       name:form.name.trim(),
       section:form.section.trim(),
-      ingredients:form.ingredients
-        .filter(ing=>ing.name && ing.name.trim())
-        .map(ing=>({
-          name:ing.name.trim(),
-          ...(ing.quantity && ing.quantity.trim() && {quantity:ing.quantity.trim()})
-        })),
+      ingredients: textToIngredients(form.ingredientsText),
       tags:form.tags.map(s=>s.trim()).filter(Boolean)
     };
     if(form.recipe_number!==''&&form.recipe_number!==null) cleaned.recipe_number=Number(form.recipe_number);
@@ -255,27 +274,17 @@ export default function RecipeEditor({ recipes, sourceFile, onSaved }) {
             </div>
           </div>
           <div className="form-group">
-            <label className="form-label">Ingredients <span className="form-optional">optional</span></label>
-            <div className="ingredients-list">
-              {form.ingredients.map((ing,i)=>(
-                <div key={i} className="ingredient-row-with-qty">
-                  <input 
-                    className="form-input ingredient-qty-input" 
-                    value={ing.quantity||''} 
-                    onChange={e=>setIngredient(i,'quantity',e.target.value)} 
-                    placeholder="Qty"
-                  />
-                  <input 
-                    className="form-input ingredient-input" 
-                    value={ing.name||''} 
-                    onChange={e=>setIngredient(i,'name',e.target.value)} 
-                    placeholder={`Ingredient ${i+1}`}
-                  />
-                  <button className="ing-remove-btn" onClick={()=>removeIngredient(i)} title="Remove">✕</button>
-                </div>
-              ))}
-              <button className="ing-add-btn" onClick={addIngredient}>+ Add ingredient</button>
-            </div>
+            <label className="form-label">
+              Ingredients <span className="form-optional">optional</span>
+              <span className="form-hint"> — One per line. Format: quantity | name</span>
+            </label>
+            <textarea 
+              className="form-textarea ingredients-textarea"
+              value={form.ingredientsText}
+              onChange={e=>setField('ingredientsText',e.target.value)}
+              placeholder="2 | apples&#10;1 tsp | maple syrup&#10;salt"
+              rows={8}
+            />
           </div>
           <div className="form-actions">
             <button className="form-cancel-btn" onClick={closeEditor}>Cancel</button>

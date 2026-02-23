@@ -60,6 +60,53 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
     });
   };
 
+  const renderDayCard = (day) => {
+    return (
+      <div
+        key={day}
+        className={`overview-card ${activeDay === day ? 'current' : ''}`}
+        onClick={() => setActiveDay(day)}
+      >
+        <div className="ov-day">{day.slice(0,3)}</div>
+        {MEALS.map(meal => {
+          const recipe = plan[day]?.[meal];
+          const filter = filters?.[day]?.[meal];
+          const hasFilter = filter?.sections && filter.sections.length > 0;
+          
+          return (
+            <div key={meal} className="ov-meal">
+              <span 
+                className="ov-meal-type"
+                onClick={(e) => {
+                  if (recipe) {
+                    e.stopPropagation();
+                    setViewedRecipe(recipe);
+                  }
+                }}
+                style={recipe ? {cursor: 'pointer'} : {}}
+              >
+                {meal[0]}
+              </span>
+              <span 
+                className={`ov-meal-name ${!recipe ? 'ov-meal-clickable' : ''}`}
+                onClick={(e) => {
+                  if (!recipe) {
+                    e.stopPropagation();
+                    openPicker(day, meal);
+                  }
+                }}
+              >
+                {recipe ? recipe.name : hasFilter ? (
+                  <span className="ov-filter-hint">{filter.sections.join(', ')}</span>
+                ) : '—'}
+              </span>
+            </div>
+          );
+        })}
+      </div>
+    );
+  };
+
   return (
     <div className="planner-wrap">
 
@@ -132,43 +179,20 @@ export default function PlannerView({ plan, setPlan, filters, setFilters, readon
               </button>
             </div>
           </div>
-          <div className="overview-grid">
-            {DAYS.map(day => (
-              <div
-                key={day}
-                className={`overview-card ${activeDay === day ? 'current' : ''}`}
-                onClick={() => setActiveDay(day)}
-              >
-                <div className="ov-day">{day.slice(0,3)}</div>
-                {MEALS.map(meal => {
-                  const recipe = plan[day]?.[meal];
-                  const filter = filters?.[day]?.[meal];
-                  const hasFilter = filter?.sections && filter.sections.length > 0;
-                  
-                  return (
-                    <div key={meal} className="ov-meal">
-                      <span 
-                        className="ov-meal-type"
-                        onClick={(e) => {
-                          if (recipe) {
-                            e.stopPropagation();
-                            setViewedRecipe(recipe);
-                          }
-                        }}
-                        style={recipe ? {cursor: 'pointer'} : {}}
-                      >
-                        {meal[0]}
-                      </span>
-                      <span className="ov-meal-name">
-                        {recipe ? recipe.name : hasFilter ? (
-                          <span className="ov-filter-hint">{filter.sections.join(', ')}</span>
-                        ) : '—'}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-            ))}
+          
+          <div className="overview-grid-new">
+            {/* Mon, Tue, Wed */}
+            {renderDayCard('Monday')}
+            {renderDayCard('Tuesday')}
+            {renderDayCard('Wednesday')}
+            
+            {/* Sunday spanning both rows */}
+            {renderDayCard('Sunday')}
+            
+            {/* Thu, Fri, Sat */}
+            {renderDayCard('Thursday')}
+            {renderDayCard('Friday')}
+            {renderDayCard('Saturday')}
           </div>
         </div>
 
