@@ -1,6 +1,6 @@
 {
   "name": "mealplan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Meal Planning App built with Electron + React",
   "main": "src/main/main.js",
   "scripts": {
